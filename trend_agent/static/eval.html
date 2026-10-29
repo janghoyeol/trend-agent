@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>trend-agent — 정답셋 채점</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<main>
+  <header>
+    <h1>정답셋 채점 결과</h1>
+    <nav><a href="/">← 분석으로</a> · <a href="https://github.com/janghoyeol/trend-agent/blob/main/docs/decisions/0003-eval-set.md">채점 기준 (ADR 0003)</a></nav>
+  </header>
+  <section>
+    <p>원인이 알려진 급등 사례를 사람이 검수해 고정해 두고, 같은 데이터(90일 스냅샷)로 매번 다시 채점합니다.
+      <b>원인 적중</b> = 정답 핵심어가 설명에 모두 있고, 인용 기사 중 하나 이상이 사건 기간 ±3일 안.
+      탐지를 놓친 사례와 "원인 불명"은 오답으로 셉니다. AI 채점은 쓰지 않습니다.</p>
+  </section>
+  <div id="out"><p class="muted">불러오는 중…</p></div>
+</main>
+<script>
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+fetch("/api/eval").then((r) => r.json()).then(({ results }) => {
+  const out = document.getElementById("out");
+  if (!results.length) { out.innerHTML = `<p class="muted">아직 측정 전입니다.</p>`; return; }
+  out.innerHTML = results.map(({ summary: s, rows }) => `
+    <h2>${esc(s.model)} <small>effort ${esc(s.effort)}</small></h2>
+    <div class="panel"><span class="big">${Math.round(s.cause_hit_rate * 100)}%</span>
+      원인 적중 ${s.cause_hits}/${s.cases} · 탐지된 ${s.detected}건 중 ${s.cause_hits}건 · 총 비용 $${s.total_cost_usd}</div>
+    <div class="tablewrap"><table><thead><tr><th></th><th>사례</th><th>정답</th><th>AI 설명</th><th>AI 검색어</th></tr></thead><tbody>
+    ${rows.map((r) => `<tr><td class="${r.hit ? "hit" : "miss"}">${r.hit ? "O" : "X"}</td><td>${esc(r.id)}</td>
+      <td>${esc(r.label || "")}</td>
+      <td>${r.detected ? (r.status === "found" ? esc(r.cause) : "원인 불명") : "급등 탐지 못함"}</td>
+      <td>${(r.searches || []).map((q) => esc(q.query)).join("<br>")}</td></tr>`).join("")}
+    </tbody></table></div>`).join("");
+});
+</script>
+</body>
+</html>

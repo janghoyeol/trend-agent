@@ -9,9 +9,10 @@ from datetime import date, timedelta
 from .detect import Spike
 from .news import in_range, search_news
 
-DEFAULT_MODEL = "claude-sonnet-5-5"
+DEFAULT_MODEL = "claude-haiku-5-5"  # 예산 하루 $0.1 → Sonnet은 1~2건뿐 (ADR 0005)
 MAX_SEARCHES = 5
-ARTICLES_PER_SEARCH = 15
+ARTICLES_PER_SEARCH = 10
+DESC_CHARS = 100  # 입력 토큰 절약: 요약문 앞부분만
 HINTS = 5  # 기간 내 기사가 없을 때 맥락어 힌트로 보여줄 기간 밖 제목 수 (인용 불가)
 DAYS_BEFORE = 2  # 기사가 검색보다 먼저 나는 경우 (예: 전날 밤 발표)
 DAYS_AFTER = 2
@@ -105,7 +106,7 @@ class _NewsTool:
                 self._by_link[a["link"]] = aid
                 self.shown[aid] = {"id": aid, **a}
             listed.append({"id": aid, "date": a["date"].isoformat(),
-                           "title": a["title"], "description": a["description"]})
+                           "title": a["title"], "description": a["description"][:DESC_CHARS]})
         out = {
             "query": query,
             "period": f"{self.lo}~{self.hi}",

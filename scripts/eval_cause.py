@@ -33,7 +33,7 @@ for c in cases:
     lo, hi = _span(c)
     spikes = [s for s in run_detection(c).spikes if s.start <= hi and s.end >= lo]
     if not spikes:
-        rows.append({"id": c.id, "detected": False, "hit": False})
+        rows.append({"id": c.id, "detected": False, "hit": False, "label": c.cause})
         print(f"- {c.id:16} 탐지 못함 → 오답", flush=True)
         continue
     detected += 1

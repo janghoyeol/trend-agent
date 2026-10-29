@@ -49,4 +49,7 @@ pip install -r requirements.txt
 python -m unittest                          # 오프라인 테스트
 python scripts/explain_live.py 태풍          # 게이트 → 트렌드 → 탐지 → Claude 원인 설명
 python scripts/eval_cause.py                # 정답셋 원인 적중률 (ADR 0003, 0004)
+uvicorn trend_agent.web:app --reload        # 웹 (http://localhost:8000)
 ```
+
+배포: Render 무료(`render.yaml`) + GitHub Actions 일일 배치(`.github/workflows/daily.yml`). Claude 비용 하루 $0.1 상한 ([ADR 0005](docs/decisions/0005-deploy.md)).

@@ -65,4 +65,7 @@
   - 네이버 부분(게이트·트렌드·탐지·pubDate 필터)은 라이브 확인. 이전 세션 환경에 `ANTHROPIC_API_KEY`가 없어 Claude 호출은 못 함
   - 다음: 키 넣고 `python scripts/explain_live.py 태풍` → `python scripts/eval_cause.py` (Sonnet) / `--model claude-haiku-5-5` 비교, 결과를 ADR 0004에 기록
   - 비상계엄(martial-1203)은 `cause_eval: false`로 원인 채점 제외 → 대상 37건
-- [ ] 배포 + showcase 등록 (스택 후보: Python, FastAPI, Claude tool-use — 기존 에이전트들과 동일)
+- [~] **4단계: 배포** (ADR 0005, 합의: 혼합형 / 하루 $0.1 / 레포 공개). 코드 완료, 실제 배포 전
+  - `trend_agent/web.py`(FastAPI) + `static/`, `service.py`(캐시·IP 제한), `budget.py`(하루 상한), `scripts/daily_batch.py`, `.github/workflows/daily.yml`, `render.yaml`
+  - 예산 때문에 서비스 기본 모델 Haiku 5.5. Claude 라이브 확인·정답셋 채점은 키 등록 후
+  - 사용자 할 일: Anthropic 키(콘솔 사용 한도 설정) → 레포 공개 → GitHub Secrets 3개 → Render Blueprint 배포 → showcase 카드
