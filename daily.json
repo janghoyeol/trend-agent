@@ -1,0 +1,170 @@
+{
+ "generated_at": "2026-10-29 21:04 KST",
+ "watchlist_size": 38,
+ "recent_days": 3,
+ "model": "claude-haiku-5-5",
+ "spent_usd": 0.0032,
+ "items": [
+  {
+   "keyword": "산불",
+   "spike": {
+    "start": "2026-10-27",
+    "end": "2026-10-28",
+    "peak_date": "2026-10-27",
+    "peak_value": 100.0,
+    "baseline": 8.6,
+    "baseline_kind": "rolling",
+    "news_period": [
+     "2026-10-25",
+     "2026-10-30"
+    ]
+   },
+   "explanation": {
+    "status": "found",
+    "cause": "산림청이 2026년 10월 28일 가을철 산불방지대책을 발표해 산불진화헬기를 261대에서 315대로 늘리고, 산불 원인 제공자 처벌을 강화한다고 밝혔다(11월 13일부터 적용). 같은 시기 가을철 산불조심기간(11월 1일~12월 15일) 운영 소식과 지자체 대비 기사도 쏟아졌다. 다만 기간 내 실제 대형 산불 발생을 보도한 기사는 찾지 못했다.",
+    "citations": [
+     {
+      "n": 1,
+      "title": "불씨는 막고, 진화는 빠르게··· 산림청 가을 산불 총력 대응",
+      "link": "https://n.news.naver.com/mnews/article/015/0005347480?sid=102",
+      "date": "2026-10-28"
+     },
+     {
+      "n": 2,
+      "title": "\"실수라도 최대 징역 5년\"…가을철 산불 대응·처벌 강화",
+      "link": "https://n.news.naver.com/mnews/article/277/0005834500?sid=102",
+      "date": "2026-10-28"
+     },
+     {
+      "n": 3,
+      "title": "산림청, 산불 진화차 108대·헬기 315대…11월 13일부터 처벌 강화",
+      "link": "https://www.woodkorea.co.kr/news/articleView.html?idxno=92197",
+      "date": "2026-10-28"
+     }
+    ],
+    "searches": [
+     {
+      "query": "산불",
+      "in_period": 494
+     },
+     {
+      "query": "산불 발생 진화 헬기 주민 대피",
+      "in_period": 170
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "cost_usd": 0.00136,
+    "note": ""
+   },
+   "explain_state": "done"
+  },
+  {
+   "keyword": "한파",
+   "spike": {
+    "start": "2026-10-27",
+    "end": "2026-10-28",
+    "peak_date": "2026-10-27",
+    "peak_value": 75.7,
+    "baseline": 2.7,
+    "baseline_kind": "rolling",
+    "news_period": [
+     "2026-10-25",
+     "2026-10-30"
+    ]
+   },
+   "explanation": {
+    "status": "found",
+    "cause": "2026년 10월 28일 북서쪽 찬 공기 유입으로 전국 대부분 지역에 한파특보가 발효되고 아침 기온이 전날보다 5~10도 떨어지는 기습 한파가 닥쳤다. 이에 '한파' 관련 관심이 몰린 것으로 보인다.",
+    "citations": [
+     {
+      "n": 1,
+      "title": "전국 한파특보에 기온 10도 '뚝'…서울 2도·춘천 영하 2도",
+      "link": "https://n.news.naver.com/mnews/article/448/0000647368?sid=102",
+      "date": "2026-10-28"
+     },
+     {
+      "n": 2,
+      "title": "출근길 '초겨울 추위'…전국 대부분 한파특보 [오늘날씨]",
+      "link": "https://n.news.naver.com/mnews/article/015/0005347292?sid=103",
+      "date": "2026-10-28"
+     },
+     {
+      "n": 3,
+      "title": "[오늘의 날씨] 전국 대부분 한파특보…아침 최저 영하 2도 '뚝'",
+      "link": "https://n.news.naver.com/mnews/article/629/0000546173?sid=103",
+      "date": "2026-10-28"
+     }
+    ],
+    "searches": [
+     {
+      "query": "한파",
+      "in_period": 439
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "cost_usd": 0.00062,
+    "note": ""
+   },
+   "explain_state": "done"
+  },
+  {
+   "keyword": "태풍",
+   "spike": {
+    "start": "2026-10-20",
+    "end": "2026-10-26",
+    "peak_date": "2026-10-23",
+    "peak_value": 83.5,
+    "baseline": 5.4,
+    "baseline_kind": "rolling",
+    "news_period": [
+     "2026-10-18",
+     "2026-10-28"
+    ]
+   },
+   "explanation": {
+    "status": "found",
+    "cause": "제30호 태풍 '참피'가 대만 남동쪽 해상에서 북상해 10월 21일부터 제주와 남부지방에 영향을 주었고, 25일에는 제주에 강풍과 폭우로 나무 쓰러짐, 침수, 항공편 결항 등 피해가 잇따랐습니다. 1951년 이후 국내에 가장 늦게 영향을 준 태풍이라는 점도 함께 보도됐습니다.",
+    "citations": [
+     {
+      "n": 1,
+      "title": "초강력 태풍 '참피' 북상…한국에 영향 미치나",
+      "link": "https://n.news.naver.com/mnews/article/055/0001397247?sid=102",
+      "date": "2026-10-21"
+     },
+     {
+      "n": 2,
+      "title": "슈퍼태풍으로 커졌던 '참피' 북상…주말 한반도 영향은",
+      "link": "https://n.news.naver.com/mnews/article/018/0006394293?sid=103",
+      "date": "2026-10-23"
+     },
+     {
+      "n": 3,
+      "title": "태풍 '참피' 북상에 제주 비바람...하늘길·바닷길 차질",
+      "link": "https://n.news.naver.com/mnews/article/052/0002423168?sid=102",
+      "date": "2026-10-24"
+     },
+     {
+      "n": 4,
+      "title": "한라산엔 300mm 폭우…태풍 '참피' 제주 곳곳 피해",
+      "link": "https://n.news.naver.com/mnews/article/437/0000517436?sid=102",
+      "date": "2026-10-25"
+     }
+    ],
+    "searches": [
+     {
+      "query": "태풍",
+      "in_period": 466
+     },
+     {
+      "query": "태풍 참피 북상 영향",
+      "in_period": 497
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "cost_usd": 0.00124,
+    "note": ""
+   },
+   "explain_state": "done"
+  }
+ ]
+}
