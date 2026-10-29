@@ -46,24 +46,25 @@
 
 | API | 경로 | 상태 |
 |---|---|---|
-| 뉴스 검색 | `GET /search/v1/news` | 라이브 확인됨. `query`(필수), `display` 1~100, `start` 1~1000, `sort` sim/date. title/description에 `<b>` 태그, 본문 없음. 일 25,000회 |
-| 검색어트렌드 | `POST /search-trend/v1/search` | 경로만 확인(키 없이 401 vs 404로 탐색). body 형식·한도 미확인 |
-| 성인 검색어 판별 | `GET /search/v1/adult` | 경로만 확인. 응답 형식 미확인 |
+| 뉴스 검색 | `GET /search/v1/news` | 라이브 확인됨. `query`(필수), `display` 1~100, `start` 1~1000(범위 밖 400 SE02/SE03), `sort` sim/date. title/description에 `<b>` 태그·HTML 엔티티, 본문 없음. `pubDate` RFC 822 KST (`Thu, 29 Oct 2026 13:01:00 +0900`). 일 25,000회 |
+| 검색어트렌드 | `POST /search-trend/v1/search` | 실제 키로 401 "이 Application에서 활성화되어 있지 않습니다" → **NCP 콘솔에서 Application에 API 활성화 필요**. body 형식·한도 미확인 |
+| 성인 검색어 판별 | `GET /search/v1/adult` | 검색어트렌드와 동일한 401 (미활성화). 응답 형식 미확인 |
 
 예전 데이터랩 스펙(검증 전 가정): body에 `startDate`, `endDate`, `timeUnit`(date/week/month), `keywordGroups`(최대 5그룹), 선택 `device`/`gender`/`ages`. 성인 판별 응답 `{"adult": "0"|"1"}`.
 
 알려진 제약:
 - 검색어트렌드는 절대 검색량이 아닌 **상대지수(구간 최대 = 100)** → "3배"가 아니라 "상대지수 30→100"으로 표현.
-- 뉴스 API는 날짜 필터가 없고 `start` 상한 1000 → **최근 급등만** 원인 매칭 가능. UI에 정직하게 표기.
+- 뉴스 API는 날짜 필터가 없고 `start` 상한 1000 → 쿼리당 최신 1,099건까지만. 실측(sort=date): 아이폰 ≈6일, 날씨 ≈1일 → **최근 급등만** 원인 매칭 가능, 인기 키워드는 수 일. UI에 키워드별 커버 기간 표기. (ADR 0001)
 
 ## 5. 진행 상황 / 다음 할 일
 
 - [x] 레포 생성, README, `.env.example`, `scripts/probe_naver.py`
-- [ ] **0단계 (지금 할 일)**: `python scripts/probe_naver.py` 라이브 실행 → 아래 4가지 확정 후 이 문서 4절, README, `docs/decisions/0001-naver-api-specs.md`에 기록
+- [ ] **0단계 (진행 중)**: `python scripts/probe_naver.py` 라이브 실행 → 아래 4가지 확정 후 이 문서 4절, README, `docs/decisions/0001-naver-api-specs.md`에 기록
+  - 2026-10-29: 4번 확정. 1~3번은 NCP 콘솔에서 검색어트렌드·성인 판별 API를 Application에 활성화한 뒤 재실행 필요.
   1. 검색어트렌드 body 형식이 예전 데이터랩과 같은지
   2. 일 단위 데이터를 얼마나 과거까지 받을 수 있는지 (급등 탐지 기준선 길이)
   3. 성인 검색어 판별 응답 형식
-  4. 뉴스 `pubDate` 형식과 `start=1000` 근처 동작 (급등일↔기사 매칭 가능 범위)
+  4. ~~뉴스 `pubDate` 형식과 `start=1000` 근처 동작~~ ✅ (ADR 0001)
 - [ ] 1단계: 급등 탐지 로직 설계 — 선택지/트레이드오프 설명 후 합의
 - [ ] 2단계: 정답셋 먼저 — 원인이 확실한 최근 급등 사례 20~30개 라벨링
 - [ ] 3단계: 에이전트 조립 (Gate → 트렌드 → 탐지 → 뉴스 매칭 → Claude 설명)
