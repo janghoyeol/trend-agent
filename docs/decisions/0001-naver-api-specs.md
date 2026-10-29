@@ -1,7 +1,7 @@
 # 0001. NAVER API HUB 스펙 (라이브 확인)
 
-- 상태: 진행 중 (뉴스 확정 / 검색어트렌드·성인 판별 미확정)
-- 확인일: 2026-10-29, `scripts/probe_naver.py` 실제 키로 실행
+- 상태: 확정
+- 확인일: 2026-10-29, `scripts/probe_naver.py` + 추가 한도 탐색, 실제 키로 실행
 
 ## 뉴스 검색 `GET /search/v1/news` — 확정
 
@@ -27,12 +27,26 @@
 - 범위 확장 대안(1단계에서 논의): `sort=sim` + 쿼리에 날짜/맥락어 추가,
   급등일 당일 배치 수집·캐시(하루 1회 미리 계산과 결합).
 
-## 검색어트렌드 `POST /search-trend/v1/search` — 미확정
+## 검색어트렌드 `POST /search-trend/v1/search` — 확정
 
-- 실제 키로 호출 시 HTTP 401:
-  `{"error":{"errorCode":401,"message":"요청한 API는 이 Application에서 활성화되어 있지 않습니다."}}`
-- 키 자체는 유효(뉴스 200). NCP 콘솔에서 해당 Application에 API를 활성화해야 함.
+- body: 예전 데이터랩과 **동일**. `startDate`, `endDate`(YYYY-MM-DD), `timeUnit`(date/week/month),
+  `keywordGroups[{groupName, keywords[]}]`, 선택 `device`(mo 등)/`gender`(f 등)/`ages[]` 모두 동작.
+- 응답: `{startDate, endDate, timeUnit, results:[{title, keywords, data:[{period, ratio}]}]}`,
+  ratio는 소수점 5자리 float.
+- 한도 (위반 시 HTTP 400, `errMsg`에 사유):
+  - `keywordGroups` 최대 5개, 그룹당 `keywords` 최대 20개
+  - `startDate` 최소 **2016-01-01** (2015-12-01 → `Invalid Date Range`)
+  - `endDate`가 미래면 `Invalid Date Range`. `endDate=오늘`은 허용되지만 데이터는 **어제까지**.
+- 일 단위로 2016-01-01~어제를 **한 번에** 받을 수 있음 (마스크: 3,954포인트, 누락 없음).
+  → 급등 탐지 기준선 길이는 API가 아니라 설계 선택의 문제.
+- `week`의 period는 주 시작일(월요일). `month`는 매월 1일.
+- 스케일: 요청 안의 **모든 그룹 통틀어** 최대값 = 100. (날씨와 같이 넣으면 아이폰이 최대 0.36)
+  → 탐지용 조회는 **키워드 1개당 요청 1번**으로 해야 해상도를 잃지 않음.
+- **검색량 적은 날은 0이 아니라 누락**된다 (장호열: 90일 중 26포인트, 검색어트렌드: 83포인트,
+  0값은 한 번도 없음). 아주 희귀한 키워드는 `data: []`.
+  → 코드에서 빠진 날짜를 0으로 채운 뒤 탐지해야 함. 포인트가 너무 적으면 "데이터 부족"으로 반환.
 
-## 성인 검색어 판별 `GET /search/v1/adult` — 미확정
+## 성인 검색어 판별 `GET /search/v1/adult` — 확정
 
-- 검색어트렌드와 동일한 401 (Application에 미활성화).
+- `?query=` → HTTP 200 `{"adult": "0"}` / `{"adult": "1"}` (문자열).
+- 예: 날씨·성인·아이폰 → "0", 야동·섹스 → "1".
