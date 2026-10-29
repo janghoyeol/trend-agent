@@ -60,11 +60,9 @@
 - [x] 0단계: API 스펙 라이브 확정 (2026-10-29, ADR 0001)
 - [x] 1단계: 급등 탐지 — 중앙값/MAD z + 비율·최소지수 + 같은 요일 기준선 + 저검색량 판정 (ADR 0002). `trend_agent/detect.py`, `tests/test_detect.py` (`python -m unittest`), 라이브 확인 `scripts/detect_live.py`
 - [x] 2단계: 정답셋 (ADR 0003). 후보 수집 `scripts/mine_candidates.py` → 초안 `scripts/build_eval.py` (`eval/cases.json` + 90일 스냅샷) → 채점 `scripts/eval_detection.py`. **검수 완료 38건**(사용자 22 + 수집 16), 탐지 36/38(사용자 사례 20/22, 코스피 2건 놓침). 이태원 4주기는 10-30 이후 추가
-- [ ] **3단계 (지금 할 일)**: 에이전트 조립 (Gate → 트렌드 → 탐지 → 뉴스 매칭 → Claude 설명)
-  - 제안안 (2026-10-29, 사용자 합의 여부는 새 세션에서 확인):
-    1. Claude tool-use `search_news(query)` — Claude가 맥락어로 재검색, 코드가 pubDate로 급등 기간만 필터. 검색 최대 5회.
-    2. 출력 JSON `{cause, citations[기사 id]}` → 코드가 id 실재·날짜 범위 검증, 숫자는 탐지 결과에서만 주입.
-    3. 근거 없으면 "원인 불명" (채점은 오답, 지어내기 방지).
-    4. 모델 기본 Sonnet 5.5, 정답셋으로 Haiku와 비용·정확도 비교. `ANTHROPIC_API_KEY` 환경변수 필요.
-  - 채점: `trend_agent/evaluate.py`의 `cause_hit`. 비상계엄(martial-1203)은 근거 기사 도달 0건이라 원인 채점 제외 후보.
+- [~] **3단계 (지금 할 일)**: 에이전트 조립 완료, **Claude 라이브 미확인** (ADR 0004)
+  - `trend_agent/agent.py` (`explain`, `analyze`, `render`), `trend_agent/news.py`, `tests/test_agent.py` (가짜 클라이언트)
+  - 네이버 부분(게이트·트렌드·탐지·pubDate 필터)은 라이브 확인. 이전 세션 환경에 `ANTHROPIC_API_KEY`가 없어 Claude 호출은 못 함
+  - 다음: 키 넣고 `python scripts/explain_live.py 태풍` → `python scripts/eval_cause.py` (Sonnet) / `--model claude-haiku-5-5` 비교, 결과를 ADR 0004에 기록
+  - 비상계엄(martial-1203)은 `cause_eval: false`로 원인 채점 제외 → 대상 37건
 - [ ] 배포 + showcase 등록 (스택 후보: Python, FastAPI, Claude tool-use — 기존 에이전트들과 동일)
