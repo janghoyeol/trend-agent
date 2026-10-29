@@ -59,6 +59,6 @@
 - [x] 레포 생성, README, `.env.example`, `scripts/probe_naver.py`
 - [x] 0단계: API 스펙 라이브 확정 (2026-10-29, ADR 0001)
 - [x] 1단계: 급등 탐지 — 중앙값/MAD z + 비율·최소지수 + 같은 요일 기준선 + 저검색량 판정 (ADR 0002). `trend_agent/detect.py`, `tests/test_detect.py` (`python -m unittest`), 라이브 확인 `scripts/detect_live.py`
-- [ ] **2단계 (진행 중)**: 정답셋 (ADR 0003). 후보 수집 `scripts/mine_candidates.py` → 초안 `scripts/build_eval.py` (`eval/cases.json` + 90일 스냅샷) → 채점 `scripts/eval_detection.py`. 초안 18건(사용자 2 + 수집 16), **사용자 O/X 검수 대기** (`verified`)
+- [ ] **2단계 (진행 중)**: 정답셋 (ADR 0003). 후보 수집 `scripts/mine_candidates.py` → 초안 `scripts/build_eval.py` (`eval/cases.json` + 90일 스냅샷) → 채점 `scripts/eval_detection.py`. 초안 37건(사용자 21 + 수집 16), 탐지 35/37(사용자 사례 19/21, 코스피 2건 놓침). **사용자 O/X 검수 대기** (`verified`)
 - [ ] 3단계: 에이전트 조립 (Gate → 트렌드 → 탐지 → 뉴스 매칭 → Claude 설명)
 - [ ] 배포 + showcase 등록 (스택 후보: Python, FastAPI, Claude tool-use — 기존 에이전트들과 동일)
