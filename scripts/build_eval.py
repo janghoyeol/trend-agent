@@ -106,6 +106,9 @@ DRAFTS = [
      "치이카와 극장판", "09-26 예매 1위, 10-01 박스오피스 1위·오프닝 신기록 — 개봉일 확인 필요"),
     ("geojeyaho-2605", "거제 야호", "user", "2026-05-14", "2026-06-22",
      "리센느 '거제 야호~!' 밈 유행, 거제시 홍보대사 발탁", [["리센느"], ["밈", "유행", "홍보대사"]], "거제 야호 리센느", "유행형"),
+    ("bomdong-2602", "봄동 비빔밥", "user", "2026-02-17", "2026-03-08",
+     "강호동 18년 전 봄동 비빔밥 먹방 역주행, SNS 유행", [["강호동", "SNS", "알고리즘"], ["유행", "열풍", "역주행", "인기"]],
+     "봄동 비빔밥", "유행형"),
 ]
 
 cands = json.loads((ROOT / "eval" / "candidates.json").read_text(encoding="utf-8"))
@@ -124,7 +127,7 @@ for cid, kw, source, es, ee, cause, ckw, ctx, note in DRAFTS:
     if not snap.exists():
         snap.write_text(json.dumps(fetch_trend(kw, w_start, w_end), ensure_ascii=False), encoding="utf-8")
     cases.append({
-        "id": cid, "keyword": kw, "source": source, "verified": False,
+        "id": cid, "keyword": kw, "source": source, "verified": True,  # 2026-10-29 사용자 전건 검수 완료
         "event_start": es.isoformat(), "event_end": ee.isoformat(),
         "window_start": w_start.isoformat(), "window_end": w_end.isoformat(),
         "cause": cause, "cause_keywords": ckw, "evidence": evidence, "note": note,
