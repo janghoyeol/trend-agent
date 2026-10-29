@@ -46,25 +46,25 @@
 
 | API | 경로 | 상태 |
 |---|---|---|
-| 뉴스 검색 | `GET /search/v1/news` | 라이브 확인됨. `query`(필수), `display` 1~100, `start` 1~1000, `sort` sim/date. title/description에 `<b>` 태그, 본문 없음. 일 25,000회 |
-| 검색어트렌드 | `POST /search-trend/v1/search` | 경로만 확인(키 없이 401 vs 404로 탐색). body 형식·한도 미확인 |
-| 성인 검색어 판별 | `GET /search/v1/adult` | 경로만 확인. 응답 형식 미확인 |
-
-예전 데이터랩 스펙(검증 전 가정): body에 `startDate`, `endDate`, `timeUnit`(date/week/month), `keywordGroups`(최대 5그룹), 선택 `device`/`gender`/`ages`. 성인 판별 응답 `{"adult": "0"|"1"}`.
+| 뉴스 검색 | `GET /search/v1/news` | 라이브 확인됨. `query`(필수), `display` 1~100, `start` 1~1000(범위 밖 400 SE02/SE03), `sort` sim/date. title/description에 `<b>` 태그·HTML 엔티티, 본문 없음. `pubDate` RFC 822 KST (`Thu, 29 Oct 2026 13:01:00 +0900`). 일 25,000회 |
+| 검색어트렌드 | `POST /search-trend/v1/search` | 라이브 확인됨. 예전 데이터랩 body와 동일. 그룹 ≤5, 그룹당 키워드 ≤20, 2016-01-01~어제(일 단위 전 구간 1회 조회 가능), 미래 endDate는 400. **그룹 전체 통틀어 max=100**, **저검색량 날은 0이 아니라 누락** → 0으로 채워야 함 (ADR 0001) |
+| 성인 검색어 판별 | `GET /search/v1/adult` | 라이브 확인됨. `?query=` → `{"adult": "0"\|"1"}` (문자열) |
 
 알려진 제약:
 - 검색어트렌드는 절대 검색량이 아닌 **상대지수(구간 최대 = 100)** → "3배"가 아니라 "상대지수 30→100"으로 표현.
-- 뉴스 API는 날짜 필터가 없고 `start` 상한 1000 → **최근 급등만** 원인 매칭 가능. UI에 정직하게 표기.
+- 뉴스 API는 날짜 필터가 없고 `start` 상한 1000 → 쿼리당 최신 1,099건까지만. 실측(sort=date): 아이폰 ≈6일, 날씨 ≈1일 → **최근 급등만** 원인 매칭 가능, 인기 키워드는 수 일. UI에 키워드별 커버 기간 표기. (ADR 0001)
 
 ## 5. 진행 상황 / 다음 할 일
 
 - [x] 레포 생성, README, `.env.example`, `scripts/probe_naver.py`
-- [ ] **0단계 (지금 할 일)**: `python scripts/probe_naver.py` 라이브 실행 → 아래 4가지 확정 후 이 문서 4절, README, `docs/decisions/0001-naver-api-specs.md`에 기록
-  1. 검색어트렌드 body 형식이 예전 데이터랩과 같은지
-  2. 일 단위 데이터를 얼마나 과거까지 받을 수 있는지 (급등 탐지 기준선 길이)
-  3. 성인 검색어 판별 응답 형식
-  4. 뉴스 `pubDate` 형식과 `start=1000` 근처 동작 (급등일↔기사 매칭 가능 범위)
-- [ ] 1단계: 급등 탐지 로직 설계 — 선택지/트레이드오프 설명 후 합의
-- [ ] 2단계: 정답셋 먼저 — 원인이 확실한 최근 급등 사례 20~30개 라벨링
-- [ ] 3단계: 에이전트 조립 (Gate → 트렌드 → 탐지 → 뉴스 매칭 → Claude 설명)
+- [x] 0단계: API 스펙 라이브 확정 (2026-10-29, ADR 0001)
+- [x] 1단계: 급등 탐지 — 중앙값/MAD z + 비율·최소지수 + 같은 요일 기준선 + 저검색량 판정 (ADR 0002). `trend_agent/detect.py`, `tests/test_detect.py` (`python -m unittest`), 라이브 확인 `scripts/detect_live.py`
+- [x] 2단계: 정답셋 (ADR 0003). 후보 수집 `scripts/mine_candidates.py` → 초안 `scripts/build_eval.py` (`eval/cases.json` + 90일 스냅샷) → 채점 `scripts/eval_detection.py`. **검수 완료 38건**(사용자 22 + 수집 16), 탐지 36/38(사용자 사례 20/22, 코스피 2건 놓침). 이태원 4주기는 10-30 이후 추가
+- [ ] **3단계 (지금 할 일)**: 에이전트 조립 (Gate → 트렌드 → 탐지 → 뉴스 매칭 → Claude 설명)
+  - 제안안 (2026-10-29, 사용자 합의 여부는 새 세션에서 확인):
+    1. Claude tool-use `search_news(query)` — Claude가 맥락어로 재검색, 코드가 pubDate로 급등 기간만 필터. 검색 최대 5회.
+    2. 출력 JSON `{cause, citations[기사 id]}` → 코드가 id 실재·날짜 범위 검증, 숫자는 탐지 결과에서만 주입.
+    3. 근거 없으면 "원인 불명" (채점은 오답, 지어내기 방지).
+    4. 모델 기본 Sonnet 5.5, 정답셋으로 Haiku와 비용·정확도 비교. `ANTHROPIC_API_KEY` 환경변수 필요.
+  - 채점: `trend_agent/evaluate.py`의 `cause_hit`. 비상계엄(martial-1203)은 근거 기사 도달 0건이라 원인 채점 제외 후보.
 - [ ] 배포 + showcase 등록 (스택 후보: Python, FastAPI, Claude tool-use — 기존 에이전트들과 동일)

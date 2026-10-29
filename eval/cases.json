@@ -1,0 +1,1812 @@
+[
+ {
+  "id": "rain-1018",
+  "keyword": "폭우",
+  "source": "mined",
+  "verified": true,
+  "event_start": "2026-10-18",
+  "event_end": "2026-10-18",
+  "window_start": "2026-07-31",
+  "window_end": "2026-10-28",
+  "cause": "서울 강북구 시간당 53.5㎜ 폭우로 곳곳 침수·교통통제",
+  "cause_keywords": [
+   [
+    "침수",
+    "교통통제"
+   ],
+   [
+    "서울",
+    "강북"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "서울 곳곳 침수·교통통제…폭우 내리는 데 낙엽이 배수구막아",
+    "link": "https://n.news.naver.com/mnews/article/001/0016383966?sid=102",
+    "pubDate": "Sun, 18 Oct 2026 16:12:00 +0900"
+   },
+   {
+    "title": "서울 곳곳 침수·교통통제…강북구 시간당 53.5㎜ 폭우 쏟아져(종합)",
+    "link": "https://n.news.naver.com/mnews/article/001/0016384203?sid=102",
+    "pubDate": "Sun, 18 Oct 2026 19:14:00 +0900"
+   },
+   {
+    "title": "폭우에 서울 곳곳 침수·교통통제…강북구 시간당 53.5㎜ 쏟아져(종합2보...",
+    "link": "https://n.news.naver.com/mnews/article/001/0016384279?sid=102",
+    "pubDate": "Sun, 18 Oct 2026 22:00:00 +0900"
+   },
+   {
+    "title": "신세계백화점 강남점 출차 지연…\"5시간째 제자리, 지옥 같아\"",
+    "link": "https://n.news.naver.com/mnews/article/001/0016384272?sid=102",
+    "pubDate": "Sun, 18 Oct 2026 21:46:00 +0900"
+   },
+   {
+    "title": "기습 폭우에 태풍급 강풍까지…도로 잠기고 가로수 뽑혀",
+    "link": "https://n.news.naver.com/mnews/article/001/0016384257?sid=102",
+    "pubDate": "Sun, 18 Oct 2026 21:30:00 +0900"
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "heat-0804",
+  "keyword": "폭염",
+  "source": "mined",
+  "verified": true,
+  "event_start": "2026-08-03",
+  "event_end": "2026-08-04",
+  "window_start": "2026-05-21",
+  "window_end": "2026-08-18",
+  "cause": "폭염중대경보 발령",
+  "cause_keywords": [
+   [
+    "폭염중대경보",
+    "중대경보"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "종로구, 폭염 통합지원본부 상황실 중심으로 총 450명 투입해 비상근무",
+    "link": "https://www.cnbizm.com/news/articleView.html?idxno=310709",
+    "pubDate": "Wed, 05 Aug 2026 20:24:00 +0900"
+   },
+   {
+    "title": "종로구 폭염 긴급 대응…쉼터·안전숙소·물청소 추진",
+    "link": "https://n.news.naver.com/mnews/article/003/0014110669?sid=102",
+    "pubDate": "Wed, 05 Aug 2026 17:21:00 +0900"
+   },
+   {
+    "title": "종로구, 폭염 긴급 대응체계 가동, ‘쉼터·안전숙소·물청소 총력전’",
+    "link": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065596624590258",
+    "pubDate": "Wed, 05 Aug 2026 16:38:00 +0900"
+   },
+   {
+    "title": "서울 종로구, '폭염중대경보' 발령에 긴급 대응체제 가동…450명 비상근...",
+    "link": "https://n.news.naver.com/mnews/article/119/0003118539?sid=102",
+    "pubDate": "Wed, 05 Aug 2026 16:01:00 +0900"
+   },
+   {
+    "title": "종로구의회, 폭염 속 쪽방촌 첫 현장 의정…취약계층 안전 점검",
+    "link": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1281358",
+    "pubDate": "Wed, 05 Aug 2026 15:56:00 +0900"
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "typhoon-1023",
+  "keyword": "태풍",
+  "source": "mined",
+  "verified": true,
+  "event_start": "2026-10-20",
+  "event_end": "2026-10-26",
+  "window_start": "2026-07-31",
+  "window_end": "2026-10-28",
+  "cause": "가을 태풍 '참피' 제주 피해, 태풍 '인파' 북상",
+  "cause_keywords": [
+   [
+    "참피",
+    "인파"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "점점 강해지는 태풍 '인파'…한반도 영향 가능성은",
+    "link": "https://n.news.naver.com/mnews/article/018/0006397391?sid=103",
+    "pubDate": "Tue, 27 Oct 2026 18:42:00 +0900"
+   },
+   {
+    "title": "초속 55미터 초강력 태풍 인파 북상…한반도 영향은?",
+    "link": "https://n.news.naver.com/mnews/article/015/0005347258?sid=103",
+    "pubDate": "Tue, 27 Oct 2026 23:53:00 +0900"
+   },
+   {
+    "title": "태풍 '참피' 영향 제주 곳곳 피해…한라산 295㎜ 폭우(종합)",
+    "link": "https://n.news.naver.com/mnews/article/001/0016398944?sid=102",
+    "pubDate": "Sun, 25 Oct 2026 13:45:00 +0900"
+   },
+   {
+    "title": "가을태풍 줄줄이…다시 추위 온다",
+    "link": "https://n.news.naver.com/mnews/article/056/0012280984?sid=102",
+    "pubDate": "Mon, 26 Oct 2026 19:01:00 +0900"
+   },
+   {
+    "title": "가을태풍 줄줄이…다시 추위 온다",
+    "link": "https://n.news.naver.com/mnews/article/056/0012281521?sid=102",
+    "pubDate": "Tue, 27 Oct 2026 10:47:00 +0900"
+   }
+  ],
+  "note": "태풍 2개가 겹침 — 확인 필요"
+ },
+ {
+  "id": "sinkhole-0529",
+  "keyword": "싱크홀",
+  "source": "mined",
+  "verified": true,
+  "event_start": "2026-05-29",
+  "event_end": "2026-05-30",
+  "window_start": "2026-03-16",
+  "window_end": "2026-06-13",
+  "cause": "의정부 신곡동 도로 싱크홀로 차량 3대 파손",
+  "cause_keywords": [
+   [
+    "의정부"
+   ],
+   [
+    "차량",
+    "파손"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "고양 도로서 1ｍ 싱크홀… 1명 경상",
+    "link": "https://www.kyeongin.com/article/1764631",
+    "pubDate": "Sun, 31 May 2026 18:34:00 +0900"
+   },
+   {
+    "title": "의정부 도로서 싱크홀 발생... 지나던 차량 3대 피해",
+    "link": "https://n.news.naver.com/mnews/article/023/0003979224?sid=102",
+    "pubDate": "Fri, 29 May 2026 22:55:00 +0900"
+   },
+   {
+    "title": "의정부 신곡동 도로서 싱크홀 발생…차량 3대 파손",
+    "link": "https://n.news.naver.com/mnews/article/421/0008974528?sid=102",
+    "pubDate": "Fri, 29 May 2026 22:12:00 +0900"
+   },
+   {
+    "title": "의정부 도로서 깊이 1m 싱크홀 발생…교통 통제 중",
+    "link": "https://n.news.naver.com/mnews/article/003/0013976770?sid=102",
+    "pubDate": "Fri, 29 May 2026 21:20:00 +0900"
+   },
+   {
+    "title": "[속보] 의정부 아파트 앞 도로에 깊이 2m 싱크홀…차량 3대 빠져",
+    "link": "https://n.news.naver.com/mnews/article/029/0003029142?sid=102",
+    "pubDate": "Fri, 29 May 2026 23:11:00 +0900"
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "nobel-1008",
+  "keyword": "노벨상",
+  "source": "mined",
+  "verified": true,
+  "event_start": "2026-10-05",
+  "event_end": "2026-10-12",
+  "window_start": "2026-07-29",
+  "window_end": "2026-10-26",
+  "cause": "2026 노벨상 발표 주간 (문학상 앤 카슨 등)",
+  "cause_keywords": [
+   [
+    "수상",
+    "발표",
+    "수상자"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "노벨상 수상날도 경제학 시험 감독…우드퍼드 \"시험지 챙겨야\"(종합)",
+    "link": "https://n.news.naver.com/mnews/article/001/0016372337?sid=101",
+    "pubDate": "Tue, 13 Oct 2026 07:34:00 +0900"
+   },
+   {
+    "title": "트럼프, 노벨상 불발 비판하며 \"내가 남북한 전쟁도 막고있어\"",
+    "link": "https://n.news.naver.com/mnews/article/001/0016368183?sid=104",
+    "pubDate": "Sat, 10 Oct 2026 11:27:00 +0900"
+   },
+   {
+    "title": "노벨 문학상 앤 카슨, 소감 묻자 \"다들 미쳤네요!\"",
+    "link": "https://n.news.naver.com/mnews/article/001/0016367080?sid=104",
+    "pubDate": "Thu, 08 Oct 2026 23:31:00 +0900"
+   },
+   {
+    "title": "'노벨경제학상' 홀 \"흥미로운 질문이 이끄는 어디든 따라갔다\"(종합)",
+    "link": "https://n.news.naver.com/mnews/article/001/0016372197?sid=104",
+    "pubDate": "Tue, 13 Oct 2026 04:43:00 +0900"
+   },
+   {
+    "title": "[3보] 노벨문학상 앤 카슨…\"고전 전통과 유희적 대화\"",
+    "link": "https://n.news.naver.com/mnews/article/001/0016367011?sid=104",
+    "pubDate": "Thu, 08 Oct 2026 20:29:00 +0900"
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "blackpink-0808",
+  "keyword": "블랙핑크",
+  "source": "mined",
+  "verified": true,
+  "event_start": "2026-08-07",
+  "event_end": "2026-08-10",
+  "window_start": "2026-05-27",
+  "window_end": "2026-08-24",
+  "cause": "데뷔 10주년 행사(팬 40명 초대) 팬 홀대 논란·멤버 사과",
+  "cause_keywords": [
+   [
+    "10주년"
+   ],
+   [
+    "홀대",
+    "사과",
+    "팬미팅"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "블랙핑크 10주년, 팬들이 기대한 '함께'의 의미는 무엇이었나 [MHN 인사이...",
+    "link": "https://m.entertain.naver.com/article/445/0000448668",
+    "pubDate": "Tue, 11 Aug 2026 20:01:00 +0900"
+   },
+   {
+    "title": "블랙핑크 로제, 지수 이어 팬 홀대 논란 사과 “10주년 아쉬움 커” [전...",
+    "link": "https://m.entertain.naver.com/article/468/0001259181",
+    "pubDate": "Tue, 11 Aug 2026 17:41:00 +0900"
+   },
+   {
+    "title": "‘40명 팬미팅·6900원 떡’…블랙핑크의 씁쓸한 10주년 [돌파구]",
+    "link": "https://m.entertain.naver.com/article/009/0005719585",
+    "pubDate": "Tue, 11 Aug 2026 17:04:00 +0900"
+   },
+   {
+    "title": "40명만 초대된 블랙핑크 10주년…지수 이어 로제도 “미안하다” 사과",
+    "link": "https://m.entertain.naver.com/article/009/0005719505",
+    "pubDate": "Tue, 11 Aug 2026 15:39:00 +0900"
+   },
+   {
+    "title": "\"많이 아쉬웠지만\"…로제, 블랙핑크 10주년 논란 후 전한 심경",
+    "link": "https://www.topstarnews.net/news/articleView.html?idxno=16160549",
+    "pubDate": "Tue, 11 Aug 2026 15:18:00 +0900"
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "newjeans-0722",
+  "keyword": "뉴진스",
+  "source": "mined",
+  "verified": true,
+  "event_start": "2026-07-22",
+  "event_end": "2026-07-23",
+  "window_start": "2026-05-09",
+  "window_end": "2026-08-06",
+  "cause": "민지 어도어 복귀 시그널·컴백 기대",
+  "cause_keywords": [
+   [
+    "민지",
+    "복귀",
+    "컴백"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "뉴진스 민지, 버니즈에 애정 가득 메시지…활동 개시 기대감↑[왓IS]",
+    "link": "https://m.entertain.naver.com/article/241/0003521626",
+    "pubDate": "Fri, 24 Jul 2026 21:11:00 +0900"
+   },
+   {
+    "title": "뉴진스 민지, '어도어 복귀' 시그널 또 터졌다…대놓고 고백 \"버니즈 사...",
+    "link": "https://m.entertain.naver.com/article/311/0002037405",
+    "pubDate": "Fri, 24 Jul 2026 19:55:00 +0900"
+   },
+   {
+    "title": "다니엘 빠진 뉴진스, 돌아온 몽환적 분위기‥높아진 컴백 기대감",
+    "link": "https://m.entertain.naver.com/article/609/0001149689",
+    "pubDate": "Fri, 24 Jul 2026 18:57:00 +0900"
+   },
+   {
+    "title": "민지, 뉴진스 본격 복귀하나? 공식 SNS서 “버니즈 사랑해”",
+    "link": "https://m.entertain.naver.com/article/609/0001149670",
+    "pubDate": "Fri, 24 Jul 2026 18:16:00 +0900"
+   },
+   {
+    "title": "3일째 쏟아진 뉴진스…해린 유행 릴스 터졌다, 무려 2155만·민지는 \"버...",
+    "link": "https://m.entertain.naver.com/article/311/0002037280",
+    "pubDate": "Fri, 24 Jul 2026 16:42:00 +0900"
+   }
+  ],
+  "note": "기사가 급등 다음날(07-24) 위주 — 확인 필요"
+ },
+ {
+  "id": "gta6-0619",
+  "keyword": "GTA6",
+  "source": "mined",
+  "verified": true,
+  "event_start": "2026-06-19",
+  "event_end": "2026-06-19",
+  "window_start": "2026-04-05",
+  "window_end": "2026-07-03",
+  "cause": "사전예약 일정(6/25)과 정식 출시일(11/19) 발표",
+  "cause_keywords": [
+   [
+    "출시일",
+    "사전예약",
+    "사전주문",
+    "11월19일"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "'우리가 GTA6보다 먼저 미국을 구했다' 또 게임 밈 탑승한 백악관",
+    "link": "https://m.sports.naver.com/esports/article/442/0000193600",
+    "pubDate": "Sat, 20 Jun 2026 17:32:00 +0900"
+   },
+   {
+    "title": "[게임피버타임] 'GTA6' 출시 카운트다운…\"우린 임시휴업합니다\"",
+    "link": "http://www.the-biz.co.kr/news/articleView.html?idxno=722933",
+    "pubDate": "Sat, 20 Jun 2026 12:00:00 +0900"
+   },
+   {
+    "title": "락스타게임즈 기대작 'GTA 6' 25일부터 사전 예약, 11월19일 정식 출시",
+    "link": "https://www.businesspost.co.kr/BP?command=article_view&num=440440",
+    "pubDate": "Fri, 19 Jun 2026 17:20:00 +0900"
+   },
+   {
+    "title": "13년 만에 나온다…락스타 'GTA6' 사전 주문 25일 시작",
+    "link": "https://n.news.naver.com/mnews/article/003/0014017231?sid=105",
+    "pubDate": "Fri, 19 Jun 2026 16:51:00 +0900"
+   },
+   {
+    "title": "마침내 출시되는 역대급 기대작 'GTA 6', 사전 예약 일정 공개",
+    "link": "https://www.ilovepc.co.kr/news/articleView.html?idxno=59772",
+    "pubDate": "Fri, 19 Jun 2026 10:24:00 +0900"
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "gta6-0625",
+  "keyword": "GTA6",
+  "source": "mined",
+  "verified": true,
+  "event_start": "2026-06-24",
+  "event_end": "2026-06-30",
+  "window_start": "2026-04-16",
+  "window_end": "2026-07-14",
+  "cause": "사전예약 시작",
+  "cause_keywords": [
+   [
+    "사전예약",
+    "사전주문",
+    "예약"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "스토어 1위 싹슬이...GTA 6, 출시 전부터 '압도적'",
+    "link": "https://www.gameshot.net/common/con_view.php?code=GA6a44d3404b4b7",
+    "pubDate": "Wed, 01 Jul 2026 18:32:00 +0900"
+   },
+   {
+    "title": "'GTA6'가 바꾸는 K게임 시장···신작 출시 전략도 다시 쓴다",
+    "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2444272",
+    "pubDate": "Wed, 01 Jul 2026 18:00:00 +0900"
+   },
+   {
+    "title": "[창간15주년]\"GTA 6와 함께 만나볼 하반기 블록버스터 타이틀\"",
+    "link": "https://m.sports.naver.com/esports/article/236/0000255741",
+    "pubDate": "Wed, 01 Jul 2026 14:54:00 +0900"
+   },
+   {
+    "title": "GTA 6 실물 디스크 없다…게임스톱 '예약 판매 기대 이하'",
+    "link": "https://kbench.com/?q=node/279992",
+    "pubDate": "Tue, 30 Jun 2026 10:46:00 +0900"
+   },
+   {
+    "title": "'GTA6' 사전 판매 시작... 가격은?",
+    "link": "https://www.ggilbo.com/news/articleView.html?idxno=1165854",
+    "pubDate": "Mon, 29 Jun 2026 18:50:00 +0900"
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "gta6-0828",
+  "keyword": "GTA6",
+  "source": "mined",
+  "verified": true,
+  "event_start": "2026-08-28",
+  "event_end": "2026-08-31",
+  "window_start": "2026-06-17",
+  "window_end": "2026-09-14",
+  "cause": "유출자 추적·용량 250GB 전망 등",
+  "cause_keywords": [
+   [
+    "유출",
+    "250GB",
+    "용량"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "AI發 반도체 품귀에 게임값도 ‘껑충’…‘GTA6’ 앞두고 부담 가중",
+    "link": "https://www.asiatime.co.kr/article/20260901500287",
+    "pubDate": "Tue, 01 Sep 2026 14:58:00 +0900"
+   },
+   {
+    "title": "메모리값 급등하는데… ‘GTA 6’ 용량 250GB 전망에 게이머들 ‘울상’",
+    "link": "https://n.news.naver.com/mnews/article/023/0003996061?sid=105",
+    "pubDate": "Tue, 01 Sep 2026 13:25:00 +0900"
+   },
+   {
+    "title": "‘GTA6’ 유출자 추척 구체화...디스코드 특정 계정 겨냥",
+    "link": "https://m.sports.naver.com/esports/article/442/0000196085",
+    "pubDate": "Mon, 31 Aug 2026 23:34:00 +0900"
+   },
+   {
+    "title": "넷플릭스 선공개에 PS5 프로 품절까지… 'GTA6' 열기 [엑's 이슈]",
+    "link": "https://m.sports.naver.com/esports/article/311/0002051588",
+    "pubDate": "Mon, 31 Aug 2026 16:00:00 +0900"
+   },
+   {
+    "title": "'GTA6' 27분 영상이 넷플릭스 영화 1위 올라⋯화제성 입증",
+    "link": "https://n.news.naver.com/mnews/article/031/0001053663?sid=105",
+    "pubDate": "Mon, 31 Aug 2026 09:28:00 +0900"
+   }
+  ],
+  "note": "원인 불분명 — 확인 필요"
+ },
+ {
+  "id": "tesla-1016",
+  "keyword": "테슬라",
+  "source": "mined",
+  "verified": true,
+  "event_start": "2026-10-16",
+  "event_end": "2026-10-17",
+  "window_start": "2026-07-31",
+  "window_end": "2026-10-28",
+  "cause": "하늘 나는 로드스터 시연",
+  "cause_keywords": [
+   [
+    "로드스터",
+    "나는",
+    "비행",
+    "하늘"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "나는 로드스터 시연에…다시 불붙은 테슬라·스페이스X 합병설",
+    "link": "https://n.news.naver.com/mnews/article/001/0016382546?sid=104",
+    "pubDate": "Sat, 17 Oct 2026 09:16:00 +0900"
+   },
+   {
+    "title": "차량 5대 뛰어넘어 착지…테슬라, 하늘 나는 스포츠카 시연 성공(종합)",
+    "link": "https://n.news.naver.com/mnews/article/001/0016381096?sid=104",
+    "pubDate": "Fri, 16 Oct 2026 11:56:00 +0900"
+   },
+   {
+    "title": "테슬라가 보여준 미래자동차... 2028년 광화문서 공중회전?",
+    "link": "https://n.news.naver.com/mnews/article/023/0004004254?sid=101",
+    "pubDate": "Fri, 16 Oct 2026 15:19:00 +0900"
+   },
+   {
+    "title": "초유의 '일론 주식회사' 나오나…테슬라·스페이스X 합병설",
+    "link": "https://n.news.naver.com/mnews/article/015/0005343560?sid=101",
+    "pubDate": "Sat, 17 Oct 2026 14:31:00 +0900"
+   },
+   {
+    "title": "[영상] 테슬라 스포츠카 하늘 날았다…차량 5대 뛰어넘고 착지",
+    "link": "https://n.news.naver.com/mnews/article/005/0001879151?sid=104",
+    "pubDate": "Fri, 16 Oct 2026 16:16:00 +0900"
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "ks-1027",
+  "keyword": "한국시리즈",
+  "source": "mined",
+  "verified": true,
+  "event_start": "2026-10-26",
+  "event_end": "2026-10-27",
+  "window_start": "2026-07-31",
+  "window_end": "2026-10-28",
+  "cause": "플레이오프 삼성-KIA 진행 (한국시리즈 진출 경쟁)",
+  "cause_keywords": [
+   [
+    "플레이오프",
+    "PO"
+   ],
+   [
+    "삼성",
+    "KIA"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "시리즈 판도 가를 3차전…삼성 최원태 vs KIA 시라카와, 선발 격돌[PO]",
+    "link": "https://m.sports.naver.com/kbaseball/article/003/0014283474",
+    "pubDate": "Wed, 28 Oct 2026 10:07:00 +0900"
+   },
+   {
+    "title": "탬파베이 3연패 끝 기사회생...월드시리즈 5차전행",
+    "link": "https://m.sports.naver.com/wbaseball/article/052/0002424894",
+    "pubDate": "Wed, 28 Oct 2026 14:13:00 +0900"
+   },
+   {
+    "title": "'11승 활약→재계약' 한화 왕옌청 \"내년 목표는 한국시리즈 선발\"",
+    "link": "http://www.stoo.com/article.php?aid=109593199894",
+    "pubDate": "Wed, 28 Oct 2026 16:32:00 +0900"
+   },
+   {
+    "title": "삼성, 1차전 패배 설욕…KIA 8-3 꺾고 PO 시리즈 1승 1패",
+    "link": "https://n.news.naver.com/mnews/article/437/0000517837?sid=103",
+    "pubDate": "Tue, 27 Oct 2026 22:39:00 +0900"
+   },
+   {
+    "title": "“한국시리즈 선발·160이닝 목표”… 한화와 재계약, 왕옌청의 더 큰 꿈",
+    "link": "https://m.sports.naver.com/kbaseball/article/396/0000759318",
+    "pubDate": "Wed, 28 Oct 2026 13:51:00 +0900"
+   }
+  ],
+  "note": "PO 기사가 대부분 — 확인 필요"
+ },
+ {
+  "id": "kimyk-0926",
+  "keyword": "김연경",
+  "source": "mined",
+  "verified": true,
+  "event_start": "2026-09-23",
+  "event_end": "2026-09-27",
+  "window_start": "2026-07-14",
+  "window_end": "2026-10-11",
+  "cause": "'신인감독 김연경2' 예고편 공개",
+  "cause_keywords": [
+   [
+    "신인감독"
+   ],
+   [
+    "예고편",
+    "예고"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "김연경 후계자 찾아라! 상록수체육관서 고교 최강팀 가린다…KYK 고교배...",
+    "link": "https://m.sports.naver.com/volleyball/article/076/0004450415",
+    "pubDate": "Mon, 28 Sep 2026 16:49:00 +0900"
+   },
+   {
+    "title": "KYK 파운데이션, 경기 안산서 고교배구 최강전 개최",
+    "link": "https://m.sports.naver.com/volleyball/article/021/0002821652",
+    "pubDate": "Mon, 28 Sep 2026 16:32:00 +0900"
+   },
+   {
+    "title": "신인감독 김연경2, 예고편 '200만' 돌파.. 방송 전부터 '인기 폭발'",
+    "link": "http://www.breaknews.com/1239423",
+    "pubDate": "Mon, 28 Sep 2026 16:58:00 +0900"
+   },
+   {
+    "title": "'배구 여제' 김연경 이름 건 체육관서...남녀 별들의 '고교배구 최강전...",
+    "link": "https://m.sports.naver.com/volleyball/article/529/0000078703",
+    "pubDate": "Mon, 28 Sep 2026 14:11:00 +0900"
+   },
+   {
+    "title": "[머니톡스] 김연경을 닮은 아이들…농구코트 밝고 발랄한 언더독의 반란",
+    "link": "https://n.news.naver.com/mnews/article/001/0016339669?sid=101",
+    "pubDate": "Mon, 28 Sep 2026 09:03:00 +0900"
+   }
+  ],
+  "note": "확인 필요"
+ },
+ {
+  "id": "kimyk-1011",
+  "keyword": "김연경",
+  "source": "mined",
+  "verified": true,
+  "event_start": "2026-10-11",
+  "event_end": "2026-10-11",
+  "window_start": "2026-07-28",
+  "window_end": "2026-10-25",
+  "cause": "'신인감독 김연경2' 첫 방송",
+  "cause_keywords": [
+   [
+    "신인감독"
+   ],
+   [
+    "첫방",
+    "첫방송",
+    "첫회"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "김연경, 감독 컴백 D-1",
+    "link": "https://m.entertain.naver.com/article/144/0001143196",
+    "pubDate": "Sat, 10 Oct 2026 10:07:00 +0900"
+   },
+   {
+    "title": "김연경 또 해냈다…‘신인감독2’ 첫방부터 4.8% 원더독스 2기 왔다",
+    "link": "https://m.entertain.naver.com/article/241/0003534810",
+    "pubDate": "Mon, 12 Oct 2026 10:08:00 +0900"
+   },
+   {
+    "title": "김연경, 시즌1 멤버도 재평가로 선발…이진·구혜인 탈락",
+    "link": "https://m.entertain.naver.com/article/008/0005424557",
+    "pubDate": "Mon, 12 Oct 2026 02:20:00 +0900"
+   },
+   {
+    "title": "경력감독 된 김연경 \"창단 아니면 해체\"…'신인감독2' 첫방부터 시청률...",
+    "link": "https://m.entertain.naver.com/article/311/0002067755",
+    "pubDate": "Mon, 12 Oct 2026 10:30:00 +0900"
+   },
+   {
+    "title": "'경력감독' 김연경 통했다! '신인감독 김연경2', 첫 회부터 일요일 예능...",
+    "link": "https://m.entertain.naver.com/article/408/0000324074",
+    "pubDate": "Mon, 12 Oct 2026 08:14:00 +0900"
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "kimyk-1018",
+  "keyword": "김연경",
+  "source": "mined",
+  "verified": true,
+  "event_start": "2026-10-18",
+  "event_end": "2026-10-18",
+  "window_start": "2026-07-31",
+  "window_end": "2026-10-28",
+  "cause": "'신인감독 김연경2' 2회 일본팀전",
+  "cause_keywords": [
+   [
+    "신인감독"
+   ],
+   [
+    "일본",
+    "2회"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "김연경 원더독스, 日 슈지츠 고 상대로 고전…시청률은 5% 돌파 (신인감...",
+    "link": "https://m.entertain.naver.com/article/241/0003535941",
+    "pubDate": "Mon, 19 Oct 2026 08:33:00 +0900"
+   },
+   {
+    "title": "김연경, 일본전서 황연주 전격 투입…홈 리벤지 승부수",
+    "link": "https://www.topstarnews.net/news/articleView.html?idxno=16250933",
+    "pubDate": "Mon, 19 Oct 2026 07:58:00 +0900"
+   },
+   {
+    "title": "김연경, 또 일냈다…'신인감독' 첫방부터 대박나더니 2회도 시청률 1위...",
+    "link": "https://m.entertain.naver.com/article/312/0000780514",
+    "pubDate": "Mon, 19 Oct 2026 08:00:00 +0900"
+   },
+   {
+    "title": "'신인감독' 김연경, 선수들 질책 \"우리 홈 아니야 여기?\"",
+    "link": "https://m.entertain.naver.com/article/408/0000324754",
+    "pubDate": "Sun, 18 Oct 2026 10:06:00 +0900"
+   },
+   {
+    "title": "김연경, '日 고교' 설욕전서 고전…결국 '비밀병기' 황연주 투입 승부수...",
+    "link": "https://m.entertain.naver.com/article/311/0002070232",
+    "pubDate": "Mon, 19 Oct 2026 13:35:00 +0900"
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "minwage-0715",
+  "keyword": "최저임금",
+  "source": "mined",
+  "verified": true,
+  "event_start": "2026-07-14",
+  "event_end": "2026-07-15",
+  "window_start": "2026-05-01",
+  "window_end": "2026-07-29",
+  "cause": "2027년 최저임금 1만700원 결정",
+  "cause_keywords": [
+   [
+    "1만700원",
+    "10700원",
+    "10,700원"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "[내년 최저임금 1만700원] 대구 소상공인·외식업계 “인건비 부담에 되...",
+    "link": "https://www.yeongnam.com/web/view.php?key=20260716028466344",
+    "pubDate": "Thu, 16 Jul 2026 20:36:00 +0900"
+   },
+   {
+    "title": "최저임금 1만700원 시대…외식업계 '무인화' 더 빨라질까",
+    "link": "https://www.econovill.com/news/articleView.html?idxno=745443",
+    "pubDate": "Thu, 16 Jul 2026 17:48:00 +0900"
+   },
+   {
+    "title": "최저임금委 위원 축소 검토…업종별 구분 적용도 만지작",
+    "link": "https://n.news.naver.com/mnews/article/011/0004642376?sid=102",
+    "pubDate": "Thu, 16 Jul 2026 17:42:00 +0900"
+   },
+   {
+    "title": "최저임금은 올랐는데…장애인 노동자 1만 명 40년째 '최저임금 적용제외...",
+    "link": "https://www.beminor.com/news/articleView.html?idxno=30154",
+    "pubDate": "Thu, 16 Jul 2026 17:10:00 +0900"
+   },
+   {
+    "title": "'파업·최저임금' 재계는 속앓이…대한상의, 대한민국 성장 해법 논의한...",
+    "link": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005881215",
+    "pubDate": "Thu, 16 Jul 2026 15:46:00 +0900"
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "assassins-0929",
+  "keyword": "암살자들",
+  "source": "user",
+  "verified": true,
+  "event_start": "2026-09-26",
+  "event_end": "2026-10-02",
+  "window_start": "2026-07-19",
+  "window_end": "2026-10-16",
+  "cause": "영화 '암살자(들)' 역사 왜곡 논란, 제작진 고발",
+  "cause_keywords": [
+   [
+    "역사왜곡",
+    "왜곡"
+   ],
+   [
+    "논란",
+    "고발"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "‘암살자들’ 역사 왜곡 논란에…제작진 “정치적 목적 없다”",
+    "link": "https://n.news.naver.com/mnews/article/009/0005741037?sid=103",
+    "pubDate": "Mon, 28 Sep 2026 19:09:00 +0900"
+   },
+   {
+    "title": "'암살자(들)', 역사 왜곡 논란에도 관객 200만명 돌파",
+    "link": "https://n.news.naver.com/mnews/article/001/0016355627?sid=103",
+    "pubDate": "Sat, 03 Oct 2026 16:21:00 +0900"
+   },
+   {
+    "title": "역사 왜곡 논란 속에 200만 관객 돌파한 '암살자(들)'",
+    "link": "https://n.news.naver.com/mnews/article/055/0001392923?sid=102",
+    "pubDate": "Sat, 03 Oct 2026 17:17:00 +0900"
+   },
+   {
+    "title": "\"최악의 패륜적 영화\"…'암살자(들)' 제작진 고발 당해",
+    "link": "https://n.news.naver.com/mnews/article/448/0000642129?sid=102",
+    "pubDate": "Tue, 29 Sep 2026 21:58:00 +0900"
+   },
+   {
+    "title": "영화제작가협회 \"'암살자(들)' 창작자 향한 과도한 비난 우려\"",
+    "link": "https://n.news.naver.com/mnews/article/001/0016352101?sid=103",
+    "pubDate": "Thu, 01 Oct 2026 19:57:00 +0900"
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "dujjonku-2601",
+  "keyword": "두쫀쿠",
+  "source": "user",
+  "verified": true,
+  "event_start": "2025-12-10",
+  "event_end": "2026-01-16",
+  "window_start": "2025-11-02",
+  "window_end": "2026-01-30",
+  "cause": "두바이 쫀득쿠키(두쫀쿠) 유행, 품절 대란",
+  "cause_keywords": [
+   [
+    "두바이",
+    "두쫀쿠"
+   ],
+   [
+    "품절",
+    "유행",
+    "열풍"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "'두쫀쿠' 열풍에 피스타치오 품절 대란 … 대형마트 \"1인당 1개만 살수 ...",
+    "link": "https://biz.newdaily.co.kr/site/data/html/2026/01/13/2026011300102.html",
+    "pubDate": "Tue, 13 Jan 2026 10:36:00 +0900"
+   },
+   {
+    "title": "“두쫀쿠 찾아 삼만리”…품절 대란에 지도까지 등장했다",
+    "link": "https://n.news.naver.com/mnews/article/022/0004096892?sid=102",
+    "pubDate": "Mon, 12 Jan 2026 11:28:00 +0900"
+   },
+   {
+    "title": "장원영 불지핀 '두쫀쿠' 열풍…\"품절에 피스타치오 가격 2배로↑\"",
+    "link": "https://www.slist.kr/news/articleView.html?idxno=708145",
+    "pubDate": "Mon, 12 Jan 2026 07:24:00 +0900"
+   },
+   {
+    "title": "주우재, 두쫀쿠 품절 대란 속 소신 “6천원 넘으면 가심비 떨어져”(오...",
+    "link": "https://m.entertain.naver.com/article/609/0001082281",
+    "pubDate": "Sat, 17 Jan 2026 16:58:00 +0900"
+   },
+   {
+    "title": "'두쫀쿠' 오픈런 100명, 20분만에 품절…\"카페 세 군데 돌았어요\"",
+    "link": "https://n.news.naver.com/mnews/article/421/0008692503?sid=102",
+    "pubDate": "Fri, 02 Jan 2026 14:43:00 +0900"
+   }
+  ],
+  "note": "유행형: 12월 초부터 서서히 올라 01-15 정점"
+ },
+ {
+  "id": "martial-1203",
+  "keyword": "계엄",
+  "source": "user",
+  "verified": true,
+  "event_start": "2024-12-03",
+  "event_end": "2024-12-04",
+  "window_start": "2024-09-20",
+  "window_end": "2024-12-18",
+  "cause": "윤석열 대통령 비상계엄 선포, 국회 해제 요구 의결",
+  "cause_keywords": [
+   [
+    "비상계엄",
+    "계엄"
+   ],
+   [
+    "선포",
+    "해제"
+   ]
+  ],
+  "evidence": [],
+  "note": "최근 재판 기사가 많아 당시 기사 도달 불가 (근거 0건) — 원인 채점에서는 제외 후보"
+ },
+ {
+  "id": "impeach-1207",
+  "keyword": "탄핵",
+  "source": "user",
+  "verified": true,
+  "event_start": "2024-12-07",
+  "event_end": "2024-12-07",
+  "window_start": "2024-09-23",
+  "window_end": "2024-12-21",
+  "cause": "윤 대통령 탄핵소추안 1차 표결, 정족수 미달로 무산",
+  "cause_keywords": [
+   [
+    "탄핵소추안",
+    "탄핵안"
+   ],
+   [
+    "표결",
+    "불성립",
+    "무산",
+    "폐기"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "윤 대통령 탄핵소추안 표결 무산에 둘로 나뉜 '보수의 심장' 대구",
+    "link": "https://www.idaegu.com/news/articleView.html?idxno=622886",
+    "pubDate": "Sun, 08 Dec 2024 16:50:00 +0900"
+   },
+   {
+    "title": "윤석열 대통령 탄핵소추안, 정족수 미달로 표결 무산",
+    "link": "https://www.discoverynews.kr/news/articleView.html?idxno=1054779",
+    "pubDate": "Sat, 07 Dec 2024 21:28:00 +0900"
+   },
+   {
+    "title": "‘윤석열 탄핵안’ 표결 결국 무산… 야권 “탄핵소추안 즉각 재추진”",
+    "link": "https://n.news.naver.com/mnews/article/310/0000121188?sid=100",
+    "pubDate": "Sat, 07 Dec 2024 22:41:00 +0900"
+   },
+   {
+    "title": "이승환, 尹 탄핵소추안 표결 무산에 \"내란의 공범 자처\"",
+    "link": "https://m.entertain.naver.com/article/003/0012948369",
+    "pubDate": "Sun, 08 Dec 2024 00:55:00 +0900"
+   },
+   {
+    "title": "尹대통령 탄핵소추안, 국회 표결 무산…與 불참에 '투표 불성립'",
+    "link": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4026511",
+    "pubDate": "Sat, 07 Dec 2024 21:50:00 +0900"
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "impeach-1214",
+  "keyword": "탄핵",
+  "source": "user",
+  "verified": true,
+  "event_start": "2024-12-14",
+  "event_end": "2024-12-14",
+  "window_start": "2024-09-30",
+  "window_end": "2024-12-28",
+  "cause": "윤 대통령 탄핵소추안 국회 가결",
+  "cause_keywords": [
+   [
+    "탄핵소추안",
+    "탄핵안"
+   ],
+   [
+    "가결"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "尹 탄핵소추안 가결…강원 집회 현장 기쁨의 함성",
+    "link": "https://n.news.naver.com/mnews/article/087/0001086361?sid=102",
+    "pubDate": "Sun, 15 Dec 2024 21:01:00 +0900"
+   },
+   {
+    "title": "尹 탄핵소추안 가결에 울산시민 환호성",
+    "link": "http://www.ujeil.com/news/articleView.html?idxno=359119",
+    "pubDate": "Sun, 15 Dec 2024 20:54:00 +0900"
+   },
+   {
+    "title": "윤 대통령 탄핵소추안, 가결..정국 회오리 속으로",
+    "link": "http://www.jeollailbo.com/news/articleView.html?idxno=754218",
+    "pubDate": "Sun, 15 Dec 2024 18:10:00 +0900"
+   },
+   {
+    "title": "尹 대통령 탄핵소추안 가결…이제 '헌법재판소'의 시간",
+    "link": "https://www.newsgn.com/news/articleView.html?idxno=455768",
+    "pubDate": "Sun, 15 Dec 2024 17:02:00 +0900"
+   },
+   {
+    "title": "윤 대통령 탄핵소추안 가결…찬성 204·반대 85·무효 8·기권 3표",
+    "link": "https://kookbang.dema.mil.kr/newsWeb/20241216/9/ATCE_CTGR_0010010000/view.do",
+    "pubDate": "Sun, 15 Dec 2024 16:08:00 +0900"
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "impeach-0404",
+  "keyword": "탄핵",
+  "source": "user",
+  "verified": true,
+  "event_start": "2025-04-04",
+  "event_end": "2025-04-04",
+  "window_start": "2025-01-19",
+  "window_end": "2025-04-18",
+  "cause": "헌법재판소 윤 대통령 파면 선고",
+  "cause_keywords": [
+   [
+    "헌재",
+    "헌법재판소",
+    "탄핵심판"
+   ],
+   [
+    "파면",
+    "선고",
+    "인용"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "[윤석열 대통령 파면] 대통령 윤석열 탄핵심판 선고요지 - 전문",
+    "link": "https://n.news.naver.com/mnews/article/654/0000114545?sid=100",
+    "pubDate": "Sat, 05 Apr 2025 00:05:00 +0900"
+   },
+   {
+    "title": "[여의도1번지] 윤석열 탄핵 '만장일치 파면' 선고…조기대선 정국 돌입",
+    "link": "https://n.news.naver.com/mnews/article/422/0000727964?sid=100",
+    "pubDate": "Fri, 04 Apr 2025 16:42:00 +0900"
+   },
+   {
+    "title": "\"전 세계에서 가장 뒤끝 안 좋은 직업이 韓 대통령\"…中서도 탄핵 선고...",
+    "link": "https://n.news.naver.com/mnews/article/277/0005573193?sid=104",
+    "pubDate": "Fri, 04 Apr 2025 14:10:00 +0900"
+   },
+   {
+    "title": "[윤석열 파면] 헌재 탄핵선고 전문…\"헌법이 정한 통치구조 무시\"",
+    "link": "https://daily.hankooki.com/news/articleView.html?idxno=1200006",
+    "pubDate": "Fri, 04 Apr 2025 12:22:00 +0900"
+   },
+   {
+    "title": "'대통령 윤석열 탄핵사건' 헌법재판소 선고 요지 전문[윤석열 파면]",
+    "link": "https://n.news.naver.com/mnews/article/277/0005573090?sid=102",
+    "pubDate": "Fri, 04 Apr 2025 12:17:00 +0900"
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "constday-0129",
+  "keyword": "제헌절 공휴일",
+  "source": "user",
+  "verified": true,
+  "event_start": "2026-01-29",
+  "event_end": "2026-01-29",
+  "window_start": "2025-11-15",
+  "window_end": "2026-02-12",
+  "cause": "제헌절 공휴일 재지정, 18년 만에 부활",
+  "cause_keywords": [
+   [
+    "제헌절"
+   ],
+   [
+    "공휴일"
+   ],
+   [
+    "부활",
+    "재지정",
+    "다시",
+    "됐다"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "[횡설수설/우경임]다시 쉬는 제헌절… 공휴일도 시대 따라",
+    "link": "https://n.news.naver.com/mnews/article/020/0003693856?sid=110",
+    "pubDate": "Fri, 30 Jan 2026 23:18:00 +0900"
+   },
+   {
+    "title": "제헌절, 18년 만에 공휴일로 복귀…국회 본회의 통과",
+    "link": "https://news.knn.co.kr/news/article_sns/925",
+    "pubDate": "Fri, 30 Jan 2026 16:50:00 +0900"
+   },
+   {
+    "title": "7월 17일 제헌절, 다시 공휴일 된다... 올해부터 적용",
+    "link": "https://www.ggilbo.com/news/articleView.html?idxno=1139064",
+    "pubDate": "Fri, 30 Jan 2026 15:00:00 +0900"
+   },
+   {
+    "title": "'빨간날' 컴백 제헌절, 빨간색 벗고 입은 공휴일은? [인포그래픽]",
+    "link": "https://www.etoday.co.kr/news/view/2551379",
+    "pubDate": "Fri, 30 Jan 2026 14:24:00 +0900"
+   },
+   {
+    "title": "제헌절, 18년 만에 다시 공휴일... 올해부터 7월 17일 '빨간날' 부활",
+    "link": "https://www.redian.org/news/articleView.html?idxno=255509",
+    "pubDate": "Fri, 30 Jan 2026 09:58:00 +0900"
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "kospi-7000",
+  "keyword": "코스피",
+  "source": "user",
+  "verified": true,
+  "event_start": "2026-05-04",
+  "event_end": "2026-05-08",
+  "window_start": "2026-02-22",
+  "window_end": "2026-05-22",
+  "cause": "코스피 사상 첫 7000선 돌파",
+  "cause_keywords": [
+   [
+    "7000",
+    "7천",
+    "칠천피",
+    "7000피"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "코스피 사상 첫 7000선 돌파…급등에 매수 사이드카 발동",
+    "link": "https://n.news.naver.com/mnews/article/022/0004126044?sid=101",
+    "pubDate": "Wed, 06 May 2026 09:25:00 +0900"
+   },
+   {
+    "title": "코스피 사상 첫 7000선 돌파… '삼전·닉스' 견인",
+    "link": "https://it.chosun.com/news/articleView.html?idxno=2023092161547",
+    "pubDate": "Wed, 06 May 2026 10:10:00 +0900"
+   },
+   {
+    "title": "코스피 7000시대… ‘빚투’도 사상 최대 [코스피 사상 첫 7000 돌파]",
+    "link": "https://n.news.naver.com/mnews/article/022/0004126221?sid=101",
+    "pubDate": "Wed, 06 May 2026 19:21:00 +0900"
+   },
+   {
+    "title": "코스피 사상 첫 '7000선' 돌파…'삼전·닉스'가 이끈 신기원",
+    "link": "http://www.jeonmin.co.kr/news/articleView.html?idxno=439348",
+    "pubDate": "Wed, 06 May 2026 16:36:00 +0900"
+   },
+   {
+    "title": "[화보] 코스피 사상 첫 7000선 돌파...활짝 열린 칠천피 시대",
+    "link": "https://www.joongboo.com/news/articleView.html?idxno=363724791",
+    "pubDate": "Wed, 06 May 2026 16:32:00 +0900"
+   }
+  ],
+  "note": "정확한 돌파일 미확인(05-04에 6900선) — 확인 필요. 코스피는 평일 주기 키워드"
+ },
+ {
+  "id": "kospi-crash-0728",
+  "keyword": "코스피",
+  "source": "user",
+  "verified": true,
+  "event_start": "2026-07-28",
+  "event_end": "2026-07-29",
+  "window_start": "2026-05-15",
+  "window_end": "2026-08-12",
+  "cause": "코스피 11% 폭락, 서킷브레이커·사이드카 발동으로 5000대 추락",
+  "cause_keywords": [
+   [
+    "폭락",
+    "급락",
+    "붕괴",
+    "검은",
+    "하락",
+    "추락"
+   ],
+   [
+    "5000",
+    "6000",
+    "서킷",
+    "사이드카"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "9000 찍고 한 달 만에 5000대로…올해 코스피에 무슨 일이",
+    "link": "https://n.news.naver.com/mnews/article/119/0003116317?sid=101",
+    "pubDate": "Thu, 30 Jul 2026 06:57:00 +0900"
+   },
+   {
+    "title": "사이드카·서킷 또 발동…역대급 하락에 코스피 5000대로",
+    "link": "https://n.news.naver.com/mnews/article/277/0005796364?sid=101",
+    "pubDate": "Wed, 29 Jul 2026 16:10:00 +0900"
+   },
+   {
+    "title": "IMF 때보다 낙폭 커…코스피 다시 5000대로",
+    "link": "https://www.idaegu.co.kr/news/articleView.html?idxno=555339",
+    "pubDate": "Wed, 29 Jul 2026 21:54:00 +0900"
+   },
+   {
+    "title": "'사상 처음' 'IMF 때보다 더'…충격의 코스피 다시 5000대로",
+    "link": "https://n.news.naver.com/mnews/article/437/0000503635?sid=101",
+    "pubDate": "Wed, 29 Jul 2026 18:50:00 +0900"
+   },
+   {
+    "title": "국내 증시 이틀 연속 초토화…코스피 5000대로 추락",
+    "link": "https://news.mtn.co.kr/news-detail/2026072916435087967",
+    "pubDate": "Wed, 29 Jul 2026 17:46:00 +0900"
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "tariff-0403",
+  "keyword": "관세",
+  "source": "user",
+  "verified": true,
+  "event_start": "2025-04-02",
+  "event_end": "2025-04-04",
+  "window_start": "2025-01-19",
+  "window_end": "2025-04-18",
+  "cause": "트럼프 정부 상호관세 발표",
+  "cause_keywords": [
+   [
+    "상호관세"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "'트럼프 상호관세 발표' 빅테크 시총 1조달러 증발…애플 9.2%↓",
+    "link": "https://daily.hankooki.com/news/articleView.html?idxno=1199910",
+    "pubDate": "Fri, 04 Apr 2025 09:18:00 +0900"
+   },
+   {
+    "title": "美, 한국 상호관세율 25% 확정… 트럼프 발표대로 행정명령 수정",
+    "link": "https://n.news.naver.com/mnews/article/469/0000857613?sid=104",
+    "pubDate": "Fri, 04 Apr 2025 07:16:00 +0900"
+   },
+   {
+    "title": "[美관세폭풍] “관세는 가장 아름다운 단어” 트럼프… 대통령 취임부터...",
+    "link": "http://www.segyebiz.com/newsView/20250403517259?OutUrl=naver",
+    "pubDate": "Thu, 03 Apr 2025 16:46:00 +0900"
+   },
+   {
+    "title": "‘美 25% 상호관세’ 발표…정부, 민관합동 대응 모색",
+    "link": "https://www.kukinews.com/article/view/kuk202504030167",
+    "pubDate": "Thu, 03 Apr 2025 15:22:00 +0900"
+   },
+   {
+    "title": "[종합] 트럼프, 한국에 26% 상호관세 발표...FTA 체결국 중 최악",
+    "link": "https://www.etoday.co.kr/news/view/2458784",
+    "pubDate": "Thu, 03 Apr 2025 15:04:00 +0900"
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "tariff-0731",
+  "keyword": "관세",
+  "source": "user",
+  "verified": true,
+  "event_start": "2025-07-30",
+  "event_end": "2025-07-31",
+  "window_start": "2025-05-17",
+  "window_end": "2025-08-14",
+  "cause": "한미 관세협상 타결 (상호관세 15%)",
+  "cause_keywords": [
+   [
+    "협상",
+    "타결",
+    "합의"
+   ],
+   [
+    "15%"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "628조원 약속한 한국…데드라인 하루 전 관세 25%→15%[관세협상은 타결...",
+    "link": "https://n.news.naver.com/mnews/article/050/0000094405?sid=101",
+    "pubDate": "Fri, 01 Aug 2025 07:16:00 +0900"
+   },
+   {
+    "title": "[투나잇이슈] 한미, 관세협상 타결…\"상호관세 25%→15%\"",
+    "link": "https://n.news.naver.com/mnews/article/422/0000766136?sid=101",
+    "pubDate": "Thu, 31 Jul 2025 22:39:00 +0900"
+   },
+   {
+    "title": "韓美, '관세 15%·3500억불 투자' 협상 타결…농산물은 지켰지만 투자금...",
+    "link": "https://n.news.naver.com/mnews/article/448/0000546515?sid=104",
+    "pubDate": "Thu, 31 Jul 2025 22:09:00 +0900"
+   },
+   {
+    "title": "한미 무역협상 타결…\"韓 상호관세 25%→15%·2주내 정상회담\"",
+    "link": "https://n.news.naver.com/mnews/article/656/0000142349?sid=100",
+    "pubDate": "Thu, 31 Jul 2025 19:31:00 +0900"
+   },
+   {
+    "title": "[오늘의 ABC 뉴스룸] 韓美, 무역협상 타결…\"상호관세 25%→15%\" 外",
+    "link": "https://www.ajunews.com/view/20250731164432653",
+    "pubDate": "Thu, 31 Jul 2025 17:22:00 +0900"
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "aiact-1226",
+  "keyword": "AI기본법",
+  "source": "user",
+  "verified": true,
+  "event_start": "2024-12-26",
+  "event_end": "2024-12-27",
+  "window_start": "2024-10-13",
+  "window_end": "2025-01-10",
+  "cause": "AI기본법 국회 본회의 통과",
+  "cause_keywords": [
+   [
+    "국회",
+    "본회의"
+   ],
+   [
+    "통과",
+    "가결",
+    "제정"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "광주광역시 \"AI 기본법 국회 통과...광주 AI 집적단지 조성 탄력\"",
+    "link": "https://n.news.naver.com/mnews/article/014/0005288171?sid=102",
+    "pubDate": "Sat, 28 Dec 2024 08:03:00 +0900"
+   },
+   {
+    "title": "AI기본법 국회 통과…광주 AI집적단지 탄력",
+    "link": "http://www.siminsori.com/news/articleView.html?idxno=280776",
+    "pubDate": "Fri, 27 Dec 2024 15:54:00 +0900"
+   },
+   {
+    "title": "배준영 의원 대표발의 AI 기본법 국회 본회의 통과",
+    "link": "http://www.shinailbo.co.kr/news/articleView.html?idxno=1983941",
+    "pubDate": "Fri, 27 Dec 2024 15:38:00 +0900"
+   },
+   {
+    "title": "'AI 기본법' 국회 본회의 통과···시민사회 \"산업 중심, 인권 외면\"",
+    "link": "https://www.ngonews.kr/news/articleView.html?idxno=200787",
+    "pubDate": "Fri, 27 Dec 2024 15:30:00 +0900"
+   },
+   {
+    "title": "AI활용 및 통신시장 변화 예고…AI기본법·단통법 폐지안 국회 본회의 통...",
+    "link": "https://www.smartfn.co.kr/article/view/sfn202412270059",
+    "pubDate": "Fri, 27 Dec 2024 15:28:00 +0900"
+   }
+  ],
+  "note": "12-17 법사위 통과 급등(85)이 더 큼"
+ },
+ {
+  "id": "aiact-0122",
+  "keyword": "AI기본법",
+  "source": "user",
+  "verified": true,
+  "event_start": "2026-01-19",
+  "event_end": "2026-01-23",
+  "window_start": "2025-11-09",
+  "window_end": "2026-02-06",
+  "cause": "세계 최초 AI기본법 시행, 규제 본격화",
+  "cause_keywords": [
+   [
+    "시행"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "세계 최초 AI 기본법 시행 첫날, 혼선 없나 봤더니…",
+    "link": "https://n.news.naver.com/mnews/article/008/0005308247?sid=105",
+    "pubDate": "Thu, 22 Jan 2026 16:49:00 +0900"
+   },
+   {
+    "title": "AI 기본법 시행 첫날 혼란 없어···'AI 생성물 표식' 문의 많아",
+    "link": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=670816",
+    "pubDate": "Thu, 22 Jan 2026 16:52:00 +0900"
+   },
+   {
+    "title": "AI 기본법 시행 첫날 혼란 없었다…워터마크 기준은 '혼돈'",
+    "link": "https://n.news.naver.com/mnews/article/001/0015862159?sid=105",
+    "pubDate": "Thu, 22 Jan 2026 15:53:00 +0900"
+   },
+   {
+    "title": "AI 기본법 시행 첫날, 업계 큰 혼란 없어",
+    "link": "http://www.segyebiz.com/newsView/20260122516435?OutUrl=naver",
+    "pubDate": "Thu, 22 Jan 2026 19:12:00 +0900"
+   },
+   {
+    "title": "세계 최초 'AI 기본법' 시행 첫날…기대반 우려반",
+    "link": "https://www.cctoday.co.kr/news/articleView.html?idxno=2224595",
+    "pubDate": "Thu, 22 Jan 2026 06:00:00 +0900"
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "tving-0603",
+  "keyword": "티빙",
+  "source": "user",
+  "verified": true,
+  "event_start": "2026-06-03",
+  "event_end": "2026-06-04",
+  "window_start": "2026-03-21",
+  "window_end": "2026-06-18",
+  "cause": "티빙 해킹으로 회원 개인정보 유출, 과기부 조사단 구성",
+  "cause_keywords": [
+   [
+    "해킹",
+    "유출"
+   ],
+   [
+    "개인정보",
+    "회원정보"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "반복되는 개인정보 유출 사고…이번엔 티빙, 해킹 막을 수 없나",
+    "link": "https://www.kukinews.com/article/view/kuk202606040235",
+    "pubDate": "Thu, 04 Jun 2026 18:20:00 +0900"
+   },
+   {
+    "title": "티빙 해킹에 '디지털 주민번호'도 털렸다...2차 피해 우려 확산",
+    "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=671872",
+    "pubDate": "Thu, 04 Jun 2026 16:40:00 +0900"
+   },
+   {
+    "title": "[단독]티빙 해킹범 DB 침입 확인…\"단순 개인정보 유출 아냐\"",
+    "link": "https://n.news.naver.com/mnews/article/421/0008987862?sid=105",
+    "pubDate": "Fri, 05 Jun 2026 15:19:00 +0900"
+   },
+   {
+    "title": "\"야구 보러 왔다가 개인정보 털렸다\"···티빙 해킹, OTT 업계 파장 '심...",
+    "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2436243",
+    "pubDate": "Fri, 05 Jun 2026 15:00:00 +0900"
+   },
+   {
+    "title": "CI·DI까지 유출된 티빙 해킹 사태…커지는 2차 피해 우려 속 허술한 보...",
+    "link": "https://www.newsinside.kr/news/articleView.html?idxno=4731692",
+    "pubDate": "Thu, 04 Jun 2026 13:46:00 +0900"
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "tving-0908",
+  "keyword": "티빙",
+  "source": "user",
+  "verified": true,
+  "event_start": "2026-09-07",
+  "event_end": "2026-09-08",
+  "window_start": "2026-06-25",
+  "window_end": "2026-09-22",
+  "cause": "티빙 3954만 계정 유출 조사결과·보상안 발표",
+  "cause_keywords": [
+   [
+    "유출"
+   ],
+   [
+    "보상",
+    "3954만"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "티빙·웨이브 연내 합병 가능할까…해킹 사태에 불확실성 확대",
+    "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433611",
+    "pubDate": "Sun, 06 Sep 2026 09:02:00 +0900"
+   },
+   {
+    "title": "3954만 계정 유출한 티빙…\"보상보다 재이용 유도\"",
+    "link": "https://it.chosun.com/news/articleView.html?idxno=2023092169619",
+    "pubDate": "Tue, 08 Sep 2026 06:00:00 +0900"
+   },
+   {
+    "title": "[더벨]티빙, 정보유출 고객에 보험·포인트 보상…2030년 보안투자 100억",
+    "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609031658455760104774",
+    "pubDate": "Mon, 07 Sep 2026 17:22:00 +0900"
+   },
+   {
+    "title": "국민의힘 \"김승원 '제넨셀 신약 청탁' 의혹, 권력형 주가조작 게이트\" 등...",
+    "link": "https://n.news.naver.com/mnews/article/119/0003129966?sid=100",
+    "pubDate": "Mon, 07 Sep 2026 16:30:00 +0900"
+   },
+   {
+    "title": "오픈AI, 사이버 보안 접근권 '데이브레이크' 韓 기업 5개사 확대",
+    "link": "https://n.news.naver.com/mnews/article/030/0003465206?sid=105",
+    "pubDate": "Wed, 09 Sep 2026 14:32:00 +0900"
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "aiglass-1013",
+  "keyword": "AI안경",
+  "source": "user",
+  "verified": true,
+  "event_start": "2026-10-13",
+  "event_end": "2026-10-15",
+  "window_start": "2026-07-31",
+  "window_end": "2026-10-28",
+  "cause": "연세대 등 대입 논술에서 AI 안경 부정행위 적발",
+  "cause_keywords": [
+   [
+    "적발",
+    "커닝",
+    "부정행위"
+   ],
+   [
+    "논술",
+    "연세대",
+    "연대",
+    "대입"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "연세대 입시에 ‘AI 커닝 안경’ 적발…안경 직접 써보니",
+    "link": "https://n.news.naver.com/mnews/article/449/0000363957?sid=102",
+    "pubDate": "Tue, 13 Oct 2026 19:53:00 +0900"
+   },
+   {
+    "title": "수능 앞두고 'AI 커닝' 비상…스마트 안경 잡는 전파 탐지기는 언제?",
+    "link": "https://n.news.naver.com/mnews/article/003/0014254414?sid=102",
+    "pubDate": "Thu, 15 Oct 2026 06:10:00 +0900"
+   },
+   {
+    "title": "대입 ‘커닝’ 결국 터졌다… 연대서 AI 안경 논술 부정행위 적발 [세상...",
+    "link": "https://n.news.naver.com/mnews/article/016/0002708833?sid=102",
+    "pubDate": "Tue, 13 Oct 2026 18:46:00 +0900"
+   },
+   {
+    "title": "'AI 안경' 쓰고 수능 풀었더니…'커닝' 대책은?",
+    "link": "https://n.news.naver.com/mnews/article/055/0001395268?sid=102",
+    "pubDate": "Wed, 14 Oct 2026 06:46:00 +0900"
+   },
+   {
+    "title": "[체험]1초만에 정답 띄우는 AI 안경… “문제집 가져와 시연해보고 사 ...",
+    "link": "https://n.news.naver.com/mnews/article/021/0002825052?sid=102",
+    "pubDate": "Wed, 14 Oct 2026 12:02:00 +0900"
+   }
+  ],
+  "note": "10-22 후속 급등도 있음"
+ },
+ {
+  "id": "olympics-2602",
+  "keyword": "올림픽",
+  "source": "user",
+  "verified": true,
+  "event_start": "2026-02-06",
+  "event_end": "2026-02-22",
+  "window_start": "2025-12-09",
+  "window_end": "2026-03-08",
+  "cause": "2026 밀라노·코르티나 동계올림픽",
+  "cause_keywords": [
+   [
+    "동계올림픽",
+    "밀라노",
+    "코르티나"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "46년 만에 동계올림픽 금메달 미 아이스하키팀, 백악관 갈까",
+    "link": "https://n.news.naver.com/mnews/article/032/0003429213?sid=104",
+    "pubDate": "Mon, 23 Feb 2026 20:01:00 +0900"
+   },
+   {
+    "title": "'韓 최초 금메달' 최가온, 美 NBC 선정 동계올림픽에서 떠오른 스타 13인...",
+    "link": "https://m.sports.naver.com/general/article/311/0001977864",
+    "pubDate": "Mon, 23 Feb 2026 14:41:00 +0900"
+   },
+   {
+    "title": "밀라노·코르티나 동계올림픽, 금메달은 여자 선수들만 땄네?...대한민국...",
+    "link": "https://m.sports.naver.com/general/article/241/0003495649",
+    "pubDate": "Mon, 23 Feb 2026 14:11:00 +0900"
+   },
+   {
+    "title": "한국 설상 첫 금메달 최가온부터 서아프리카 베냉의 동계올림픽 첫 걸음...",
+    "link": "https://m.sports.naver.com/general/article/144/0001099315",
+    "pubDate": "Mon, 23 Feb 2026 10:34:00 +0900"
+   },
+   {
+    "title": "한국, 동계올림픽 금3 은4 동3 수확…최가온 감동의 금메달·김길리 2관...",
+    "link": "http://www.stoo.com/article.php?aid=105268911371",
+    "pubDate": "Mon, 23 Feb 2026 08:02:00 +0900"
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "kkanbu-1030",
+  "keyword": "깐부치킨",
+  "source": "user",
+  "verified": true,
+  "event_start": "2025-10-30",
+  "event_end": "2025-10-31",
+  "window_start": "2025-08-17",
+  "window_end": "2025-11-14",
+  "cause": "젠슨 황·이재용·정의선 깐부치킨 치맥 회동",
+  "cause_keywords": [
+   [
+    "젠슨황",
+    "젠슨 황",
+    "이재용",
+    "정의선"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "이재용·정의선·젠슨황 '부자보이즈' 무대 된 깐부치킨, 기업가치는 얼...",
+    "link": "https://n.news.naver.com/mnews/article/011/0004550572?sid=101",
+    "pubDate": "Sat, 01 Nov 2025 08:03:00 +0900"
+   },
+   {
+    "title": "삼성동 '깐부치킨'에서 만난 젠슨황·이재용·정의선: 골든벨을 시원하...",
+    "link": "https://www.huffingtonpost.kr/news/articleView.html?idxno=239293",
+    "pubDate": "Fri, 31 Oct 2025 10:14:00 +0900"
+   },
+   {
+    "title": "젠슨황-이재용-정의선 3자 회동에 깐부치킨 앞 '구름 인파'",
+    "link": "https://n.news.naver.com/mnews/article/018/0006151787?sid=105",
+    "pubDate": "Thu, 30 Oct 2025 19:24:00 +0900"
+   },
+   {
+    "title": "[포토] 시민들에게 치킨 나눠주는 이재용 회장",
+    "link": "https://n.news.naver.com/mnews/article/277/0005672397?sid=101",
+    "pubDate": "Thu, 30 Oct 2025 21:29:00 +0900"
+   },
+   {
+    "title": "[포토] 치킨 나눠주는 이재용 회장",
+    "link": "https://n.news.naver.com/mnews/article/277/0005672400?sid=101",
+    "pubDate": "Thu, 30 Oct 2025 21:29:00 +0900"
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "butterddeok-2603",
+  "keyword": "버터떡",
+  "source": "user",
+  "verified": true,
+  "event_start": "2026-03-06",
+  "event_end": "2026-03-15",
+  "window_start": "2025-12-30",
+  "window_end": "2026-03-29",
+  "cause": "두쫀쿠 다음 디저트 유행 '버터떡'",
+  "cause_keywords": [
+   [
+    "유행",
+    "열풍",
+    "뜬다",
+    "화제"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "두쫀쿠·봄동비빔밥 인기 이어 '버터떡' 청주 카페 빠르게 확산",
+    "link": "https://www.jbnews.com/news/articleView.html?idxno=1500246",
+    "pubDate": "Wed, 11 Mar 2026 19:20:00 +0900"
+   },
+   {
+    "title": "이번엔 버터떡… 유행 빠른 디저트 시장",
+    "link": "https://n.news.naver.com/mnews/article/022/0004113244?sid=101",
+    "pubDate": "Mon, 16 Mar 2026 20:02:00 +0900"
+   },
+   {
+    "title": "‘버터떡’도 재빠른 참전…프랜차이즈 공습서 살아남는 ‘개인 카페’",
+    "link": "https://n.news.naver.com/mnews/article/018/0006236553?sid=101",
+    "pubDate": "Mon, 16 Mar 2026 17:25:00 +0900"
+   },
+   {
+    "title": "\"두쫀쿠 가고 '버터떡' 왔다\"⋯SNS서 난리, 얼마나 인기길래",
+    "link": "https://n.news.naver.com/mnews/article/031/0001013803?sid=102",
+    "pubDate": "Mon, 16 Mar 2026 17:04:00 +0900"
+   },
+   {
+    "title": "자고 일어나면 또 바뀐다…SNS 타고 번진 '버터떡' 열풍",
+    "link": "https://n.news.naver.com/mnews/article/656/0000170679?sid=101",
+    "pubDate": "Mon, 16 Mar 2026 16:59:00 +0900"
+   }
+  ],
+  "note": "유행형"
+ },
+ {
+  "id": "chiikawa-1001",
+  "keyword": "치이카와",
+  "source": "user",
+  "verified": true,
+  "event_start": "2026-09-26",
+  "event_end": "2026-10-05",
+  "window_start": "2026-07-22",
+  "window_end": "2026-10-19",
+  "cause": "'극장판 치이카와: 인어 섬의 비밀' 개봉, 박스오피스 1위",
+  "cause_keywords": [
+   [
+    "극장판"
+   ],
+   [
+    "개봉",
+    "예매",
+    "흥행",
+    "박스오피스",
+    "1위",
+    "오프닝"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "[박스오피스] '암살자(들)' 후폭풍 속 연휴 1위…누적 241만명",
+    "link": "https://n.news.naver.com/mnews/article/001/0016358545?sid=103",
+    "pubDate": "Tue, 06 Oct 2026 08:48:00 +0900"
+   },
+   {
+    "title": "‘극장판 치이카와’ 애니 오프닝 신기록",
+    "link": "https://www.bntnews.co.kr/article/view/bnt202610010167",
+    "pubDate": "Thu, 01 Oct 2026 10:12:00 +0900"
+   },
+   {
+    "title": "'극장판 치이카와: 인어 섬의 비밀', 韓 영화 제치고 박스오피스 1위",
+    "link": "https://m.entertain.naver.com/article/629/0000538399",
+    "pubDate": "Thu, 01 Oct 2026 09:32:00 +0900"
+   },
+   {
+    "title": "[주말극장가] '암살자(들)' 논란 속 1위 탈환…누적 182만명",
+    "link": "https://n.news.naver.com/mnews/article/001/0016352787?sid=103",
+    "pubDate": "Fri, 02 Oct 2026 10:09:00 +0900"
+   },
+   {
+    "title": "귀여움이 최고…‘극장판 치이카와: 인어 섬의 비밀’, 벌써 60만",
+    "link": "https://m.entertain.naver.com/article/468/0001270634",
+    "pubDate": "Mon, 05 Oct 2026 16:37:00 +0900"
+   }
+  ],
+  "note": "09-26 예매 1위, 10-01 박스오피스 1위·오프닝 신기록 — 개봉일 확인 필요"
+ },
+ {
+  "id": "geojeyaho-2605",
+  "keyword": "거제 야호",
+  "source": "user",
+  "verified": true,
+  "event_start": "2026-05-14",
+  "event_end": "2026-06-22",
+  "window_start": "2026-04-08",
+  "window_end": "2026-07-06",
+  "cause": "리센느 '거제 야호~!' 밈 유행, 거제시 홍보대사 발탁",
+  "cause_keywords": [
+   [
+    "리센느"
+   ],
+   [
+    "밈",
+    "유행",
+    "홍보대사"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "‘거제 야호’ 만든 리센느 미나미, 갸루 캐릭터 종료 선언",
+    "link": "https://www.bntnews.co.kr/article/view/bnt202606220222",
+    "pubDate": "Mon, 22 Jun 2026 17:26:00 +0900"
+   },
+   {
+    "title": "리센느 “‘거제 야호’ 사랑받은 만큼 더 책임감 느껴요”[창간인터뷰...",
+    "link": "https://m.entertain.naver.com/article/468/0001249179",
+    "pubDate": "Mon, 22 Jun 2026 13:30:00 +0900"
+   },
+   {
+    "title": "리센느 미나미, '거제 야호' 비하인드 공개…\"엄마가 갸루 출신\"(아는 형...",
+    "link": "https://m.entertain.naver.com/article/445/0000427680",
+    "pubDate": "Fri, 19 Jun 2026 21:17:00 +0900"
+   },
+   {
+    "title": "'아형' 리센느 미나미, '거제 야호' 밈 탄생 비화 공개 \"엄마가 진짜 갸...",
+    "link": "http://www.joynews24.com/view/1977926",
+    "pubDate": "Fri, 19 Jun 2026 09:42:00 +0900"
+   },
+   {
+    "title": "리센느 ‘거제 야호’ 공신=미나미 母? “진짜 갸루였다” 숙소 이사 근...",
+    "link": "https://m.entertain.naver.com/article/609/0001136935",
+    "pubDate": "Sun, 21 Jun 2026 05:58:00 +0900"
+   }
+  ],
+  "note": "유행형"
+ },
+ {
+  "id": "bomdong-2602",
+  "keyword": "봄동 비빔밥",
+  "source": "user",
+  "verified": true,
+  "event_start": "2026-02-17",
+  "event_end": "2026-03-08",
+  "window_start": "2025-12-23",
+  "window_end": "2026-03-22",
+  "cause": "강호동 18년 전 봄동 비빔밥 먹방 역주행, SNS 유행",
+  "cause_keywords": [
+   [
+    "강호동",
+    "SNS",
+    "알고리즘"
+   ],
+   [
+    "유행",
+    "열풍",
+    "역주행",
+    "인기"
+   ]
+  ],
+  "evidence": [
+   {
+    "title": "“두쫀쿠 이어 ‘봄동 비빔밥’ 열풍”",
+    "link": "https://n.news.naver.com/mnews/article/144/0001102267?sid=103",
+    "pubDate": "Mon, 09 Mar 2026 21:13:00 +0900"
+   },
+   {
+    "title": "봄날의 나른함 깨운 '봄동 비빔밥'…'건강한 초록'의 힘",
+    "link": "https://n.news.naver.com/mnews/article/076/0004382696?sid=103",
+    "pubDate": "Mon, 09 Mar 2026 19:07:00 +0900"
+   },
+   {
+    "title": "\"강호동 봤어?\" SNS 무작정 따라하면 독… '봄동 비빔밥', 잘 먹으려면",
+    "link": "https://n.news.naver.com/mnews/article/008/0005327460?sid=103",
+    "pubDate": "Mon, 09 Mar 2026 18:36:00 +0900"
+   },
+   {
+    "title": "SNS 타고 번진 '봄동 비빔밥' 열풍…전북도 '봄동 대란'",
+    "link": "http://www.domin.co.kr/news/articleView.html?idxno=1547884",
+    "pubDate": "Mon, 09 Mar 2026 18:26:00 +0900"
+   },
+   {
+    "title": "두쫀쿠 잇는 ‘봄동 비빔밥’ 열풍, 건강하게 먹는 법은?",
+    "link": "https://n.news.naver.com/mnews/article/014/0005488515?sid=103",
+    "pubDate": "Mon, 09 Mar 2026 17:03:00 +0900"
+   }
+  ],
+  "note": "유행형"
+ }
+]
