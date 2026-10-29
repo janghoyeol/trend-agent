@@ -1,6 +1,8 @@
 """NAVER API HUB 클라이언트 (표준 라이브러리만). 스펙은 ADR 0001."""
 import json
 import os
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import date
@@ -21,8 +23,16 @@ def _call(method, path, params=None, body=None):
         data = json.dumps(body).encode()
         headers["Content-Type"] = "application/json"
     req = urllib.request.Request(url, data=data, headers=headers, method=method)
-    with urllib.request.urlopen(req, timeout=15) as r:
-        return json.loads(r.read())
+    for attempt in range(4):
+        try:
+            with urllib.request.urlopen(req, timeout=15) as r:
+                return json.loads(r.read())
+        except urllib.error.HTTPError:
+            raise  # 4xx/5xx는 스펙 문제라 재시도하지 않음
+        except (urllib.error.URLError, ConnectionError, TimeoutError):
+            if attempt == 3:
+                raise
+            time.sleep(2 ** attempt)
 
 
 def fetch_trend(keyword: str, start: date, end: date) -> list[dict]:
