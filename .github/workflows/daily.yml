@@ -1,0 +1,40 @@
+# 하루 1회 감시 키워드 급등 탐지 + 원인 설명 → data 브랜치의 daily.json (ADR 0005)
+# 필요한 저장소 Secrets: NAVER_CLIENT_ID, NAVER_CLIENT_SECRET, ANTHROPIC_API_KEY
+name: daily
+
+on:
+  schedule:
+    - cron: "17 0 * * *"  # 09:17 KST — 검색어트렌드는 어제까지 데이터
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  batch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python scripts/daily_batch.py --out "$RUNNER_TEMP/daily.json"
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: data 브랜치에 올리기 (main은 건드리지 않아 재배포 없음)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git fetch origin data; then
+            git checkout -B data FETCH_HEAD
+          else
+            git checkout --orphan data
+            git rm -rfq .
+          fi
+          cp "$RUNNER_TEMP/daily.json" daily.json
+          git add daily.json
+          git commit -qm "daily $(date -u +%F)" || exit 0
+          git push origin data

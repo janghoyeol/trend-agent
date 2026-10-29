@@ -1,0 +1,20 @@
+# Render Blueprint (무료 플랜). 키 3개는 Render 대시보드에서 직접 입력.
+services:
+  - type: web
+    name: trend-agent
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn trend_agent.web:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /healthz
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7
+      - key: NAVER_CLIENT_ID
+        sync: false
+      - key: NAVER_CLIENT_SECRET
+        sync: false
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: LIVE_BUDGET_USD
+        value: "0.06"

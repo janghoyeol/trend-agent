@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>trend-agent — 검색 급등 원인 추적</title>
+<meta name="description" content="네이버 검색 급등을 코드로 탐지하고, 원인을 뉴스 출처와 함께 설명하는 에이전트">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<main>
+  <header>
+    <h1>trend-agent</h1>
+    <p class="lede">네이버 검색 급등을 <b>코드로 탐지</b>하고, 그 원인을 <b>뉴스 출처와 함께</b> 설명합니다.</p>
+    <nav><a href="/eval">정답셋 채점 결과</a> · <a href="https://github.com/janghoyeol/trend-agent">GitHub</a></nav>
+  </header>
+
+  <form id="form" autocomplete="off">
+    <input id="q" name="q" maxlength="30" placeholder="키워드 (예: 태풍, 두쫀쿠, 김연경)" required>
+    <button type="submit">분석</button>
+  </form>
+  <p class="hint">최근 90일 검색어트렌드에서 급등을 찾고, 가장 최근 급등의 원인을 AI가 뉴스로 찾아봅니다.
+    AI 설명은 하루 사용량 한도가 있습니다.</p>
+
+  <section id="result" hidden></section>
+
+  <section id="daily">
+    <h2>오늘의 급등 <small id="daily-meta"></small></h2>
+    <div id="daily-list" class="cards"><p class="muted">불러오는 중…</p></div>
+  </section>
+
+  <section class="how">
+    <h2>어떻게 동작하나</h2>
+    <ol>
+      <li><b>성인 검색어 차단</b> — AI 호출 전에 네이버 성인 검색어 판별 API로 거릅니다.</li>
+      <li><b>급등 탐지 (코드)</b> — 직전 28일 중앙값·MAD 기반 z-score, 기준 대비 비율, 최소 지수, 요일 주기 보정. AI는 쓰지 않습니다.</li>
+      <li><b>원인 찾기 (Claude tool-use)</b> — Claude가 검색어를 바꿔가며 뉴스를 찾고, 코드가 발행일로 급등 기간 기사만 남깁니다.</li>
+      <li><b>검증</b> — 인용한 기사가 실제로 보여준 기사인지, 기간 안인지 코드가 확인합니다. 근거가 없으면 "원인 불명"으로 답합니다.</li>
+    </ol>
+    <p class="muted">검색량은 절대값이 아닌 네이버 검색어트렌드 <b>상대지수</b>(조회 구간 최대 = 100)입니다.
+      뉴스 검색 API는 날짜 필터가 없어 오래된 급등일수록 기사를 찾기 어렵습니다.</p>
+  </section>
+</main>
+
+<div id="tip" class="tip" hidden></div>
+<script src="/static/app.js"></script>
+</body>
+</html>

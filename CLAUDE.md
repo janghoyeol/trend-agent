@@ -60,11 +60,16 @@
 - [x] 0단계: API 스펙 라이브 확정 (2026-10-29, ADR 0001)
 - [x] 1단계: 급등 탐지 — 중앙값/MAD z + 비율·최소지수 + 같은 요일 기준선 + 저검색량 판정 (ADR 0002). `trend_agent/detect.py`, `tests/test_detect.py` (`python -m unittest`), 라이브 확인 `scripts/detect_live.py`
 - [x] 2단계: 정답셋 (ADR 0003). 후보 수집 `scripts/mine_candidates.py` → 초안 `scripts/build_eval.py` (`eval/cases.json` + 90일 스냅샷) → 채점 `scripts/eval_detection.py`. **검수 완료 38건**(사용자 22 + 수집 16), 탐지 36/38(사용자 사례 20/22, 코스피 2건 놓침). 이태원 4주기는 10-30 이후 추가
-- [ ] **3단계 (지금 할 일)**: 에이전트 조립 (Gate → 트렌드 → 탐지 → 뉴스 매칭 → Claude 설명)
-  - 제안안 (2026-10-29, 사용자 합의 여부는 새 세션에서 확인):
-    1. Claude tool-use `search_news(query)` — Claude가 맥락어로 재검색, 코드가 pubDate로 급등 기간만 필터. 검색 최대 5회.
-    2. 출력 JSON `{cause, citations[기사 id]}` → 코드가 id 실재·날짜 범위 검증, 숫자는 탐지 결과에서만 주입.
-    3. 근거 없으면 "원인 불명" (채점은 오답, 지어내기 방지).
-    4. 모델 기본 Sonnet 5.5, 정답셋으로 Haiku와 비용·정확도 비교. `ANTHROPIC_API_KEY` 환경변수 필요.
-  - 채점: `trend_agent/evaluate.py`의 `cause_hit`. 비상계엄(martial-1203)은 근거 기사 도달 0건이라 원인 채점 제외 후보.
-- [ ] 배포 + showcase 등록 (스택 후보: Python, FastAPI, Claude tool-use — 기존 에이전트들과 동일)
+- [x] 3단계: 에이전트 조립 + **Claude 라이브 확인** (ADR 0004)
+  - `trend_agent/agent.py` (`explain`, `analyze`, `render`), `trend_agent/news.py`, `tests/test_agent.py` (가짜 클라이언트)
+  - **클라우드 환경은 `ANTHROPIC_API_KEY`를 세션에 안 넘김** → 키는 `TREND_ANTHROPIC_API_KEY` (`agent.make_client`가 둘 다 읽음)
+  - `python scripts/explain_live.py 태풍` 정상 (태풍 '참피', 인용 3건, $0.0012)
+  - **Haiku 5.5 정답셋: 원인 적중 29/37 = 78%** (탐지된 35건 중 83%), 총 $0.031, **건당 평균 $0.0009**. 결과 `eval/results/claude-haiku-5-5-medium.json`
+  - 오답 8 = 탐지 못함 2(코스피) + 원인 불명 2 + 인용 기사가 사건 기간 뒤 2 + 표현 불일치 1 + 다른 원인 1
+  - 비상계엄(martial-1203)은 `cause_eval: false`로 원인 채점 제외 → 대상 37건
+  - **Sonnet 5.5: 30/37 = 81%** (탐지된 35건 중 86%), 총 $0.50, 건당 평균 $0.0143 → +1건에 비용 16배라 **Haiku 기본 유지**
+  - 지금까지 Claude 사용액 약 $0.54 (총 예산 $5)
+- [~] **4단계: 배포** (ADR 0005, 합의: 혼합형 / 하루 $0.1 / 레포 공개). 코드 완료, 실제 배포 전
+  - `trend_agent/web.py`(FastAPI) + `static/`, `service.py`(캐시·IP 제한), `budget.py`(하루 상한), `scripts/daily_batch.py`, `.github/workflows/daily.yml`, `render.yaml`
+  - 예산 때문에 서비스 기본 모델 Haiku 5.5 (실측 건당 $0.0009 → 하루 $0.06 실시간 한도로 약 60건)
+  - 사용자 할 일: Anthropic 키(콘솔 사용 한도 설정) → 레포 공개 → GitHub Secrets 3개 → Render Blueprint 배포 → showcase 카드

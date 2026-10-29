@@ -24,6 +24,7 @@ class Case:
     cause_keywords: list[list[str]]
     evidence: list[dict] = field(default_factory=list)  # [{title, link, pubDate}]
     note: str = ""
+    cause_eval: bool = True  # False: 당시 근거 기사에 도달 불가 → 원인 채점 제외
 
 
 def _span(case: Case) -> tuple[date, date]:

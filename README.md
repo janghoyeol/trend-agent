@@ -2,7 +2,7 @@
 
 검색 급등을 **코드로 탐지**하고, 그 원인을 **뉴스 출처와 함께** 설명하는 에이전트.
 
-## 흐름 (계획)
+## 흐름
 
 ```
 키워드 입력
@@ -41,3 +41,15 @@ cp .env.example .env   # 값 채우기
 set -a; . ./.env; set +a
 python scripts/probe_naver.py
 ```
+
+## 실행
+
+```bash
+pip install -r requirements.txt
+python -m unittest                          # 오프라인 테스트
+python scripts/explain_live.py 태풍          # 게이트 → 트렌드 → 탐지 → Claude 원인 설명
+python scripts/eval_cause.py                # 정답셋 원인 적중률 (ADR 0003, 0004)
+uvicorn trend_agent.web:app --reload        # 웹 (http://localhost:8000)
+```
+
+배포: Render 무료(`render.yaml`) + GitHub Actions 일일 배치(`.github/workflows/daily.yml`). Claude 비용 하루 $0.1 상한 ([ADR 0005](docs/decisions/0005-deploy.md)).

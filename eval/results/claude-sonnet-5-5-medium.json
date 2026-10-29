@@ -1,0 +1,1441 @@
+{
+ "summary": {
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "cases": 37,
+  "detected": 35,
+  "cause_hits": 30,
+  "cause_hit_rate": 0.811,
+  "cause_hit_rate_given_detected": 0.857,
+  "total_cost_usd": 0.5013
+ },
+ "rows": [
+  {
+   "id": "rain-1018",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "10월 18일 일요일에 강풍을 동반한 기습 폭우가 서울과 수도권을 덮쳤습니다. 강북구에는 시간당 53.5㎜가 내렸고, 낙엽이 배수구를 막아 도심 곳곳이 침수되고 교통이 통제됐습니다.",
+   "label": "서울 강북구 시간당 53.5㎜ 폭우로 곳곳 침수·교통통제",
+   "citations": [
+    {
+     "title": "서울 곳곳 침수·교통통제…강북구 시간당 53.5㎜ 폭우 쏟아져(종합)",
+     "link": "https://n.news.naver.com/mnews/article/001/0016384203?sid=102",
+     "pubDate": "Sun, 18 Oct 2026 19:14:00 +0900"
+    },
+    {
+     "title": "서울 곳곳 침수·교통통제…폭우 내리는 데 낙엽이 배수구막아",
+     "link": "https://n.news.naver.com/mnews/article/001/0016383966?sid=102",
+     "pubDate": "Sun, 18 Oct 2026 16:12:00 +0900"
+    },
+    {
+     "title": "기습 폭우에 태풍급 강풍까지…도로 잠기고 가로수 뽑혀",
+     "link": "https://n.news.naver.com/mnews/article/001/0016384257?sid=102",
+     "pubDate": "Sun, 18 Oct 2026 21:30:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "폭우",
+     "scanned": 500,
+     "in_window": 183
+    }
+   ],
+   "note": "",
+   "input_tokens": 4424,
+   "output_tokens": 189,
+   "cost_usd": 0.01074
+  },
+  {
+   "id": "heat-0804",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "8월 3~4일 전국에 극심한 폭염이 닥쳤습니다. 기상청이 수도권 최초로 폭염중대경보를 발령했고, 일부 지역은 최고기온이 40도를 넘었습니다. 정부는 폭염 중대본을 2단계로 격상했고, 누적 온열질환자는 2000명을 넘었습니다.",
+   "label": "폭염중대경보 발령",
+   "citations": [
+    {
+     "title": "수도권 첫 폭염중대경보…누적 온열질환자 2000명 넘어",
+     "link": "https://www.kukinews.com/article/view/kuk202608030188",
+     "pubDate": "Mon, 03 Aug 2026 19:50:00 +0900"
+    },
+    {
+     "title": "40도 뚫은 극한 폭염에 온열질환자 급증",
+     "link": "http://www.00news.co.kr/news/articleView.html?idxno=105582",
+     "pubDate": "Mon, 03 Aug 2026 10:12:00 +0900"
+    },
+    {
+     "title": "폭염이 생업 현장 덮쳤다… 수도권 첫 중대경보·온열질환 2,025명",
+     "link": "https://n.news.naver.com/mnews/article/661/0000081025?sid=102",
+     "pubDate": "Tue, 04 Aug 2026 06:30:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "폭염",
+     "scanned": 500,
+     "in_window": 0
+    },
+    {
+     "query": "폭염 특보 8월 4일 온열질환자",
+     "scanned": 500,
+     "in_window": 123
+    }
+   ],
+   "note": "",
+   "input_tokens": 6417,
+   "output_tokens": 272,
+   "cost_usd": 0.01555
+  },
+  {
+   "id": "typhoon-1023",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "제30호 태풍 '참피'가 대만 남동쪽 해상에서 북상하면서 10월 25일 전후로 제주와 남부지방에 강한 비바람과 폭우를 몰고 왔습니다. 제주에서는 시설물 파손과 침수 피해가 났고 항공편 결항·지연이 이어졌으며, 남쪽 먼바다에는 태풍경보가 내려졌습니다.",
+   "label": "가을 태풍 '참피' 제주 피해, 태풍 '인파' 북상",
+   "citations": [
+    {
+     "title": "태풍 '참피' 영향 제주 곳곳 피해…한라산 295㎜ 폭우(종합)",
+     "link": "https://n.news.naver.com/mnews/article/001/0016398944?sid=102",
+     "pubDate": "Sun, 25 Oct 2026 13:45:00 +0900"
+    },
+    {
+     "title": "태풍 '참피' 북상‥제주·남부 강풍에 호우",
+     "link": "https://n.news.naver.com/mnews/article/214/0001531251?sid=102",
+     "pubDate": "Sun, 25 Oct 2026 12:02:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "태풍",
+     "scanned": 500,
+     "in_window": 475
+    }
+   ],
+   "note": "",
+   "input_tokens": 4352,
+   "output_tokens": 223,
+   "cost_usd": 0.01093
+  },
+  {
+   "id": "sinkhole-0529",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "5월 29일 저녁 경기 의정부시 신곡동 아파트 앞 도로에 싱크홀이 생겨 지나던 차량 3대가 파손되고 교통이 통제됐습니다. 이 사고가 보도되면서 검색량이 급등한 것으로 보입니다.",
+   "label": "의정부 신곡동 도로 싱크홀로 차량 3대 파손",
+   "citations": [
+    {
+     "title": "의정부 도로서 싱크홀 발생... 지나던 차량 3대 피해",
+     "link": "https://n.news.naver.com/mnews/article/023/0003979224?sid=102",
+     "pubDate": "Fri, 29 May 2026 22:55:00 +0900"
+    },
+    {
+     "title": "[속보] 의정부 아파트 앞 도로에 깊이 2m 싱크홀…차량 3대 빠져",
+     "link": "https://n.news.naver.com/mnews/article/029/0003029142?sid=102",
+     "pubDate": "Fri, 29 May 2026 23:11:00 +0900"
+    },
+    {
+     "title": "의정부 신곡동 도로서 싱크홀 발생…차량 3대 파손",
+     "link": "https://n.news.naver.com/mnews/article/421/0008974528?sid=102",
+     "pubDate": "Fri, 29 May 2026 22:12:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "싱크홀",
+     "scanned": 500,
+     "in_window": 11
+    }
+   ],
+   "note": "",
+   "input_tokens": 4392,
+   "output_tokens": 184,
+   "cost_usd": 0.01062
+  },
+  {
+   "id": "nobel-1008",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "2026년 노벨상 시즌에 수상자 발표가 이어졌습니다. 10월 8일에는 앤 카슨이 노벨문학상을 받았고, 그의 책 판매가 급증했습니다. 10월 9~10일에는 트럼프 대통령이 노벨평화상을 받지 못한 데 불만을 터뜨렸고, 10월 13일에는 노벨경제학상 수상자 관련 기사도 나왔습니다.",
+   "label": "2026 노벨상 발표 주간 (문학상 앤 카슨 등)",
+   "citations": [
+    {
+     "title": "[3보] 노벨문학상 앤 카슨…\"고전 전통과 유희적 대화\"",
+     "link": "https://n.news.naver.com/mnews/article/001/0016367011?sid=104",
+     "pubDate": "Thu, 08 Oct 2026 20:29:00 +0900"
+    },
+    {
+     "title": "\"재고 동났다\"…노벨상 앤 카슨 책 판매량 138배 '껑충'(종합)",
+     "link": "https://n.news.naver.com/mnews/article/001/0016367518?sid=103",
+     "pubDate": "Fri, 09 Oct 2026 12:40:00 +0900"
+    },
+    {
+     "title": "“남북 전쟁도 내가 막고 있는데”…트럼프, 노벨상 불발에 격앙",
+     "link": "https://n.news.naver.com/mnews/article/009/0005746540?sid=104",
+     "pubDate": "Sat, 10 Oct 2026 13:35:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "노벨상",
+     "scanned": 500,
+     "in_window": 307
+    }
+   ],
+   "note": "",
+   "input_tokens": 4513,
+   "output_tokens": 239,
+   "cost_usd": 0.01142
+  },
+  {
+   "id": "blackpink-0808",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "8월 8일 블랙핑크 데뷔 10주년을 맞아 YG엔터테인먼트가 팬 이벤트 '밋앤그릿'을 열었습니다. 지수·제니·로제·리사 네 멤버가 모두 참석했습니다. 행사 소규모 초청과 늦은 공지로 '팬 홀대' 논란이 일었고, 로제 불참설도 나왔다가 YG가 일축하면서 관심이 커졌습니다.",
+   "label": "데뷔 10주년 행사(팬 40명 초대) 팬 홀대 논란·멤버 사과",
+   "citations": [
+    {
+     "title": "블랙핑크 10주년 행사, 지수·제니·로제·리사 전원 참석 확정 [공식]",
+     "link": "https://m.entertain.naver.com/article/445/0000446847",
+     "pubDate": "Fri, 07 Aug 2026 11:48:00 +0900"
+    },
+    {
+     "title": "40명만 초대? 팬 홀대한 블랙핑크 10주년 이벤트 파장…로제는 불참설 ...",
+     "link": "https://m.entertain.naver.com/article/079/0004176429",
+     "pubDate": "Fri, 07 Aug 2026 09:45:00 +0900"
+    },
+    {
+     "title": "논란 부른 미니 팬미팅…블랙핑크 10주년, 이대로 끝나나?",
+     "link": "https://m.entertain.naver.com/article/018/0006349014",
+     "pubDate": "Mon, 10 Aug 2026 18:31:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "블랙핑크",
+     "scanned": 500,
+     "in_window": 0
+    },
+    {
+     "query": "블랙핑크 8월 8일 콘서트 공연 발표",
+     "scanned": 182,
+     "in_window": 4
+    },
+    {
+     "query": "블랙핑크 지수 제니 로제 리사 소식",
+     "scanned": 500,
+     "in_window": 52
+    }
+   ],
+   "note": "",
+   "input_tokens": 7515,
+   "output_tokens": 381,
+   "cost_usd": 0.01884
+  },
+  {
+   "id": "newjeans-0722",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "뉴진스 데뷔 4주년인 7월 22일, 어도어가 공식 채널에 민지·하니·해린·혜인 4인이 나오는 기념 영상과 개인 필름을 공개했습니다. 전속계약 분쟁 이후 첫 공식 콘텐츠였고, 민지가 포함돼 복귀 기대가 커졌습니다. 다니엘은 빠졌습니다. 어도어는 \"활동 계획은 논의를 마무리한 뒤 발표하겠다\"고 밝혔습니다.",
+   "label": "민지 어도어 복귀 시그널·컴백 기대",
+   "citations": [
+    {
+     "title": "뉴진스, 어도어 복귀 후 첫 콘텐츠 공개...'4인 체제'",
+     "link": "https://n.news.naver.com/mnews/article/015/0005312741?sid=103",
+     "pubDate": "Wed, 22 Jul 2026 18:14:00 +0900"
+    },
+    {
+     "title": "뉴진스, 민지 포함 4인조 확정?…어도어 \"논의 마무리 후 발표\"[공식입장...",
+     "link": "https://m.entertain.naver.com/article/477/0000619531",
+     "pubDate": "Wed, 22 Jul 2026 09:48:00 +0900"
+    },
+    {
+     "title": "뉴진스, 4주년에 민지 포함 4인 영상…\"후속 콘텐츠 선보일 것\"(종합)",
+     "link": "https://n.news.naver.com/mnews/article/001/0016207262?sid=103",
+     "pubDate": "Wed, 22 Jul 2026 08:53:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "뉴진스",
+     "scanned": 500,
+     "in_window": 0
+    },
+    {
+     "query": "뉴진스 어도어 7월 22일",
+     "scanned": 500,
+     "in_window": 95
+    },
+    {
+     "query": "뉴진스 민지 하니 다니엘 해린 혜인 소식",
+     "scanned": 500,
+     "in_window": 21
+    }
+   ],
+   "note": "",
+   "input_tokens": 8684,
+   "output_tokens": 402,
+   "cost_usd": 0.02139
+  },
+  {
+   "id": "gta6-0619",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "락스타 게임즈가 6월 18~19일에 GTA6 공식 표지 아트를 공개했고, 6월 25일부터 사전 예약을 시작한다고 발표했습니다. 정식 출시일은 11월 19일입니다. 이 발표 때문에 관심이 몰린 것으로 보입니다.",
+   "label": "사전예약 일정(6/25)과 정식 출시일(11/19) 발표",
+   "citations": [
+    {
+     "title": "락스타게임즈 기대작 'GTA 6' 25일부터 사전 예약, 11월19일 정식 출시",
+     "link": "https://www.businesspost.co.kr/BP?command=article_view&num=440440",
+     "pubDate": "Fri, 19 Jun 2026 17:20:00 +0900"
+    },
+    {
+     "title": "13년 만에 나온다…락스타 'GTA6' 사전 주문 25일 시작",
+     "link": "https://n.news.naver.com/mnews/article/003/0014017231?sid=105",
+     "pubDate": "Fri, 19 Jun 2026 16:51:00 +0900"
+    },
+    {
+     "title": "‘GTA 6’ 사전예약 25일 시작…공식 표지 아트도 공개",
+     "link": "https://n.news.naver.com/mnews/article/366/0001172887?sid=105",
+     "pubDate": "Fri, 19 Jun 2026 10:05:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "GTA6",
+     "scanned": 500,
+     "in_window": 18
+    }
+   ],
+   "note": "",
+   "input_tokens": 4336,
+   "output_tokens": 192,
+   "cost_usd": 0.01059
+  },
+  {
+   "id": "gta6-0625",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "락스타게임즈가 6월 25일 'GTA6'의 가격(기본판 8만9800원)을 공개하고 전 세계 예약 판매를 시작했습니다. 출시일은 11월 19일로 확정됐습니다. 이후 가격 비교, 실물 디스크 논란, 플레이스테이션 스토어 1위 기사가 이어지면서 검색량이 늘었습니다.",
+   "label": "사전예약 시작",
+   "citations": [
+    {
+     "title": "13년 기다렸다… 올 최대 기대작 ‘GTA6’ 사전 주문",
+     "link": "https://n.news.naver.com/mnews/article/023/0003984147?sid=105",
+     "pubDate": "Fri, 26 Jun 2026 00:35:00 +0900"
+    },
+    {
+     "title": "GTA6 가격 비교해보니... 한국이 전 세계 최저가",
+     "link": "https://www.gameple.co.kr/news/articleView.html?idxno=215944",
+     "pubDate": "Fri, 26 Jun 2026 23:54:00 +0900"
+    },
+    {
+     "title": "'GTA6' 사전 판매 시작... 가격은?",
+     "link": "https://www.ggilbo.com/news/articleView.html?idxno=1165854",
+     "pubDate": "Mon, 29 Jun 2026 18:50:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "GTA6",
+     "scanned": 500,
+     "in_window": 60
+    }
+   ],
+   "note": "",
+   "input_tokens": 4360,
+   "output_tokens": 221,
+   "cost_usd": 0.01093
+  },
+  {
+   "id": "gta6-0828",
+   "detected": true,
+   "hit": false,
+   "status": "found",
+   "cause": "락스타게임즈가 한국시간 8월 28일 약 26~27분 분량의 GTA6 실제 게임플레이 확장 영상(\"An Extended Look\")을 넷플릭스를 통해 선공개했습니다. 이 영상이 화제가 되면서 PS5 프로가 품절되고 넷플릭스 순위에서도 1위에 올랐습니다.",
+   "label": "유출자 추적·용량 250GB 전망 등",
+   "citations": [
+    {
+     "title": "넷플릭스 선공개에 PS5 프로 품절까지… 'GTA6' 열기 [엑's 이슈]",
+     "link": "https://m.sports.naver.com/esports/article/311/0002051588",
+     "pubDate": "Mon, 31 Aug 2026 16:00:00 +0900"
+    },
+    {
+     "title": "'GTA6' 27분 영상이 넷플릭스 영화 1위 올라⋯화제성 입증",
+     "link": "https://n.news.naver.com/mnews/article/031/0001053663?sid=105",
+     "pubDate": "Mon, 31 Aug 2026 09:28:00 +0900"
+    },
+    {
+     "title": "영화 제친 27분짜리 ‘GTA 6’ 영상…넷플릭스 주간 1위",
+     "link": "https://game.donga.com/124082/",
+     "pubDate": "Wed, 02 Sep 2026 10:12:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "GTA6",
+     "scanned": 500,
+     "in_window": 73
+    }
+   ],
+   "note": "",
+   "input_tokens": 4403,
+   "output_tokens": 213,
+   "cost_usd": 0.01094
+  },
+  {
+   "id": "tesla-1016",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "테슬라가 10월 15일(현지시간) 미국 텍사스 스페이스X 시험장에서 신형 로드스터 시연회를 열었습니다. 가스 추진기를 단 이 스포츠카는 차량 5대를 뛰어넘어 착지했고, 이 일로 테슬라와 스페이스X 합병설이 다시 나오며 관심이 커졌습니다.",
+   "label": "하늘 나는 로드스터 시연",
+   "citations": [
+    {
+     "title": "차량 5대 뛰어넘어 착지…테슬라, 하늘 나는 스포츠카 시연 성공(종합)",
+     "link": "https://n.news.naver.com/mnews/article/001/0016381096?sid=104",
+     "pubDate": "Fri, 16 Oct 2026 11:56:00 +0900"
+    },
+    {
+     "title": "[영상] 테슬라 스포츠카 하늘 날았다…차량 5대 뛰어넘고 착지",
+     "link": "https://n.news.naver.com/mnews/article/005/0001879151?sid=104",
+     "pubDate": "Fri, 16 Oct 2026 16:16:00 +0900"
+    },
+    {
+     "title": "나는 로드스터 시연에…다시 불붙은 테슬라·스페이스X 합병설",
+     "link": "https://n.news.naver.com/mnews/article/001/0016382546?sid=104",
+     "pubDate": "Sat, 17 Oct 2026 09:16:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "테슬라",
+     "scanned": 500,
+     "in_window": 53
+    }
+   ],
+   "note": "",
+   "input_tokens": 4440,
+   "output_tokens": 217,
+   "cost_usd": 0.01105
+  },
+  {
+   "id": "ks-1027",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "삼성과 KIA의 플레이오프 1차전이 태풍 영향으로 우천 취소돼 26일로 밀렸고, 27일 2차전은 삼성이 이겼습니다. 이 때문에 정규시즌 1위 KT와 붙을 한국시리즈 진출 팀과 일정(1차전 11월 2일 수원)에 관심이 몰린 것으로 보입니다.",
+   "label": "플레이오프 삼성-KIA 진행 (한국시리즈 진출 경쟁)",
+   "citations": [
+    {
+     "title": "'태풍 영향권' 대구 적신 비…삼성 vs KIA 1차전 우천 취소[PO]",
+     "link": "https://m.sports.naver.com/kbaseball/article/003/0014276444",
+     "pubDate": "Sun, 25 Oct 2026 12:24:00 +0900"
+    },
+    {
+     "title": "삼성, 1차전 패배 설욕…KIA 8-3 꺾고 PO 시리즈 1승 1패",
+     "link": "https://n.news.naver.com/mnews/article/437/0000517837?sid=103",
+     "pubDate": "Tue, 27 Oct 2026 22:39:00 +0900"
+    },
+    {
+     "title": "사이클링 히트도 가능했는데…'2점홈런-2루타-안타' 불방망이 거포 → ...",
+     "link": "https://m.sports.naver.com/kbaseball/article/076/0004460008",
+     "pubDate": "Tue, 27 Oct 2026 16:55:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "한국시리즈",
+     "scanned": 500,
+     "in_window": 191
+    },
+    {
+     "query": "한국시리즈 수원 KT 1차전 일정",
+     "scanned": 412,
+     "in_window": 8
+    }
+   ],
+   "note": "",
+   "input_tokens": 9259,
+   "output_tokens": 288,
+   "cost_usd": 0.0214
+  },
+  {
+   "id": "kimyk-0926",
+   "detected": true,
+   "hit": false,
+   "status": "found",
+   "cause": "김연경이 '경력감독'으로 돌아오는 MBC 예능 '신인감독 김연경2'의 첫 방송(10월 11일)을 앞두고 홍보가 이어졌습니다. 2차 티저가 공개됐고, 부승관이 홍보팀장으로 합류한다는 소식이 나왔으며, 제작발표 인터뷰 기사도 나왔습니다. 웨이브의 10월 라인업에도 이 프로그램이 포함됐습니다. 다만 9월 26일 정점에 대한 직접 기사는 찾지 못했습니다.",
+   "label": "'신인감독 김연경2' 예고편 공개",
+   "citations": [
+    {
+     "title": "'신인감독 김연경2' 2차 티저 공개… 인쿠시 합류 예고",
+     "link": "https://www.newscj.com/news/articleView.html?idxno=3436307",
+     "pubDate": "Tue, 29 Sep 2026 09:58:00 +0900"
+    },
+    {
+     "title": "‘신인감독2’ 김연경 “프로팀 몇 번 이기는 거 목표 아냐…경쟁력·가...",
+     "link": "https://m.entertain.naver.com/article/241/0003533058",
+     "pubDate": "Wed, 30 Sep 2026 09:03:00 +0900"
+    },
+    {
+     "title": "‘신인감독 김연경2’ 부승관, 홍보팀장 변신",
+     "link": "https://www.bntnews.co.kr/article/view/bnt202610010090",
+     "pubDate": "Thu, 01 Oct 2026 08:36:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "김연경",
+     "scanned": 500,
+     "in_window": 0
+    },
+    {
+     "query": "김연경 신인감독 김연경 방송",
+     "scanned": 500,
+     "in_window": 10
+    },
+    {
+     "query": "김연경 9월 26일",
+     "scanned": 426,
+     "in_window": 13
+    }
+   ],
+   "note": "",
+   "input_tokens": 8307,
+   "output_tokens": 397,
+   "cost_usd": 0.02058
+  },
+  {
+   "id": "kimyk-1011",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "김연경이 감독으로 나오는 MBC 예능 '신인감독 김연경2'가 10월 11일 오후 9시 10분에 첫 방송됐습니다. 첫 회 시청률은 4.8%였고, 일요일 예능 2054 시청률 1위를 기록했습니다.",
+   "label": "'신인감독 김연경2' 첫 방송",
+   "citations": [
+    {
+     "title": "김연경, 감독 컴백 D-1",
+     "link": "https://m.entertain.naver.com/article/144/0001143196",
+     "pubDate": "Sat, 10 Oct 2026 10:07:00 +0900"
+    },
+    {
+     "title": "김연경 또 해냈다…‘신인감독2’ 첫방부터 4.8% 원더독스 2기 왔다",
+     "link": "https://m.entertain.naver.com/article/241/0003534810",
+     "pubDate": "Mon, 12 Oct 2026 10:08:00 +0900"
+    },
+    {
+     "title": "경력감독 된 김연경 \"창단 아니면 해체\"…'신인감독2' 첫방부터 시청률...",
+     "link": "https://m.entertain.naver.com/article/311/0002067755",
+     "pubDate": "Mon, 12 Oct 2026 10:30:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "김연경",
+     "scanned": 500,
+     "in_window": 55
+    }
+   ],
+   "note": "",
+   "input_tokens": 4440,
+   "output_tokens": 183,
+   "cost_usd": 0.01071
+  },
+  {
+   "id": "kimyk-1018",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "10월 18일 밤 MBC 예능 '신인감독 김연경2' 2회가 방송됐습니다. 김연경 감독의 '필승 원더독스'가 일본 슈지츠 고교와 설욕전을 벌였고, 김연경 감독이 은퇴한 황연주를 긴급 투입했습니다. 이 방송이 2주 연속 일요 예능 시청률 1위를 기록하며 화제가 됐습니다.",
+   "label": "'신인감독 김연경2' 2회 일본팀전",
+   "citations": [
+    {
+     "title": "김연경 원더독스, 日 슈지츠 고 상대로 고전…시청률은 5% 돌파 (신인감...",
+     "link": "https://m.entertain.naver.com/article/241/0003535941",
+     "pubDate": "Mon, 19 Oct 2026 08:33:00 +0900"
+    },
+    {
+     "title": "김연경, 또 일냈다…'신인감독' 첫방부터 대박나더니 2회도 시청률 1위...",
+     "link": "https://m.entertain.naver.com/article/312/0000780514",
+     "pubDate": "Mon, 19 Oct 2026 08:00:00 +0900"
+    },
+    {
+     "title": "日고교생에 10점 밀린 원더독스…김연경, 은퇴한 40세 ‘언니’ 긴급 투...",
+     "link": "https://m.entertain.naver.com/article/468/0001273500",
+     "pubDate": "Mon, 19 Oct 2026 08:28:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "김연경",
+     "scanned": 500,
+     "in_window": 92
+    }
+   ],
+   "note": "",
+   "input_tokens": 4389,
+   "output_tokens": 235,
+   "cost_usd": 0.01113
+  },
+  {
+   "id": "minwage-0715",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "최저임금위원회가 7월 14일 제14차 전원회의를 열었고, 노사 합의는 끝내 불발됐습니다. 위원회는 표결로 2027년 최저임금을 올해보다 3.7% 오른 시간당 1만700원(월 환산 223만6300원)으로 결정했고, 이 결정이 15일에 보도되면서 검색이 늘었습니다.",
+   "label": "2027년 최저임금 1만700원 결정",
+   "citations": [
+    {
+     "title": "내년 최저임금 1만700원 확정…올해보다 3.7% 인상, 노사 합의 끝내 불발",
+     "link": "http://www.newsian.co.kr/news/articleView.html?idxno=92249",
+     "pubDate": "Tue, 14 Jul 2026 23:08:00 +0900"
+    },
+    {
+     "title": "2027년 최저임금 1만700원 결정... 월 환산액 223만6300원",
+     "link": "http://www.chungnamilbo.co.kr/news/articleView.html?idxno=898975",
+     "pubDate": "Wed, 15 Jul 2026 12:00:00 +0900"
+    },
+    {
+     "title": "최저임금 1만700원 확정…경영계 \"불가피한 결정이지만 현장 부담 우려...",
+     "link": "https://www.etoday.co.kr/news/view/2604079",
+     "pubDate": "Wed, 15 Jul 2026 14:40:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "최저임금",
+     "scanned": 500,
+     "in_window": 0
+    },
+    {
+     "query": "최저임금위원회 2027년 최저임금 결정",
+     "scanned": 500,
+     "in_window": 48
+    }
+   ],
+   "note": "",
+   "input_tokens": 4715,
+   "output_tokens": 279,
+   "cost_usd": 0.01222
+  },
+  {
+   "id": "assassins-0929",
+   "detected": true,
+   "hit": false,
+   "status": "found",
+   "cause": "1974년 육영수 여사 피격 사건을 다룬 영화 '암살자(들)'이 역사 왜곡 논란에 휘말렸습니다. 보수단체가 주연 배우 유해진의 자택 앞에서 집회를 열었고, 경찰이 신변보호에 들어갔습니다. 버거킹은 유해진과의 마케팅을 종료했고, 문체부 장관은 국정감사 등에서 창작의 자유를 언급했습니다.",
+   "label": "영화 '암살자(들)' 역사 왜곡 논란, 제작진 고발",
+   "citations": [
+    {
+     "title": "경찰, 영화 ‘암살자(들)’ 유해진 협박에 신변보호 착수",
+     "link": "https://n.news.naver.com/mnews/article/023/0004002395?sid=102",
+     "pubDate": "Tue, 06 Oct 2026 18:37:00 +0900"
+    },
+    {
+     "title": "버거킹, 영화 '암살자(들)' 배우 유해진과 마케팅 활동 종료",
+     "link": "https://n.news.naver.com/mnews/article/214/0001527449?sid=101",
+     "pubDate": "Tue, 06 Oct 2026 17:17:00 +0900"
+    },
+    {
+     "title": "'암살자(들)' 국감서 공방…최휘영 \"창작에 제약 없어야\"(종합)",
+     "link": "https://n.news.naver.com/mnews/article/001/0016362676?sid=103",
+     "pubDate": "Wed, 07 Oct 2026 13:09:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "암살자들",
+     "scanned": 500,
+     "in_window": 7
+    }
+   ],
+   "note": "",
+   "input_tokens": 3886,
+   "output_tokens": 246,
+   "cost_usd": 0.01023
+  },
+  {
+   "id": "dujjonku-2601",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "두바이 쫀득쿠키(두쫀쿠) 열풍이 12월 들어 커졌습니다. 편의점 품절이 이어졌고 개당 1만 원이 넘는 가격이 화제가 됐습니다. 배달의민족 앱 검색량이 크게 늘었고 이마트24의 12월 디저트 매출도 급증했다는 보도가 이어지면서 관심이 모였습니다.",
+   "label": "두바이 쫀득쿠키(두쫀쿠) 유행, 품절 대란",
+   "citations": [
+    {
+     "title": "두바이도 놀랄 인기…‘두쫀쿠’ 꺼질 줄 모르는 열풍",
+     "link": "https://n.news.naver.com/mnews/article/016/0002577873?sid=101",
+     "pubDate": "Sun, 28 Dec 2025 08:01:00 +0900"
+    },
+    {
+     "title": "\"국밥 한 그릇보다 비싸다\"…손바닥만 한데 '1만2000원' 찍은 쿠키 정체...",
+     "link": "https://n.news.naver.com/mnews/article/011/0004571472?sid=102",
+     "pubDate": "Thu, 25 Dec 2025 17:34:00 +0900"
+    },
+    {
+     "title": "손바닥 크기 '두쫀쿠' 1만2000원... \"비쌀 수밖에\" vs \"너무 과해\" 가격 ...",
+     "link": "https://www.insight.co.kr/news/535207",
+     "pubDate": "Fri, 26 Dec 2025 10:40:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "두쫀쿠",
+     "scanned": 500,
+     "in_window": 0
+    },
+    {
+     "query": "두바이 쫀득 쿠키 품절 열풍 12월",
+     "scanned": 148,
+     "in_window": 8
+    }
+   ],
+   "note": "",
+   "input_tokens": 6343,
+   "output_tokens": 299,
+   "cost_usd": 0.01568
+  },
+  {
+   "id": "impeach-1207",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "2024-12-07일 국회 본회의에서 윤석열 대통령 탄핵소추안 표결이 열렸습니다. 국민의힘 의원들이 집단 퇴장해 의결정족수에 미달했고, 투표는 불성립으로 무산됐습니다. 민주당은 14일 표결을 목표로 소추안을 재발의하기로 했습니다.",
+   "label": "윤 대통령 탄핵소추안 1차 표결, 정족수 미달로 무산",
+   "citations": [
+    {
+     "title": "尹대통령 탄핵소추안, 의결정족수 미달로 표결 무산",
+     "link": "https://www.mediapen.com/news/view/973401",
+     "pubDate": "Sat, 07 Dec 2024 21:38:00 +0900"
+    },
+    {
+     "title": "[계엄령 사태] 윤석열 탄핵 소추안 표결 '불성립'...국힘 105명 투표 불참...",
+     "link": "http://www.4th.kr/news/articleView.html?idxno=2074868",
+     "pubDate": "Sat, 07 Dec 2024 21:30:00 +0900"
+    },
+    {
+     "title": "더불어민주당, 윤석열 대통령 탄핵소추안 재발의…14일 표결 예정",
+     "link": "https://www.gokorea.kr/news/articleView.html?idxno=813360",
+     "pubDate": "Sun, 08 Dec 2024 21:36:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "탄핵소추안 표결",
+     "scanned": 500,
+     "in_window": 160
+    }
+   ],
+   "note": "",
+   "input_tokens": 4416,
+   "output_tokens": 216,
+   "cost_usd": 0.01099
+  },
+  {
+   "id": "impeach-1214",
+   "detected": true,
+   "hit": false,
+   "status": "found",
+   "cause": "2024년 12월 14일 오후 4시 국회 본회의에서 윤석열 대통령에 대한 두 번째 탄핵소추안 표결이 진행됐습니다. 국민의힘에서 이탈표가 얼마나 나올지가 관심을 모았고, 국회 앞에는 대규모 집회 인파가 모였습니다.",
+   "label": "윤 대통령 탄핵소추안 국회 가결",
+   "citations": [
+    {
+     "title": "尹대통령 두 번째 탄핵소추안 표결 본회의 개의",
+     "link": "https://n.news.naver.com/mnews/article/660/0000075142?sid=100",
+     "pubDate": "Sat, 14 Dec 2024 16:10:00 +0900"
+    },
+    {
+     "title": "오후 4시 '대통령 탄핵소추안' 표결‥이 시각 국회",
+     "link": "https://n.news.naver.com/mnews/article/214/0001393693?sid=100",
+     "pubDate": "Sat, 14 Dec 2024 15:21:00 +0900"
+    },
+    {
+     "title": "[르포]집회 인파에 뜨거워지는 국회대로…표결 앞두고 얼어붙은 국회 본...",
+     "link": "https://n.news.naver.com/mnews/article/277/0005517381?sid=100",
+     "pubDate": "Sat, 14 Dec 2024 14:59:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "탄핵소추안 표결",
+     "scanned": 500,
+     "in_window": 125
+    }
+   ],
+   "note": "",
+   "input_tokens": 4457,
+   "output_tokens": 207,
+   "cost_usd": 0.01098
+  },
+  {
+   "id": "impeach-0404",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "2025년 4월 4일 오전 11시 헌법재판소가 윤석열 대통령 탄핵심판을 선고했습니다. 재판관 전원 일치로 파면을 결정했고, 이 때문에 '탄핵' 검색이 급증한 것으로 보입니다.",
+   "label": "헌법재판소 윤 대통령 파면 선고",
+   "citations": [
+    {
+     "title": "윤석열 대통령 탄핵심판 헌법재판소 선고 요지 전문",
+     "link": "http://www.worklaw.co.kr/view/view.asp?accessSite=Naver&accessMethod=Search&accessMenu=News&in_cate=122&in_cate2=0&gopage=1&bi_pidx=37821",
+     "pubDate": "Fri, 04 Apr 2025 13:42:00 +0900"
+    },
+    {
+     "title": "윤석열 대통령 탄핵 선고…헌법재판소, 재판관 전원 일치로 파면 결정(...",
+     "link": "https://www.topstarnews.net/news/articleView.html?idxno=15629548",
+     "pubDate": "Fri, 04 Apr 2025 12:10:00 +0900"
+    },
+    {
+     "title": "[전문] \"윤석열 대통령을 파면한다\" 헌법재판소 탄핵선고 요지",
+     "link": "https://www.ajunews.com/view/20250404115838257",
+     "pubDate": "Fri, 04 Apr 2025 12:06:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "탄핵 헌법재판소 선고",
+     "scanned": 500,
+     "in_window": 128
+    }
+   ],
+   "note": "",
+   "input_tokens": 4428,
+   "output_tokens": 189,
+   "cost_usd": 0.01075
+  },
+  {
+   "id": "constday-0129",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "2026년 1월 29일 국회 본회의에서 제헌절을 공휴일로 재지정하는 공휴일법 개정안이 재석 203명 중 찬성 198명으로 가결됐습니다. 제헌절이 공휴일이 되는 것은 18년 만입니다.",
+   "label": "제헌절 공휴일 재지정, 18년 만에 부활",
+   "citations": [
+    {
+     "title": "제헌절, 18년 만에 다시 '공휴일'",
+     "link": "http://www.gimhaenews.co.kr/news/articleView.html?idxno=52935",
+     "pubDate": "Sat, 31 Jan 2026 17:48:00 +0900"
+    },
+    {
+     "title": "제헌절, 18년 만에 공휴일로 복귀…국회 본회의 통과",
+     "link": "https://news.knn.co.kr/news/article_sns/925",
+     "pubDate": "Fri, 30 Jan 2026 16:50:00 +0900"
+    },
+    {
+     "title": "제헌절, 18년 만에 다시 공휴일... 올해부터 7월 17일 '빨간날' 부활",
+     "link": "https://www.redian.org/news/articleView.html?idxno=255509",
+     "pubDate": "Fri, 30 Jan 2026 09:58:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "제헌절 공휴일",
+     "scanned": 500,
+     "in_window": 80
+    }
+   ],
+   "note": "",
+   "input_tokens": 4398,
+   "output_tokens": 184,
+   "cost_usd": 0.01064
+  },
+  {
+   "id": "kospi-7000",
+   "detected": false,
+   "hit": false,
+   "label": "코스피 사상 첫 7000선 돌파"
+  },
+  {
+   "id": "kospi-crash-0728",
+   "detected": false,
+   "hit": false,
+   "label": "코스피 11% 폭락, 서킷브레이커·사이드카 발동으로 5000대 추락"
+  },
+  {
+   "id": "tariff-0403",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "트럼프 미국 대통령이 4월 2일(현지시간) \"해방의 날\"을 선언하고 상호관세를 발표했습니다. 한국에는 25%, 중국에는 34%, 일본에는 24%, EU에는 20%를 부과했습니다. 이 발표로 국내 증시와 수출 업계에 대한 우려가 커졌습니다.",
+   "label": "트럼프 정부 상호관세 발표",
+   "citations": [
+    {
+     "title": "트럼프, 한국에 25% 상호관세 부과…“해방의 날” 선언",
+     "link": "https://n.news.naver.com/mnews/article/022/0004024530?sid=104",
+     "pubDate": "Thu, 03 Apr 2025 05:52:00 +0900"
+    },
+    {
+     "title": "트럼프, 한국에 25% 상호관세 발표…중국 34%, 일본 24%",
+     "link": "https://n.news.naver.com/mnews/article/005/0001767386?sid=104",
+     "pubDate": "Thu, 03 Apr 2025 05:32:00 +0900"
+    },
+    {
+     "title": "美 상호 관세에 코스피 흔들…외인 '국장' 탈출 러시",
+     "link": "https://n.news.naver.com/mnews/article/374/0000433191?sid=101",
+     "pubDate": "Thu, 03 Apr 2025 18:16:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "관세",
+     "scanned": 500,
+     "in_window": 0
+    },
+    {
+     "query": "트럼프 상호관세 발표",
+     "scanned": 500,
+     "in_window": 0
+    },
+    {
+     "query": "트럼프 해방의 날 상호관세 한국 25% 4월 2일",
+     "scanned": 455,
+     "in_window": 137
+    },
+    {
+     "query": "상호관세 코스피 폭락 4월 3일",
+     "scanned": 118,
+     "in_window": 18
+    }
+   ],
+   "note": "",
+   "input_tokens": 9345,
+   "output_tokens": 397,
+   "cost_usd": 0.02266
+  },
+  {
+   "id": "tariff-0731",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "미국 상호관세 부과 유예시한(8월 1일)을 앞두고 구윤철 부총리가 러트닉 상무장관, 베선트 재무장관과 막판 협상을 벌였다. 7월 31일에는 트럼프 대통령이 한국과 무역 합의를 이뤘다고 발표해, 한국산 상호관세가 25%에서 15%로 낮아졌다.",
+   "label": "한미 관세협상 타결 (상호관세 15%)",
+   "citations": [
+    {
+     "title": "[충청브리핑] 트럼프, 한국과 무역 합의…상호 관세 ‘25%→15%’ 인하",
+     "link": "https://cc.newdaily.co.kr/site/data/html/2025/07/31/2025073100032.html",
+     "pubDate": "Thu, 31 Jul 2025 07:32:00 +0900"
+    },
+    {
+     "title": "[한미관세타결] 트럼프 \"한국, 미국에 3500억달러 투자..상호관세율 15%...",
+     "link": "http://www.4th.kr/news/articleView.html?idxno=2091830",
+     "pubDate": "Thu, 31 Jul 2025 07:36:00 +0900"
+    },
+    {
+     "title": "구윤철, 연이틀 미 상무장관과 협상...오늘 밤 미 재무와 '2+2' 담판",
+     "link": "https://n.news.naver.com/mnews/article/422/0000765750?sid=100",
+     "pubDate": "Thu, 31 Jul 2025 02:17:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "관세",
+     "scanned": 500,
+     "in_window": 0
+    },
+    {
+     "query": "관세 협상 타결 한미",
+     "scanned": 500,
+     "in_window": 0
+    },
+    {
+     "query": "트럼프 한국 관세 15% 합의 7월 31일",
+     "scanned": 500,
+     "in_window": 131
+    },
+    {
+     "query": "상호관세 8월 1일 시한 한미 통상협의 구윤철 러트닉",
+     "scanned": 345,
+     "in_window": 211
+    }
+   ],
+   "note": "",
+   "input_tokens": 9407,
+   "output_tokens": 413,
+   "cost_usd": 0.02294
+  },
+  {
+   "id": "aiact-1226",
+   "detected": true,
+   "hit": false,
+   "status": "found",
+   "cause": "2024년 12월 26일 국회 본회의에서 'AI기본법'(인공지능 발전과 신뢰 기반 조성 등에 관한 기본법)이 의결됐습니다. 이로써 한국은 EU에 이어 AI 법제를 갖춘 두 번째 나라가 됐습니다. 이 법은 국가AI위원회와 AI안전연구소 운영의 근거도 마련합니다.",
+   "label": "AI기본법 국회 본회의 통과",
+   "citations": [
+    {
+     "title": "'AI기본법' 국회 본회의 통과…국가AI위원회·AI안전연구소 운영 근거 마...",
+     "link": "https://www.newsworks.co.kr/news/articleView.html?idxno=778611",
+     "pubDate": "Thu, 26 Dec 2024 16:44:00 +0900"
+    },
+    {
+     "title": "‘AI기본법’ 국회 본회의 통과...세계 두 번째 AI법제 마련",
+     "link": "https://n.news.naver.com/mnews/article/092/0002357795?sid=105",
+     "pubDate": "Thu, 26 Dec 2024 16:19:00 +0900"
+    },
+    {
+     "title": "단통법, 10년 만에 폐지…‘AI기본법’도 국회 본회의 통과",
+     "link": "https://n.news.naver.com/mnews/article/016/0002407846?sid=105",
+     "pubDate": "Thu, 26 Dec 2024 16:31:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "AI기본법",
+     "scanned": 500,
+     "in_window": 0
+    },
+    {
+     "query": "AI기본법 국회 본회의 통과",
+     "scanned": 500,
+     "in_window": 156
+    }
+   ],
+   "note": "",
+   "input_tokens": 6529,
+   "output_tokens": 288,
+   "cost_usd": 0.01594
+  },
+  {
+   "id": "aiact-0122",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "AI기본법(인공지능 발전과 신뢰 기반 조성 등에 관한 기본법)이 2026년 1월 22일 세계 최초로 전면 시행됐습니다. 정부는 사실조사와 과태료 부과를 최소 1년간 유예한다고 밝혔고, 생성형 AI 결과물 표시 의무 등 달라지는 내용에 관심이 쏠렸습니다.",
+   "label": "세계 최초 AI기본법 시행, 규제 본격화",
+   "citations": [
+    {
+     "title": "AI 기본법, 22일부터 시행...\"1년간 규제 유예\"",
+     "link": "https://www.aitimes.com/news/articleView.html?idxno=205781",
+     "pubDate": "Wed, 21 Jan 2026 16:12:00 +0900"
+    },
+    {
+     "title": "세계 첫 AI기본법 시행…규제는 열고 처벌은 유예, 현장은 긴장",
+     "link": "https://n.news.naver.com/mnews/article/117/0004028539?sid=105",
+     "pubDate": "Thu, 22 Jan 2026 08:53:00 +0900"
+    },
+    {
+     "title": "22일 'AI 기본법' 세계 첫 시행...무엇이 달라지나 Q&A",
+     "link": "https://www.delighti.co.kr/news/articleView.html?idxno=110055",
+     "pubDate": "Thu, 22 Jan 2026 15:04:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "AI기본법 시행",
+     "scanned": 500,
+     "in_window": 0
+    },
+    {
+     "query": "AI기본법 22일 시행 과태료 유예",
+     "scanned": 354,
+     "in_window": 177
+    }
+   ],
+   "note": "",
+   "input_tokens": 6501,
+   "output_tokens": 293,
+   "cost_usd": 0.01593
+  },
+  {
+   "id": "tving-0603",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "티빙이 6월 3일 해커의 DB 무단 접근으로 회원 개인정보(ID, 이름, 생년월일, 전화번호, 연계정보 CI 등)가 유출됐다고 공지하고, 최주희 대표가 사과문을 올렸습니다. 과기부는 민관합동조사에 착수했고, 이 소식이 널리 보도되면서 검색량이 급등했습니다.",
+   "label": "티빙 해킹으로 회원 개인정보 유출, 과기부 조사단 구성",
+   "citations": [
+    {
+     "title": "티빙, 해킹으로 회원 개인정보 유출 사태… ID·전화번호·CI 등 포함돼",
+     "link": "https://www.gukjenews.com/news/articleView.html?idxno=3599432",
+     "pubDate": "Thu, 04 Jun 2026 00:20:00 +0900"
+    },
+    {
+     "title": "과기부, 티빙 개인정보 유출 사태에 민관합동조사 나서",
+     "link": "https://n.news.naver.com/mnews/article/018/0006296756?sid=105",
+     "pubDate": "Wed, 03 Jun 2026 21:34:00 +0900"
+    },
+    {
+     "title": "티빙 개인정보 유출…과기부 민관합동조사 착수",
+     "link": "https://n.news.naver.com/mnews/article/021/0002795304?sid=102",
+     "pubDate": "Wed, 03 Jun 2026 20:40:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "티빙",
+     "scanned": 500,
+     "in_window": 0
+    },
+    {
+     "query": "티빙 6월 4일 월드컵 중계",
+     "scanned": 29,
+     "in_window": 0
+    },
+    {
+     "query": "티빙 개인정보 유출",
+     "scanned": 500,
+     "in_window": 0
+    },
+    {
+     "query": "티빙 개인정보 유출 사태 이용자 공지",
+     "scanned": 128,
+     "in_window": 35
+    }
+   ],
+   "note": "",
+   "input_tokens": 9912,
+   "output_tokens": 408,
+   "cost_usd": 0.0239
+  },
+  {
+   "id": "tving-0908",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "티빙이 대규모 개인정보 유출 피해 회원을 대상으로 9월 7일 오전 10시부터 30일까지 보상 신청을 받기 시작했습니다. 보상안은 5000원 상당 포인트 등이었고, 같은 날 대한변협이 징벌적 손해배상과 집단소송 제도 도입을 촉구하면서 보상 논란이 커졌습니다.",
+   "label": "티빙 3954만 계정 유출 조사결과·보상안 발표",
+   "citations": [
+    {
+     "title": "티빙, 개인정보 유출 보상 신청 시작…30일까지",
+     "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1723317",
+     "pubDate": "Mon, 07 Sep 2026 22:22:00 +0900"
+    },
+    {
+     "title": "대한변협, 티빙 개인정보 유출에 \"징벌적 손배·집단소송 도입해야\"",
+     "link": "https://www.ppss.kr/news/articleView.html?idxno=309295",
+     "pubDate": "Mon, 07 Sep 2026 20:30:00 +0900"
+    },
+    {
+     "title": "\"티빙 보상이 포인트 5천원?\"…개인정보 유출 사태, 제도 개선 목소리",
+     "link": "https://n.news.naver.com/mnews/article/088/0001027381?sid=102",
+     "pubDate": "Tue, 08 Sep 2026 15:57:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "티빙",
+     "scanned": 500,
+     "in_window": 0
+    },
+    {
+     "query": "티빙 개인정보 유출",
+     "scanned": 500,
+     "in_window": 51
+    }
+   ],
+   "note": "",
+   "input_tokens": 6457,
+   "output_tokens": 278,
+   "cost_usd": 0.01569
+  },
+  {
+   "id": "aiglass-1013",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "명문대 수시 논술시험에서 AI 기능이 있는 스마트안경을 쓰고 부정행위를 한 수험생들이 잇따라 적발됐습니다. 이 일로 수능 부정행위 우려가 커졌고, 교육부는 대응책을 내놓았습니다. 교사들은 AI안경을 식별하기 어렵다고 했고, 학생들은 AI안경으로 오해받을까 봐 뿔테 안경을 피하는 분위기였습니다.",
+   "label": "연세대 등 대입 논술에서 AI 안경 부정행위 적발",
+   "citations": [
+    {
+     "title": "10월 14일 굿모닝 MBN 이 시각 주요뉴스",
+     "link": "https://n.news.naver.com/mnews/article/057/0001973282?sid=102",
+     "pubDate": "Wed, 14 Oct 2026 07:25:00 +0900"
+    },
+    {
+     "title": "[단독] AI 안경 쓰고 수능 부정행위?…교육부, 형사고발까지 검토",
+     "link": "https://n.news.naver.com/mnews/article/421/0009255551?sid=102",
+     "pubDate": "Wed, 28 Oct 2026 14:17:00 +0900"
+    },
+    {
+     "title": "수능 'AI 안경 부정행위' 우려에도…교사 80% \"구별 못 해\"",
+     "link": "https://n.news.naver.com/mnews/article/022/0004170224?sid=102",
+     "pubDate": "Tue, 27 Oct 2026 18:22:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "AI안경",
+     "scanned": 500,
+     "in_window": 434
+    },
+    {
+     "query": "AI안경 부정행위 적발 10월 14일",
+     "scanned": 7,
+     "in_window": 6
+    }
+   ],
+   "note": "",
+   "input_tokens": 8656,
+   "output_tokens": 347,
+   "cost_usd": 0.02078
+  },
+  {
+   "id": "olympics-2602",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "2026 밀라노·코르티나담페초 동계올림픽이 2월 5일에 개막해 22일까지 열렸고, 그 기간에 한국 선수들이 경기에 나서면서 관심이 높아졌습니다. 2월 16일에는 쇼트트랙 남자 계주 준결승과 스노보드 유승은 선수의 슬로프스타일 경기가 있었습니다. 기사에는 유승은 선수가 빅에어에서 동메달을 땄다고 나옵니다.",
+   "label": "2026 밀라노·코르티나 동계올림픽",
+   "citations": [
+    {
+     "title": "[한눈에 보는 그래픽스]밀라노 올림픽 \"함께 응원해요\"… 유승은 슬로프...",
+     "link": "https://m.skyedaily.com/news_view.html?ID=298479",
+     "pubDate": "Mon, 16 Feb 2026 10:02:00 +0900"
+    },
+    {
+     "title": "'추월장인' '작두 탔다' INFJ 이정민, 인터뷰는 수줍어 [지금 올림픽]",
+     "link": "https://n.news.naver.com/mnews/article/437/0000479519?sid=104",
+     "pubDate": "Fri, 20 Feb 2026 14:56:00 +0900"
+    },
+    {
+     "title": "[안녕(Ciao)! 밀라노] '동계올림픽 꽃' 스키점프…'인간 새' 하늘을 가른...",
+     "link": "https://m.sports.naver.com/general/article/450/0000148870",
+     "pubDate": "Thu, 05 Feb 2026 16:20:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "올림픽",
+     "scanned": 500,
+     "in_window": 0
+    },
+    {
+     "query": "동계올림픽 밀라노 2월 16일",
+     "scanned": 500,
+     "in_window": 120
+    }
+   ],
+   "note": "",
+   "input_tokens": 4907,
+   "output_tokens": 316,
+   "cost_usd": 0.01297
+  },
+  {
+   "id": "kkanbu-1030",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "2025년 10월 30일 엔비디아 젠슨 황 CEO가 삼성전자 이재용 회장, 현대차그룹 정의선 회장과 서울 삼성동 '깐부치킨'에서 비공식 '치맥 회동'을 했습니다. 이 일로 깐부치킨이 크게 주목받았습니다. 이후 본점은 주문이 몰려 임시 휴업했고, 회동 메뉴는 치킨 세트로 출시됐습니다.",
+   "label": "젠슨 황·이재용·정의선 깐부치킨 치맥 회동",
+   "citations": [
+    {
+     "title": "젠슨 황·이재용·정의선, '깐부치킨'서 깜짝 '치맥 회동'…무슨 얘기 나...",
+     "link": "https://n.news.naver.com/mnews/article/011/0004549686?sid=101",
+     "pubDate": "Thu, 30 Oct 2025 10:48:00 +0900"
+    },
+    {
+     "title": "젠슨 황·이재용·정의선, ‘깐부치킨’서 치맥…“계산은 누가?”",
+     "link": "https://n.news.naver.com/mnews/article/018/0006151021?sid=100",
+     "pubDate": "Thu, 30 Oct 2025 11:19:00 +0900"
+    },
+    {
+     "title": "젠슨 황, 이재용, 정의선이 만나서 치맥한 깐부치킨, 임시 휴업 들어가",
+     "link": "https://n.news.naver.com/mnews/article/088/0000978807?sid=102",
+     "pubDate": "Sun, 02 Nov 2025 17:12:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "깐부치킨",
+     "scanned": 500,
+     "in_window": 0
+    },
+    {
+     "query": "깐부치킨 젠슨 황 이재용 정의선 치맥",
+     "scanned": 500,
+     "in_window": 125
+    }
+   ],
+   "note": "",
+   "input_tokens": 6708,
+   "output_tokens": 323,
+   "cost_usd": 0.01665
+  },
+  {
+   "id": "butterddeok-2603",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "중국 상하이에서 시작된 디저트 '버터떡'이 SNS에서 두쫀쿠·봄동비빔밥에 이은 새 유행으로 떴습니다. 카페에서 판매가 빠르게 늘고, CU 등 편의점과 유통업계가 상품을 잇달아 출시했으며, 한혜진·안영미 같은 연예인의 인증이 이어지면서 관심이 커졌습니다.",
+   "label": "두쫀쿠 다음 디저트 유행 '버터떡'",
+   "citations": [
+    {
+     "title": "두쫀쿠·봄동비빔밥 인기 이어 '버터떡' 청주 카페 빠르게 확산",
+     "link": "https://www.jbnews.com/news/articleView.html?idxno=1500246",
+     "pubDate": "Wed, 11 Mar 2026 19:20:00 +0900"
+    },
+    {
+     "title": "버터떡 띄운 SNS...유통가 디저트 '출시 속도전' 본격화",
+     "link": "http://www.opinionnews.co.kr/news/articleView.html?idxno=135240",
+     "pubDate": "Thu, 19 Mar 2026 15:06:00 +0900"
+    },
+    {
+     "title": "SNS 달군 버터떡부터 맛집 우동 밀키트까지… 봄 신메뉴 경쟁 [쿠킹]",
+     "link": "https://n.news.naver.com/mnews/article/025/0003510119?sid=103",
+     "pubDate": "Thu, 19 Mar 2026 08:30:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "버터떡",
+     "scanned": 500,
+     "in_window": 159
+    }
+   ],
+   "note": "",
+   "input_tokens": 4509,
+   "output_tokens": 233,
+   "cost_usd": 0.01135
+  },
+  {
+   "id": "chiikawa-1001",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "일본 애니메이션 '극장판 치이카와: 인어 섬의 비밀'이 개봉 10일 만에 100만 관객을 돌파했습니다. 같은 시기에 치이카와 굿즈 매장에서 밤샘 오픈런이 벌어졌고, 개봉 2주 차 주말에는 박스오피스 1위까지 올랐습니다.",
+   "label": "'극장판 치이카와: 인어 섬의 비밀' 개봉, 박스오피스 1위",
+   "citations": [
+    {
+     "title": "'극장판 치이카와: 인어 섬의 비밀' 100만 관객 돌파",
+     "link": "https://n.news.naver.com/mnews/article/001/0016367891?sid=103",
+     "pubDate": "Fri, 09 Oct 2026 18:21:00 +0900"
+    },
+    {
+     "title": "“어제 밤 11시반부터 기다렸어요”…밤샘 오픈런 ‘치이카와’, 그게 ...",
+     "link": "https://n.news.naver.com/mnews/article/022/0004165107?sid=102",
+     "pubDate": "Thu, 08 Oct 2026 14:57:00 +0900"
+    },
+    {
+     "title": "‘먼작귀’의 역전 ‘치이카와’, 215명 차로 ‘암살자(들)’ 제쳤다",
+     "link": "https://n.news.naver.com/mnews/article/016/0002708157?sid=103",
+     "pubDate": "Mon, 12 Oct 2026 14:41:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "치이카와",
+     "scanned": 500,
+     "in_window": 72
+    }
+   ],
+   "note": "",
+   "input_tokens": 4457,
+   "output_tokens": 211,
+   "cost_usd": 0.01102
+  },
+  {
+   "id": "geojeyaho-2605",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "걸그룹 리센느의 일본인 멤버 미나미가 유튜브 콘텐츠에서 한 즉흥 발언 '거제 야호'가 숏폼 SNS에서 밈이 됐습니다. 이 영향으로 리센느의 '러브 어택'이 음원 차트에서 역주행했고, 거제시는 리센느를 홍보대사로 위촉해 관광 홍보에 나섰습니다.",
+   "label": "리센느 '거제 야호~!' 밈 유행, 거제시 홍보대사 발탁",
+   "citations": [
+    {
+     "title": "SNS 달군 '거제 야호'…지역 홍보 효과 기대",
+     "link": "https://n.news.naver.com/mnews/article/422/0000871985?sid=102",
+     "pubDate": "Sat, 06 Jun 2026 13:16:00 +0900"
+    },
+    {
+     "title": "\"거제 야호\"가 만든 기적…신인 리센느, 밈에서 역주행까지 [ST포커스]",
+     "link": "http://www.stoo.com/article.php?aid=107000043817",
+     "pubDate": "Fri, 05 Jun 2026 12:32:00 +0900"
+    },
+    {
+     "title": "'갑자기', \"거제 야호\"...서사가 움직인 음원 차트",
+     "link": "https://n.news.naver.com/mnews/article/052/0002362958?sid=103",
+     "pubDate": "Sun, 07 Jun 2026 03:29:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "거제 야호",
+     "scanned": 500,
+     "in_window": 24
+    }
+   ],
+   "note": "",
+   "input_tokens": 4495,
+   "output_tokens": 232,
+   "cost_usd": 0.01131
+  },
+  {
+   "id": "bomdong-2602",
+   "detected": true,
+   "hit": true,
+   "status": "found",
+   "cause": "KBS 예능 '1박 2일'에서 강호동이 봄동을 가득 넣은 비빔밥을 먹는 장면이 나왔고, 이후 인스타그램과 틱톡 같은 SNS에서 '봄동 비빔밥' 레시피와 먹방이 퍼졌습니다. '두쫀쿠' 다음 유행으로 주목받으면서 봄동 도매가와 판매량이 오르고 언론 보도도 이어졌고, 이 때문에 검색이 급증한 것으로 보입니다.",
+   "label": "강호동 18년 전 봄동 비빔밥 먹방 역주행, SNS 유행",
+   "citations": [
+    {
+     "title": "[썰＆과학] '두쫀쿠' 지나간 자리에 찾아온 '봄동비빔밥'",
+     "link": "https://www.hitnews.co.kr/news/articleView.html?idxno=74362",
+     "pubDate": "Fri, 06 Mar 2026 12:10:00 +0900"
+    },
+    {
+     "title": "제철코어 ‘봄동 비빔밥’ 인기에 도매가 33%↑...검색어 1위까지 장악",
+     "link": "https://www.etoday.co.kr/news/view/2562663",
+     "pubDate": "Fri, 06 Mar 2026 14:30:00 +0900"
+    },
+    {
+     "title": "'봄동비빔밥' SNS 열풍…봄동 가격도 들썩",
+     "link": "http://www.dailypop.kr/news/articleView.html?idxno=97027",
+     "pubDate": "Fri, 06 Mar 2026 15:36:00 +0900"
+    }
+   ],
+   "rejected": [],
+   "searches": [
+    {
+     "query": "봄동 비빔밥",
+     "scanned": 500,
+     "in_window": 177
+    }
+   ],
+   "note": "",
+   "input_tokens": 4548,
+   "output_tokens": 274,
+   "cost_usd": 0.01184
+  }
+ ]
+}
