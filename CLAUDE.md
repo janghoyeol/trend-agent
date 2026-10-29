@@ -58,7 +58,7 @@
 
 - [x] 레포 생성, README, `.env.example`, `scripts/probe_naver.py`
 - [x] 0단계: API 스펙 라이브 확정 (2026-10-29, ADR 0001)
-- [ ] **1단계 (지금 할 일)**: 급등 탐지 로직 설계 — 선택지/트레이드오프 설명 후 합의
+- [ ] **1단계 (진행 중)**: 급등 탐지 — 중앙값/MAD z + 비율·최소지수 채택 (ADR 0002), `trend_agent/detect.py` + `tests/test_detect.py` (`python -m unittest`). 라이브에서 요일 주기(로또)·저검색량(장호열) 오탐 발견 → 보완 합의 필요
 - [ ] 2단계: 정답셋 먼저 — 원인이 확실한 최근 급등 사례 20~30개 라벨링
 - [ ] 3단계: 에이전트 조립 (Gate → 트렌드 → 탐지 → 뉴스 매칭 → Claude 설명)
 - [ ] 배포 + showcase 등록 (스택 후보: Python, FastAPI, Claude tool-use — 기존 에이전트들과 동일)
