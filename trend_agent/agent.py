@@ -81,6 +81,16 @@ class Explanation:
         return (self.input_tokens * p_in + self.output_tokens * p_out) / 1e6
 
 
+def make_client():
+    """ANTHROPIC_API_KEY가 없으면 TREND_ANTHROPIC_API_KEY.
+    Claude Code 클라우드 환경은 ANTHROPIC_* 변수를 세션에 넘기지 않아서 다른 이름이 필요하다."""
+    import os
+
+    import anthropic
+    key = os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("TREND_ANTHROPIC_API_KEY")
+    return anthropic.Anthropic(api_key=key)
+
+
 def news_window(spike: Spike) -> tuple[date, date]:
     return spike.start - timedelta(days=DAYS_BEFORE), spike.end + timedelta(days=DAYS_AFTER)
 
@@ -256,8 +266,7 @@ def analyze(keyword: str, client=None, days: int = 90, max_spikes: int = 3, **kw
     report.detection = detect(fetch_trend(keyword, start, end), start, end)
     if report.detection.spikes:
         if client is None:
-            import anthropic
-            client = anthropic.Anthropic()
+            client = make_client()
         for s in sorted(report.detection.spikes, key=lambda s: s.start, reverse=True)[:max_spikes]:
             report.explanations.append(explain(keyword, s, client, **kw))
     return report

@@ -14,9 +14,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-import anthropic  # noqa: E402
-
-from trend_agent.agent import DEFAULT_MODEL, explain  # noqa: E402
+from trend_agent.agent import DEFAULT_MODEL, explain, make_client  # noqa: E402
 from trend_agent.evaluate import _span, cause_hit, load_cases, run_detection  # noqa: E402
 
 ap = argparse.ArgumentParser()
@@ -27,7 +25,7 @@ args = ap.parse_args()
 
 only = set(filter(None, args.only.split(",")))
 cases = [c for c in load_cases() if c.verified and c.cause_eval and (not only or c.id in only)]
-client = anthropic.Anthropic()
+client = make_client()
 rows, hits, detected, cost = [], 0, 0, 0.0
 for c in cases:
     lo, hi = _span(c)

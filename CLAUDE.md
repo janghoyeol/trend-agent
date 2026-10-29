@@ -62,7 +62,7 @@
 - [x] 2단계: 정답셋 (ADR 0003). 후보 수집 `scripts/mine_candidates.py` → 초안 `scripts/build_eval.py` (`eval/cases.json` + 90일 스냅샷) → 채점 `scripts/eval_detection.py`. **검수 완료 38건**(사용자 22 + 수집 16), 탐지 36/38(사용자 사례 20/22, 코스피 2건 놓침). 이태원 4주기는 10-30 이후 추가
 - [~] **3단계 (지금 할 일)**: 에이전트 조립 완료, **Claude 라이브 미확인** (ADR 0004)
   - `trend_agent/agent.py` (`explain`, `analyze`, `render`), `trend_agent/news.py`, `tests/test_agent.py` (가짜 클라이언트)
-  - 네이버 부분(게이트·트렌드·탐지·pubDate 필터)은 라이브 확인. 이전 세션 환경에 `ANTHROPIC_API_KEY`가 없어 Claude 호출은 못 함
+  - 네이버 부분(게이트·트렌드·탐지·pubDate 필터)은 라이브 확인. **클라우드 환경은 `ANTHROPIC_API_KEY`를 세션에 안 넘김** (같은 칸의 NAVER_*는 넘어옴) → 환경변수 이름을 `TREND_ANTHROPIC_API_KEY`로 (`agent.make_client`가 둘 다 읽음)
   - 다음: 키 넣고 `python scripts/explain_live.py 태풍` → `python scripts/eval_cause.py` (Sonnet) / `--model claude-haiku-5-5` 비교, 결과를 ADR 0004에 기록
   - 비상계엄(martial-1203)은 `cause_eval: false`로 원인 채점 제외 → 대상 37건
 - [~] **4단계: 배포** (ADR 0005, 합의: 혼합형 / 하루 $0.1 / 레포 공개). 코드 완료, 실제 배포 전

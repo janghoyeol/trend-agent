@@ -9,7 +9,7 @@ from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
-from .agent import DEFAULT_MODEL
+from .agent import DEFAULT_MODEL, make_client
 from .budget import DailyBudget
 from .service import MAX_KEYWORD_LEN, Service
 
@@ -22,12 +22,7 @@ DAILY_URL = os.environ.get("DAILY_URL",
 DAILY_TTL = 600
 
 
-def _anthropic():
-    import anthropic
-    return anthropic.Anthropic()
-
-
-service = Service(DailyBudget(LIVE_BUDGET_USD), _anthropic, model=MODEL)
+service = Service(DailyBudget(LIVE_BUDGET_USD), make_client, model=MODEL)
 app = FastAPI(title="trend-agent")
 app.mount("/static", StaticFiles(directory=STATIC), name="static")
 _daily = {"at": 0.0, "data": None}

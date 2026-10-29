@@ -13,7 +13,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-from trend_agent.agent import DEFAULT_MODEL  # noqa: E402
+from trend_agent.agent import DEFAULT_MODEL, make_client  # noqa: E402
 from trend_agent.budget import DailyBudget  # noqa: E402
 from trend_agent.service import Service  # noqa: E402
 
@@ -39,12 +39,7 @@ ap.add_argument("--out", default=str(ROOT / "data" / "daily.json"))
 args = ap.parse_args()
 
 
-def _anthropic():
-    import anthropic
-    return anthropic.Anthropic()
-
-
-svc = Service(DailyBudget(args.budget), _anthropic, model=args.model)
+svc = Service(DailyBudget(args.budget), make_client, model=args.model)
 items = []
 for kw in WATCHLIST:
     r = svc.analyze(kw, recent_days=RECENT_DAYS)
