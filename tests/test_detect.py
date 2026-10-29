@@ -16,6 +16,15 @@ def noisy(n, base=10.0):
     return [base + ((i * 7) % 3 - 1) for i in range(n)]
 
 
+def varied(n, base=10.0):
+    # 실데이터처럼 값 종류가 많은 잔떨림: base ±1, 최대 101종류
+    return [base + (i * 37 % 101) / 50 - 1 for i in range(n)]
+
+
+def to_data(values, keep=lambda d: True):
+    return [{"period": d.isoformat(), "ratio": x} for d, x in series(values) if keep(d)]
+
+
 class FillMissingTest(unittest.TestCase):
     def test_fills_gaps_with_zero_inclusive(self):
         data = [{"period": "2026-08-02", "ratio": 5.0}, {"period": "2026-08-04", "ratio": 7.5}]
@@ -94,12 +103,32 @@ class DetectSpikesTest(unittest.TestCase):
 
     def test_baseline_robust_to_earlier_spike(self):
         v = noisy(90)
-        v[40:44] = [100, 100, 100, 100]
-        v[55] = 90  # 직전 28일에 첫 급등이 포함돼도 중앙값은 그대로
+        v[40:42] = [100, 100]
+        v[53] = 90  # 직전 28일에 첫 급등이 포함돼도 중앙값은 그대로
         spikes = detect_spikes(series(v))
         self.assertEqual(len(spikes), 2)
-        self.assertEqual(spikes[1].peak_date, D0 + timedelta(days=55))
+        self.assertEqual(spikes[1].peak_date, D0 + timedelta(days=53))
         self.assertEqual(spikes[1].baseline_median, 10.0)
+
+    def test_weekly_cycle_is_not_a_spike(self):
+        # 로또형: 주말만 높음 (라이브: 토 45.6 / 일 47.2 vs 평일 5~16)
+        v = [30.0 if (D0 + timedelta(days=i)).weekday() >= 5 else 5.0 + (i % 3) for i in range(90)]
+        self.assertEqual(detect_spikes(series(v)), [])
+
+    def test_spike_on_top_of_weekly_cycle(self):
+        v = [30.0 if (D0 + timedelta(days=i)).weekday() >= 5 else 5.0 + (i % 3) for i in range(90)]
+        sat = next(i for i in range(60, 90) if (D0 + timedelta(days=i)).weekday() == 5)
+        v[sat] = 100
+        spikes = detect_spikes(series(v))
+        self.assertEqual([s.peak_date for s in spikes], [D0 + timedelta(days=sat)])
+        self.assertEqual(spikes[0].baseline_kind, "same_weekday")
+        self.assertEqual(spikes[0].baseline_median, 30.0)
+        self.assertAlmostEqual(spikes[0].ratio, 100 / 30)
+
+    def test_baseline_kind_rolling_when_no_weekly_cycle(self):
+        v = noisy(90)
+        v[60] = 100
+        self.assertEqual(detect_spikes(series(v))[0].baseline_kind, "rolling")
 
 
 class DetectTest(unittest.TestCase):
@@ -108,14 +137,25 @@ class DetectTest(unittest.TestCase):
         r = detect(data, D0, D0 + timedelta(days=89))
         self.assertEqual(r.observed_days, 13)
         self.assertTrue(r.insufficient)
+        self.assertEqual(r.reason, "few_observed_days")
+        self.assertEqual(r.spikes, [])
+
+    def test_low_volume_step_values(self):
+        # 장호열형: 검색 수가 한 자릿수라 지수가 몇 가지 값으로만 계단짐 (라이브: 6종류)
+        steps = [45.45454, 54.54545, 63.63636, 81.81818, 100.0]
+        v = [steps[i % 5] for i in range(90)]
+        r = detect(to_data(v, keep=lambda d: d.toordinal() % 3 == 0), D0, D0 + timedelta(days=89))
+        self.assertGreaterEqual(r.observed_days, 14)
+        self.assertTrue(r.insufficient)
+        self.assertEqual(r.reason, "low_volume")
         self.assertEqual(r.spikes, [])
 
     def test_end_to_end_with_gaps(self):
-        v = noisy(90)
+        v = varied(90)
         v[60] = 100
-        data = [{"period": d.isoformat(), "ratio": x} for d, x in series(v) if d.day % 10 != 5]
-        r = detect(data, D0, D0 + timedelta(days=89))
+        r = detect(to_data(v, keep=lambda d: d.day % 10 != 5), D0, D0 + timedelta(days=89))
         self.assertFalse(r.insufficient)
+        self.assertIsNone(r.reason)
         self.assertEqual(len(r.series), 90)
         self.assertEqual([s.peak_date for s in r.spikes], [D0 + timedelta(days=60)])
 
