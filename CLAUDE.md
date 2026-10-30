@@ -69,7 +69,11 @@
   - 비상계엄(martial-1203)은 `cause_eval: false`로 원인 채점 제외 → 대상 37건
   - **Sonnet 5.5: 30/37 = 81%** (탐지된 35건 중 86%), 총 $0.50, 건당 평균 $0.0143 → +1건에 비용 16배라 **Haiku 기본 유지**
   - 지금까지 Claude 사용액 약 $0.54 (총 예산 $5)
-- [~] **4단계: 배포** (ADR 0005, 합의: 혼합형 / 하루 $0.1 / 레포 공개). 코드 완료, 실제 배포 전
-  - `trend_agent/web.py`(FastAPI) + `static/`, `service.py`(캐시·IP 제한), `budget.py`(하루 상한), `scripts/daily_batch.py`, `.github/workflows/daily.yml`, `render.yaml`
-  - 예산 때문에 서비스 기본 모델 Haiku 5.5 (실측 건당 $0.0009 → 하루 $0.06 실시간 한도로 약 60건)
-  - 사용자 할 일: Anthropic 키(콘솔 사용 한도 설정) → 레포 공개 → GitHub Secrets 3개 → Render Blueprint 배포 → showcase 카드
+- [x] 4단계: 배포 (ADR 0005, 합의: 혼합형 / 하루 $0.1 / 레포 공개) — **2026-10-29 라이브**
+  - 사이트 https://trend-agent-3ld5.onrender.com (Render 무료, 잠들면 첫 요청 느림), showcase 카드 추가됨 (`janghoyeol/showcase`)
+  - `trend_agent/web.py`(FastAPI) + `static/`, `service.py`(캐시·IP 제한), `budget.py`(하루 상한), `scripts/daily_batch.py`, `.github/workflows/daily.yml`(09:17 KST → `data` 브랜치 `daily.json`), `render.yaml`
+  - 키: GitHub Secrets·Render 환경변수에 `NAVER_CLIENT_ID`, `NAVER_CLIENT_SECRET`, `ANTHROPIC_API_KEY`
+  - 서비스 기본 모델 Haiku 5.5 (실측 건당 $0.0009 → 하루 $0.06 실시간 한도로 약 60건)
+  - raw.githubusercontent.com은 5분 캐시 → 배치 직후 몇 분은 이전 daily.json이 보일 수 있음
+- [ ] 개선 후보: 90일 화면 중 앞 28일은 기준선이 없어 급등 탐지 안 됨 (예: 블랙핑크 8/8) → 118일 조회·90일 표시 (사용자 결정 대기)
+- [ ] 다음 세션: showcase 모음집 디자인 개선 (`janghoyeol/showcase`, Cloudflare Workers, main 푸시 = 배포)
