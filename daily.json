@@ -1,55 +1,55 @@
 {
- "generated_at": "2026-10-30 15:01 KST",
+ "generated_at": "2026-10-31 14:58 KST",
  "watchlist_size": 38,
  "recent_days": 3,
  "model": "claude-haiku-5-5",
- "spent_usd": 0.0027,
+ "spent_usd": 0.0034,
  "items": [
   {
    "keyword": "파업",
    "spike": {
     "start": "2026-10-29",
-    "end": "2026-10-29",
+    "end": "2026-10-30",
     "peak_date": "2026-10-29",
     "peak_value": 24.9,
     "baseline": 1.6,
     "baseline_kind": "rolling",
     "news_period": [
      "2026-10-27",
-     "2026-10-31"
+     "2026-11-01"
     ]
    },
    "explanation": {
     "status": "found",
-    "cause": "경기도 버스 노조가 30일 첫차부터 29개 업체 총파업을 예고했고, 29일 노사가 조정시한을 새벽 3시까지 연장해 막판 협상을 벌이면서 '파업' 관련 보도와 검색이 집중됐습니다. 노사는 30일 새벽 임금 인상에 합의해 총파업을 철회했습니다.",
+    "cause": "경기도 29개 버스업체 노사가 총파업 예고 시한을 앞두고 임금협상을 막판 타결해 파업을 철회했고, 같은 시기 포스코 노사도 무기한 3차 파업을 사흘 앞두고 기본급 2.6% 인상에 잠정 합의했습니다. 두 건의 파업 예고와 극적 타결 소식이 10월 29~30일 집중 보도되며 '파업' 검색이 늘어난 것으로 보입니다.",
     "citations": [
      {
       "n": 1,
-      "title": "경기 버스노사 막판 협상 내일 새벽 3시까지 연장",
-      "link": "https://n.news.naver.com/mnews/article/001/0016410593?sid=102",
-      "date": "2026-10-29"
-     },
-     {
-      "n": 2,
       "title": "경기버스 멈추기 28분 전 노사 합의…총파업 철회",
       "link": "https://n.news.naver.com/mnews/article/015/0005348354?sid=102",
       "date": "2026-10-30"
      },
      {
-      "n": 3,
-      "title": "경기 버스 노사 11시간 만 극적 합의…파업 안 한다",
-      "link": "https://n.news.naver.com/mnews/article/003/0014289237?sid=102",
+      "n": 2,
+      "title": "포스코 노사, 3차 파업 앞두고 극적 타결…기본급 2.6% 인상",
+      "link": "https://n.news.naver.com/mnews/article/057/0001976003?sid=102",
       "date": "2026-10-30"
+     },
+     {
+      "n": 3,
+      "title": "경기 버스노사 막판 협상 내일 새벽 3시까지 연장",
+      "link": "https://n.news.naver.com/mnews/article/001/0016410593?sid=102",
+      "date": "2026-10-29"
      }
     ],
     "searches": [
      {
       "query": "파업",
-      "in_period": 493
+      "in_period": 485
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00062,
+    "cost_usd": 0.00068,
     "note": ""
    },
    "explain_state": "done"
@@ -70,45 +70,43 @@
    },
    "explanation": {
     "status": "found",
-    "cause": "2026년 10월 27일 경기 양평 국립하늘숲추모원의 '2026년 가을철 유관기관 합동 산불진화훈련'을 비롯해 경북 영주국유림관리소(영주시 가흥동), 경기 구리시 등 여러 지역에서 산불 진화 훈련이 같은 날 실시됐고, 정부와 지자체가 11월 1일부터 시작되는 '가을철 산불 조심 기간'을 앞두고 대응 체계를 강화했다는 보도가 이어졌습니다. 기사에서 확인되는 사건은 이 훈련과 대응 체계 강화이며, 검색량 급등을 직접 일으킨 원인이라고 기사가 명시하지는 않습니다.",
+    "cause": "2026년 10월 27일 오후 서울 강남구 개포동 구룡마을에서 대형 화재가 나 소방당국이 대응 2단계를 발령하고 헬기 6대 등을 투입해 주변 산으로 불이 번지는 것을 막았으며, 이재민 200여 명이 발생했다. 이 화재 보도와 함께 '산불' 관련 기사가 같은 기간 쏟아졌다.",
     "citations": [
      {
       "n": 1,
-      "title": "[글로컬픽] \"헬기 못 뜰땐 산불 어떻게 끌까\"...북부산림청, 지상 진화력...",
-      "link": "https://news.mtn.co.kr/article/2026102907231336936",
-      "date": "2026-10-29"
-     },
-     {
-      "n": 2,
-      "title": "구리시, 6개 기관 합동 산불 대응 훈련",
-      "link": "https://www.job-post.co.kr/news/articleView.html?idxno=234954",
-      "date": "2026-10-28"
-     },
-     {
-      "n": 3,
-      "title": "[경북 브리핑 모음(10월 27일)] 예천군, 유류 유출 대비 합동방제훈련…...",
-      "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610270706076410237",
+      "title": "강남 구룡마을 화재로 거주민 39명 대피…현재까지 부상자 없어(종합2보...",
+      "link": "https://n.news.naver.com/mnews/article/001/0016404145?sid=102",
       "date": "2026-10-27"
      },
      {
-      "n": 4,
-      "title": "​모레(1일)부터 ‘가을철 산불 조심 기간’…산불 연평균 44건",
-      "link": "https://n.news.naver.com/mnews/article/056/0012284188?sid=102",
-      "date": "2026-10-30"
+      "n": 2,
+      "title": "구룡마을 올해 두번째 큰불... 주민들 속이 타들어 갔다",
+      "link": "https://n.news.naver.com/mnews/article/023/0004006215?sid=102",
+      "date": "2026-10-27"
+     },
+     {
+      "n": 3,
+      "title": "구룡마을 7시간 30분 만에 주불 진화…이재민 100여명",
+      "link": "https://n.news.naver.com/mnews/article/422/0000920125?sid=102",
+      "date": "2026-10-28"
      }
     ],
     "searches": [
      {
       "query": "산불",
-      "in_period": 496
+      "in_period": 477
      },
      {
-      "query": "산불 발생 진화 10월 27일",
-      "in_period": 12
+      "query": "산불 발생 진화 헬기 주불",
+      "in_period": 8
+     },
+     {
+      "query": "구룡마을 산불 이재민",
+      "in_period": 87
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00145,
+    "cost_usd": 0.00208,
     "note": ""
    },
    "explain_state": "done"
@@ -129,7 +127,7 @@
    },
    "explanation": {
     "status": "found",
-    "cause": "2026년 10월 28일 전국 대부분 지역에 한파특보가 내려지고 아침 기온이 전날보다 최대 10도 떨어지며 서울 2도, 춘천 영하 2도 등 '깜짝 한파'가 닥쳤다. 이에 난방가전과 전기요·온수매트 수요가 급증했다.",
+    "cause": "10월 28일 전국 대부분 지역에 한파특보가 내려지고 아침 기온이 전날보다 최대 10도 떨어지며 초겨울 추위가 찾아왔고, 이에 따라 난방가전 수요가 급증했다(롯데하이마트 히터류·요장판류 매출 급증).",
     "citations": [
      {
       "n": 1,
@@ -145,15 +143,15 @@
      },
      {
       "n": 3,
-      "title": "롯데하이마트, 한파에 난방가전 매출 급증…11월 할인 행사 진행",
-      "link": "https://n.news.naver.com/mnews/article/030/0003479856?sid=101",
+      "title": "롯데하이마트, 기습 한파에 난방가전 판매 급증",
+      "link": "https://n.news.naver.com/mnews/article/001/0016407463?sid=101",
       "date": "2026-10-29"
      }
     ],
     "searches": [
      {
       "query": "한파",
-      "in_period": 429
+      "in_period": 403
      }
     ],
     "model": "claude-haiku-5-5",
