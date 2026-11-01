@@ -1,10 +1,59 @@
 {
- "generated_at": "2026-10-31 14:58 KST",
+ "generated_at": "2026-11-01 15:24 KST",
  "watchlist_size": 38,
  "recent_days": 3,
  "model": "claude-haiku-5-5",
- "spent_usd": 0.0034,
+ "spent_usd": 0.002,
  "items": [
+  {
+   "keyword": "미세먼지",
+   "spike": {
+    "start": "2026-10-31",
+    "end": "2026-10-31",
+    "peak_date": "2026-10-31",
+    "peak_value": 100.0,
+    "baseline": 22.2,
+    "baseline_kind": "rolling",
+    "news_period": [
+     "2026-10-29",
+     "2026-11-02"
+    ]
+   },
+   "explanation": {
+    "status": "found",
+    "cause": "10월 30~31일 날씨 기사에서 서쪽 지역으로 미세먼지가 유입돼 수도권·충청·호남·제주에서 밤사이 미세먼지 농도가 '나쁨' 수준이 될 것이라는 예보가 집중적으로 보도됐고, 토요일인 31일에도 수도권·강원에서 미세먼지 '한때나쁨'이 예보됐다.",
+    "citations": [
+     {
+      "n": 1,
+      "title": "수도권·강원 새벽 비… 미세먼지 ‘한때나쁨’ [내일날씨]",
+      "link": "https://www.bntnews.co.kr/article/view/bnt202610300333",
+      "date": "2026-10-30"
+     },
+     {
+      "n": 2,
+      "title": "오늘 밤 서쪽 지방 미세먼지 주의…한낮에 포근",
+      "link": "https://n.news.naver.com/mnews/article/056/0012284192?sid=102",
+      "date": "2026-10-30"
+     },
+     {
+      "n": 3,
+      "title": "[날씨] 반짝 추위 주춤…서쪽 미세먼지 유입",
+      "link": "https://n.news.naver.com/mnews/article/448/0000647927?sid=115",
+      "date": "2026-10-30"
+     }
+    ],
+    "searches": [
+     {
+      "query": "미세먼지",
+      "in_period": 63
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "cost_usd": 0.00074,
+    "note": ""
+   },
+   "explain_state": "done"
+  },
   {
    "keyword": "파업",
    "spike": {
@@ -21,141 +70,39 @@
    },
    "explanation": {
     "status": "found",
-    "cause": "경기도 29개 버스업체 노사가 총파업 예고 시한을 앞두고 임금협상을 막판 타결해 파업을 철회했고, 같은 시기 포스코 노사도 무기한 3차 파업을 사흘 앞두고 기본급 2.6% 인상에 잠정 합의했습니다. 두 건의 파업 예고와 극적 타결 소식이 10월 29~30일 집중 보도되며 '파업' 검색이 늘어난 것으로 보입니다.",
+    "cause": "포스코 노조가 임금교섭 교착으로 10월 29일 무기한 3차 파업(11월 2일 시작)을 예고했고, 포항 정치·경제계가 대화를 촉구하며 파업 이슈가 커졌다. 이후 10월 30일 포스코 노사가 기본급 2.6% 인상에 잠정 합의하며 3차 파업은 피했다.",
     "citations": [
      {
       "n": 1,
-      "title": "경기버스 멈추기 28분 전 노사 합의…총파업 철회",
-      "link": "https://n.news.naver.com/mnews/article/015/0005348354?sid=102",
-      "date": "2026-10-30"
+      "title": "포스코노조 내달 2일 3차 파업 예고에 포항 각계각층 \"노사 대화·타협 ...",
+      "link": "https://n.news.naver.com/mnews/article/022/0004170897?sid=102",
+      "date": "2026-10-29"
      },
      {
       "n": 2,
-      "title": "포스코 노사, 3차 파업 앞두고 극적 타결…기본급 2.6% 인상",
-      "link": "https://n.news.naver.com/mnews/article/057/0001976003?sid=102",
+      "title": "[속보] 포스코 노사, 3차 파업 앞두고 극적 타결…기본급 2.6% 인상",
+      "link": "https://n.news.naver.com/mnews/article/029/0003056251?sid=101",
       "date": "2026-10-30"
      },
      {
       "n": 3,
-      "title": "경기 버스노사 막판 협상 내일 새벽 3시까지 연장",
-      "link": "https://n.news.naver.com/mnews/article/001/0016410593?sid=102",
-      "date": "2026-10-29"
+      "title": "포스코 노사, 3차 파업 앞두고 극적 타결…기본급 2.6% 인상",
+      "link": "https://n.news.naver.com/mnews/article/057/0001976003?sid=102",
+      "date": "2026-10-30"
      }
     ],
     "searches": [
      {
       "query": "파업",
-      "in_period": 485
+      "in_period": 463
+     },
+     {
+      "query": "포스코 3차 파업 예고 노조",
+      "in_period": 36
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00068,
-    "note": ""
-   },
-   "explain_state": "done"
-  },
-  {
-   "keyword": "산불",
-   "spike": {
-    "start": "2026-10-27",
-    "end": "2026-10-28",
-    "peak_date": "2026-10-27",
-    "peak_value": 100.0,
-    "baseline": 8.6,
-    "baseline_kind": "rolling",
-    "news_period": [
-     "2026-10-25",
-     "2026-10-30"
-    ]
-   },
-   "explanation": {
-    "status": "found",
-    "cause": "2026년 10월 27일 오후 서울 강남구 개포동 구룡마을에서 대형 화재가 나 소방당국이 대응 2단계를 발령하고 헬기 6대 등을 투입해 주변 산으로 불이 번지는 것을 막았으며, 이재민 200여 명이 발생했다. 이 화재 보도와 함께 '산불' 관련 기사가 같은 기간 쏟아졌다.",
-    "citations": [
-     {
-      "n": 1,
-      "title": "강남 구룡마을 화재로 거주민 39명 대피…현재까지 부상자 없어(종합2보...",
-      "link": "https://n.news.naver.com/mnews/article/001/0016404145?sid=102",
-      "date": "2026-10-27"
-     },
-     {
-      "n": 2,
-      "title": "구룡마을 올해 두번째 큰불... 주민들 속이 타들어 갔다",
-      "link": "https://n.news.naver.com/mnews/article/023/0004006215?sid=102",
-      "date": "2026-10-27"
-     },
-     {
-      "n": 3,
-      "title": "구룡마을 7시간 30분 만에 주불 진화…이재민 100여명",
-      "link": "https://n.news.naver.com/mnews/article/422/0000920125?sid=102",
-      "date": "2026-10-28"
-     }
-    ],
-    "searches": [
-     {
-      "query": "산불",
-      "in_period": 477
-     },
-     {
-      "query": "산불 발생 진화 헬기 주불",
-      "in_period": 8
-     },
-     {
-      "query": "구룡마을 산불 이재민",
-      "in_period": 87
-     }
-    ],
-    "model": "claude-haiku-5-5",
-    "cost_usd": 0.00208,
-    "note": ""
-   },
-   "explain_state": "done"
-  },
-  {
-   "keyword": "한파",
-   "spike": {
-    "start": "2026-10-27",
-    "end": "2026-10-28",
-    "peak_date": "2026-10-27",
-    "peak_value": 75.7,
-    "baseline": 2.7,
-    "baseline_kind": "rolling",
-    "news_period": [
-     "2026-10-25",
-     "2026-10-30"
-    ]
-   },
-   "explanation": {
-    "status": "found",
-    "cause": "10월 28일 전국 대부분 지역에 한파특보가 내려지고 아침 기온이 전날보다 최대 10도 떨어지며 초겨울 추위가 찾아왔고, 이에 따라 난방가전 수요가 급증했다(롯데하이마트 히터류·요장판류 매출 급증).",
-    "citations": [
-     {
-      "n": 1,
-      "title": "전국 한파특보에 기온 10도 '뚝'…서울 2도·춘천 영하 2도",
-      "link": "https://n.news.naver.com/mnews/article/448/0000647368?sid=102",
-      "date": "2026-10-28"
-     },
-     {
-      "n": 2,
-      "title": "'깜짝 한파' 당분간 없지만…11월 초엔 한낮에도 쌀쌀",
-      "link": "https://n.news.naver.com/mnews/article/421/0009259720?sid=101",
-      "date": "2026-10-30"
-     },
-     {
-      "n": 3,
-      "title": "롯데하이마트, 기습 한파에 난방가전 판매 급증",
-      "link": "https://n.news.naver.com/mnews/article/001/0016407463?sid=101",
-      "date": "2026-10-29"
-     }
-    ],
-    "searches": [
-     {
-      "query": "한파",
-      "in_period": 403
-     }
-    ],
-    "model": "claude-haiku-5-5",
-    "cost_usd": 0.00062,
+    "cost_usd": 0.00127,
     "note": ""
    },
    "explain_state": "done"
