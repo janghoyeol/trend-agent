@@ -1,10 +1,53 @@
 {
- "generated_at": "2026-11-03 15:59 KST",
+ "generated_at": "2026-11-04 15:42 KST",
  "watchlist_size": 38,
  "recent_days": 3,
  "model": "claude-haiku-5-5",
- "spent_usd": 0.002,
+ "spent_usd": 0.0046,
  "items": [
+  {
+   "keyword": "폭설",
+   "spike": {
+    "start": "2026-11-03",
+    "end": "2026-11-03",
+    "peak_date": "2026-11-03",
+    "peak_value": 90.3,
+    "baseline": 23.0,
+    "baseline_kind": "rolling",
+    "news_period": [
+     "2026-11-01",
+     "2026-11-05"
+    ]
+   },
+   "explanation": {
+    "status": "found",
+    "cause": "11월 18일 개봉 예정인 영화 '폭설'(김윤석·구교환 출연)의 홍보가 집중된 시점으로, 배급사 쇼박스가 3일 박수영·노윤서의 캐릭터 스틸과 출연 소식을 공개했다.",
+    "citations": [
+     {
+      "n": 1,
+      "title": "‘폭설’ 노윤서, 날카롭고 예리한 젊은 순경 변신",
+      "link": "https://m.entertain.naver.com/article/382/0001302517",
+      "date": "2026-11-03"
+     },
+     {
+      "n": 2,
+      "title": "'폭설' 김윤석 \"노윤서 등장, 얼마나 근사한지…박수영은 노련\"",
+      "link": "https://m.entertain.naver.com/article/018/0006402523",
+      "date": "2026-11-03"
+     }
+    ],
+    "searches": [
+     {
+      "query": "폭설",
+      "in_period": 107
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "cost_usd": 0.00067,
+    "note": ""
+   },
+   "explain_state": "done"
+  },
   {
    "keyword": "수능",
    "spike": {
@@ -21,35 +64,73 @@
    },
    "explanation": {
     "status": "found",
-    "cause": "2027학년도 수능에서 AI 스마트안경을 이용한 부정행위 우려가 커지자, 교육부가 11월 2일 전국 1,312개 시험장에 스마트안경 전담요원을 배치하고 사전 교육을 한다는 대책을 밝혔다. 이에 수능 관련 검색이 늘어난 것으로 보이며, 기사에서 직접 검색량 증가를 언급하지는 않았다.",
+    "cause": "2026-11-02 무렵 AI 스마트안경을 이용한 수능 부정행위 우려가 크게 번졌습니다. 교육부는 10월 29일 '수능 스마트안경 활용 부정행위 대응 계획'을 발표해 전국 1312개 시험장에 판별 담당자를 1명씩 배치하고 형사고발 등 처벌을 강화하기로 했으며, 이후 시험장 AI 안경 비상과 교육부 판별 역량 논란이 기사로 이어졌습니다.",
     "citations": [
      {
       "n": 1,
-      "title": "교육부 \"수능 스마트안경 전담요원 사전교육…판별 역량 충분\"",
-      "link": "https://n.news.naver.com/mnews/article/001/0016416802?sid=102",
+      "title": "수능 AI 안경 비상…\"사전 방지 절차 강화해야\"",
+      "link": "http://news.ebs.co.kr/ebsnews/allView/60785994/N",
       "date": "2026-11-02"
      },
      {
       "n": 2,
-      "title": "수능 'AI 안경' 우려에…교육부 \"전담요원이 충분히 판별\"",
-      "link": "https://n.news.naver.com/mnews/article/057/0001976334?sid=102",
+      "title": "“스마트안경쓰고 수능보면 어떡해?”…우려에 교육부 “판별 역량 충분...",
+      "link": "https://n.news.naver.com/mnews/article/009/0005757873?sid=102",
       "date": "2026-11-02"
      },
      {
       "n": 3,
-      "title": "“스마트안경쓰고 수능보면 어떡해?”…우려에 교육부 “판별 역량 충분...",
-      "link": "https://n.news.naver.com/mnews/article/009/0005757873?sid=102",
-      "date": "2026-11-02"
+      "title": "“AI 안경으로 美 수능 83% 정답” 수능 앞두고 부정행위 우려 확산",
+      "link": "https://n.news.naver.com/mnews/article/023/0004007137?sid=105",
+      "date": "2026-11-01"
      }
     ],
     "searches": [
      {
       "query": "수능",
-      "in_period": 260
+      "in_period": 356
+     },
+     {
+      "query": "수능 스마트안경 부정행위 대책",
+      "in_period": 45
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00073,
+    "cost_usd": 0.00128,
+    "note": ""
+   },
+   "explain_state": "done"
+  },
+  {
+   "keyword": "정전",
+   "spike": {
+    "start": "2026-11-01",
+    "end": "2026-11-01",
+    "peak_date": "2026-11-01",
+    "peak_value": 30.8,
+    "baseline": 9.0,
+    "baseline_kind": "rolling",
+    "news_period": [
+     "2026-10-30",
+     "2026-11-03"
+    ]
+   },
+   "explanation": {
+    "status": "unknown",
+    "cause": "기간 내 기사에서 2026-11-01 급등의 원인을 확인하지 못했습니다. '정전' 관련 기사는 많았지만 대부분 DMZ 지뢰 폭발과 관련된 '정전협정' 기사(11-03 보도, 사건은 9월 21일)였고, 11-01 기사는 서울 지하철 2호선 일시 정전과 KT 재난 훈련 정도였습니다. 이들이 급등을 설명한다고 보기 어려워 추정하지 않았습니다.",
+    "citations": [],
+    "searches": [
+     {
+      "query": "정전",
+      "in_period": 91
+     },
+     {
+      "query": "정전협정 위반 DMZ 지뢰 폭발",
+      "in_period": 70
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "cost_usd": 0.00136,
     "note": ""
    },
    "explain_state": "done"
@@ -58,51 +139,32 @@
    "keyword": "미세먼지",
    "spike": {
     "start": "2026-10-31",
-    "end": "2026-11-02",
+    "end": "2026-11-03",
     "peak_date": "2026-10-31",
     "peak_value": 100.0,
     "baseline": 22.2,
     "baseline_kind": "rolling",
     "news_period": [
      "2026-10-29",
-     "2026-11-04"
+     "2026-11-05"
     ]
    },
    "explanation": {
-    "status": "found",
-    "cause": "2026년 10월 31일 내몽골고원 등에서 발원한 황사가 한반도 상공을 지나면서 미세먼지(PM10) 농도가 올랐고, 11월 2일 서울에서 6년 만의 11월 황사와 올가을 첫 황사가 관측되며 미세먼지 '나쁨' 수준이 나타났습니다.",
-    "citations": [
-     {
-      "n": 1,
-      "title": "서울서 올가을 첫 황사 관측…내일 수도권 아침 0도까지 뚝",
-      "link": "https://n.news.naver.com/mnews/article/025/0003562186?sid=103",
-      "date": "2026-11-02"
-     },
-     {
-      "n": 2,
-      "title": "서울, 올 가을 첫 황사…미세먼지 '매우 나쁨'",
-      "link": "https://n.news.naver.com/mnews/article/018/0006402141?sid=103",
-      "date": "2026-11-02"
-     },
-     {
-      "n": 3,
-      "title": "서울 6년 만에 ‘11월 황사’... 내일까지 미세먼지 ‘나쁨’",
-      "link": "https://n.news.naver.com/mnews/article/023/0004007297?sid=102",
-      "date": "2026-11-02"
-     }
-    ],
+    "status": "unknown",
+    "cause": "정점일(10월 31일)을 설명하는 기사는 찾지 못했습니다. 검색된 기사는 모두 11월 2~4일 보도이며, 11월 2일 서울에서 올가을 첫 황사가 관측돼 미세먼지가 '매우 나쁨'을 기록했다는 내용이 가장 가깝지만, 이는 정점 이후의 일이라 급등 원인으로 확정할 수 없습니다.",
+    "citations": [],
     "searches": [
      {
       "query": "미세먼지",
-      "in_period": 146
+      "in_period": 152
      },
      {
-      "query": "미세먼지 황사 10월 31일",
-      "in_period": 17
+      "query": "미세먼지 황사 올 가을 첫 농도 나쁨 10월 31일",
+      "in_period": 1
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00132,
+    "cost_usd": 0.00127,
     "note": ""
    },
    "explain_state": "done"
