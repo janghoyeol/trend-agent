@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-05 16:01 KST",
+ "generated_at": "2026-11-06 16:00 KST",
  "watchlist_size": 38,
  "recent_days": 3,
  "model": "claude-haiku-5-5",
- "spent_usd": 0.004,
+ "spent_usd": 0.0028,
  "items": [
   {
    "keyword": "폭설",
@@ -21,58 +21,20 @@
    },
    "explanation": {
     "status": "unknown",
-    "cause": "검색 기간 내 기사에서 2026-11-03 급등의 원인을 확인할 수 없습니다. 같은 기간 '폭설' 관련 기사는 대부분 11월 18일 개봉하는 영화 '폭설'(김윤석·구교환 주연)의 포스터와 무대인사 소식이며, 모두 11월 4~5일자라 급등일 이후입니다. 실제 기상 폭설 관련 기사는 기간 내에서 찾지 못했습니다.",
+    "cause": "급등일(2026-11-03) 전후 기사에서 원인을 특정할 수 없습니다. 11-03 기사는 안양시 대중교통 대설·한파 대응 매뉴얼 1건뿐이고 실제 폭설 발생이나 특정 사건을 다루지 않았습니다. 영화 '폭설' 포스터·무대인사 기사는 모두 11-05자라 정점 이후 보도이므로 원인으로 볼 수 없습니다.",
     "citations": [],
     "searches": [
      {
       "query": "폭설",
-      "in_period": 124
+      "in_period": 127
      },
      {
-      "query": "김윤석 구교환 폭설 예고편 공개",
-      "in_period": 0
-     },
-     {
-      "query": "대설 주의보 폭설 예보",
-      "in_period": 0
+      "query": "폭설 대설특보 11월 3일",
+      "in_period": 1
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00134,
-    "note": ""
-   },
-   "explain_state": "done"
-  },
-  {
-   "keyword": "수능",
-   "spike": {
-    "start": "2026-11-02",
-    "end": "2026-11-02",
-    "peak_date": "2026-11-02",
-    "peak_value": 94.9,
-    "baseline": 30.0,
-    "baseline_kind": "rolling",
-    "news_period": [
-     "2026-10-31",
-     "2026-11-04"
-    ]
-   },
-   "explanation": {
-    "status": "unknown",
-    "cause": "2026-11-02 전후 기사에서 '수능' 검색량 급등을 직접 설명하는 사건은 확인되지 않았습니다. 같은 날 기사는 2027학년도 수능(11월 19일) 시험장 준비, 학부모 응원, 영화 '수능, 출제의 비밀'의 첫 주말 흥행 소식 등 시험을 앞둔 일반 보도였고, 급등과의 인과관계를 밝힌 기사는 없었습니다.",
-    "citations": [],
-    "searches": [
-     {
-      "query": "수능",
-      "in_period": 269
-     },
-     {
-      "query": "2027학년도 수능 11월 2일",
-      "in_period": 17
-     }
-    ],
-    "model": "claude-haiku-5-5",
-    "cost_usd": 0.00151,
+    "cost_usd": 0.00127,
     "note": ""
    },
    "explain_state": "done"
@@ -92,40 +54,25 @@
     ]
    },
    "explanation": {
-    "status": "found",
-    "cause": "2026년 10월 31일 내몽골고원 등에서 발원한 황사가 11월 2일 서울에서 올가을 첫 관측됐고, 이로 인해 서울·수도권·제주의 미세먼지 농도가 '나쁨' 수준으로 올랐다. 이후 3일 밤에도 황사와 미세먼지가 수도권·충남으로 추가 유입될 것으로 예보됐다.",
-    "citations": [
-     {
-      "n": 1,
-      "title": "11월 황사에 미세먼지 '나쁨'…서울·수도권·제주 영향",
-      "link": "http://www.sisunnews.co.kr/news/articleView.html?idxno=248903",
-      "date": "2026-11-02"
-     },
-     {
-      "n": 2,
-      "title": "서울서 올가을 첫 황사 관측…내일 수도권 아침 0도까지 뚝",
-      "link": "https://n.news.naver.com/mnews/article/025/0003562186?sid=103",
-      "date": "2026-11-02"
-     },
-     {
-      "n": 3,
-      "title": "[날씨] 내일도 '선선한 가을'...밤사이 수도권·충남 미세먼지 '나쁨'",
-      "link": "https://n.news.naver.com/mnews/article/052/0002427827?sid=103",
-      "date": "2026-11-03"
-     }
-    ],
+    "status": "unknown",
+    "cause": "정점일(2026-10-31) 전후 기간에 미세먼지 검색량을 설명할 만한 고농도 사건이나 특정 이슈를 다룬 기사를 찾지 못했습니다. 기간 내 기사는 청주시의 겨울철 미세먼지 선제 대책(11월 5일 보도)과 일별 날씨·미세먼지 인포그래픽 등 정기성 보도뿐이며, 이는 급등 시점 이후의 일상적 기사라 원인으로 보기 어렵습니다.",
+    "citations": [],
     "searches": [
      {
       "query": "미세먼지",
-      "in_period": 165
+      "in_period": 187
      },
      {
-      "query": "미세먼지 나쁨 황사 유입 10월 31일",
-      "in_period": 2
+      "query": "미세먼지 농도 높음 주의보 10월 31일",
+      "in_period": 0
+     },
+     {
+      "query": "미세먼지 고농도 발생 원인 황사 스모그",
+      "in_period": 0
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00111,
+    "cost_usd": 0.00151,
     "note": ""
    },
    "explain_state": "done"
