@@ -1,40 +1,55 @@
 {
- "generated_at": "2026-11-06 16:00 KST",
+ "generated_at": "2026-11-07 15:13 KST",
  "watchlist_size": 38,
  "recent_days": 3,
  "model": "claude-haiku-5-5",
- "spent_usd": 0.0028,
+ "spent_usd": 0.0023,
  "items": [
   {
-   "keyword": "폭설",
+   "keyword": "뉴진스",
    "spike": {
-    "start": "2026-11-03",
-    "end": "2026-11-03",
-    "peak_date": "2026-11-03",
-    "peak_value": 90.3,
-    "baseline": 23.0,
+    "start": "2026-11-06",
+    "end": "2026-11-06",
+    "peak_date": "2026-11-06",
+    "peak_value": 100.0,
+    "baseline": 26.7,
     "baseline_kind": "rolling",
     "news_period": [
-     "2026-11-01",
-     "2026-11-05"
+     "2026-11-04",
+     "2026-11-08"
     ]
    },
    "explanation": {
-    "status": "unknown",
-    "cause": "급등일(2026-11-03) 전후 기사에서 원인을 특정할 수 없습니다. 11-03 기사는 안양시 대중교통 대설·한파 대응 매뉴얼 1건뿐이고 실제 폭설 발생이나 특정 사건을 다루지 않았습니다. 영화 '폭설' 포스터·무대인사 기사는 모두 11-05자라 정점 이후 보도이므로 원인으로 볼 수 없습니다.",
-    "citations": [],
-    "searches": [
+    "status": "found",
+    "cause": "미국 뉴욕타임스(NYT)가 5일(현지시간) 뉴진스 멤버 5명이 14~17세 때 소속사 어도어와 맺은 전속계약서를 입수해 보도했고, 계약서에 미성년자 보호 조항이 빠져 있고 성형비를 멤버가 부담하는 등 가혹한 내용이 담겼다는 점이 알려져 불공정 계약 논란이 확산됐습니다. 이에 하이브와 어도어는 적법한 계약이며 인권 보호 조항이 포함돼 있다고 반박했습니다.",
+    "citations": [
      {
-      "query": "폭설",
-      "in_period": 127
+      "n": 1,
+      "title": "NYT, 뉴진스 계약서 공개… “성형비 멤버 부담”",
+      "link": "https://n.news.naver.com/mnews/article/366/0001203038?sid=004",
+      "date": "2026-11-06"
      },
      {
-      "query": "폭설 대설특보 11월 3일",
-      "in_period": 1
+      "n": 2,
+      "title": "‘성형비 갚고 연애 금지’…뉴진스 계약서 파장",
+      "link": "https://n.news.naver.com/mnews/article/449/0000366697?sid=101",
+      "date": "2026-11-06"
+     },
+     {
+      "n": 3,
+      "title": "하이브, 美 NYT 뉴진스 계약 보도 반박 \"민희진이 계약 주체\"",
+      "link": "https://n.news.naver.com/mnews/article/052/0002429124?sid=102",
+      "date": "2026-11-06"
+     }
+    ],
+    "searches": [
+     {
+      "query": "뉴진스",
+      "in_period": 248
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00127,
+    "cost_usd": 0.00067,
     "note": ""
    },
    "explain_state": "done"
@@ -55,24 +70,24 @@
    },
    "explanation": {
     "status": "unknown",
-    "cause": "정점일(2026-10-31) 전후 기간에 미세먼지 검색량을 설명할 만한 고농도 사건이나 특정 이슈를 다룬 기사를 찾지 못했습니다. 기간 내 기사는 청주시의 겨울철 미세먼지 선제 대책(11월 5일 보도)과 일별 날씨·미세먼지 인포그래픽 등 정기성 보도뿐이며, 이는 급등 시점 이후의 일상적 기사라 원인으로 보기 어렵습니다.",
+    "cause": "기사 검색으로는 2026년 10월 31일 전후 '미세먼지' 검색량 급등의 직접 원인을 확인할 수 없습니다. 기간 내 기사는 11월 5~6일 청주시 등 지자체의 겨울철 미세먼지 선제 대응 보도와 인천시 실내놀이터 조성 소식 위주로, 급등 정점(10월 31일) 이후에 나온 기사들이라 원인으로 보기 어렵습니다.",
     "citations": [],
     "searches": [
      {
       "query": "미세먼지",
-      "in_period": 187
+      "in_period": 155
      },
      {
-      "query": "미세먼지 농도 높음 주의보 10월 31일",
-      "in_period": 0
+      "query": "미세먼지 고농도 주의보 10월 31일",
+      "in_period": 1
      },
      {
-      "query": "미세먼지 고농도 발생 원인 황사 스모그",
+      "query": "미세먼지 계절관리제 시행 발표",
       "in_period": 0
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00151,
+    "cost_usd": 0.00158,
     "note": ""
    },
    "explain_state": "done"
