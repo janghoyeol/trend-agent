@@ -1,10 +1,44 @@
 {
- "generated_at": "2026-11-07 15:13 KST",
+ "generated_at": "2026-11-08 15:18 KST",
  "watchlist_size": 38,
  "recent_days": 3,
  "model": "claude-haiku-5-5",
- "spent_usd": 0.0023,
+ "spent_usd": 0.0018,
  "items": [
+  {
+   "keyword": "폭설",
+   "spike": {
+    "start": "2026-11-07",
+    "end": "2026-11-07",
+    "peak_date": "2026-11-07",
+    "peak_value": 100.0,
+    "baseline": 19.3,
+    "baseline_kind": "rolling",
+    "news_period": [
+     "2026-11-05",
+     "2026-11-09"
+    ]
+   },
+   "explanation": {
+    "status": "unknown",
+    "cause": "",
+    "citations": [],
+    "searches": [
+     {
+      "query": "폭설",
+      "in_period": 82
+     },
+     {
+      "query": "첫눈 폭설 입동 서울 적설",
+      "in_period": 0
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "cost_usd": 0.00115,
+    "note": ""
+   },
+   "explain_state": "done"
+  },
   {
    "keyword": "뉴진스",
    "spike": {
@@ -21,18 +55,18 @@
    },
    "explanation": {
     "status": "found",
-    "cause": "미국 뉴욕타임스(NYT)가 5일(현지시간) 뉴진스 멤버 5명이 14~17세 때 소속사 어도어와 맺은 전속계약서를 입수해 보도했고, 계약서에 미성년자 보호 조항이 빠져 있고 성형비를 멤버가 부담하는 등 가혹한 내용이 담겼다는 점이 알려져 불공정 계약 논란이 확산됐습니다. 이에 하이브와 어도어는 적법한 계약이며 인권 보호 조항이 포함돼 있다고 반박했습니다.",
+    "cause": "미국 뉴욕타임스(NYT)가 5일(현지시각) 뉴진스 멤버 5명이 14~17세 때 소속사 어도어와 맺은 전속계약서를 입수해 보도했고, 계약서에 미성년자 보호 조항이 빠져 있고 성형비를 멤버가 부담한다는 내용이 담겼다는 점이 국내에서 논란이 되었습니다. 이에 하이브와 어도어가 반박에 나서면서 관련 기사가 쏟아졌습니다.",
     "citations": [
      {
       "n": 1,
-      "title": "NYT, 뉴진스 계약서 공개… “성형비 멤버 부담”",
-      "link": "https://n.news.naver.com/mnews/article/366/0001203038?sid=004",
+      "title": "‘성형비 갚고 연애 금지’…뉴진스 계약서 파장",
+      "link": "https://n.news.naver.com/mnews/article/449/0000366697?sid=101",
       "date": "2026-11-06"
      },
      {
       "n": 2,
-      "title": "‘성형비 갚고 연애 금지’…뉴진스 계약서 파장",
-      "link": "https://n.news.naver.com/mnews/article/449/0000366697?sid=101",
+      "title": "NYT, 뉴진스 계약서 공개… “성형비 멤버 부담”",
+      "link": "https://n.news.naver.com/mnews/article/366/0001203038?sid=004",
       "date": "2026-11-06"
      },
      {
@@ -45,49 +79,11 @@
     "searches": [
      {
       "query": "뉴진스",
-      "in_period": 248
+      "in_period": 263
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00067,
-    "note": ""
-   },
-   "explain_state": "done"
-  },
-  {
-   "keyword": "미세먼지",
-   "spike": {
-    "start": "2026-10-31",
-    "end": "2026-11-04",
-    "peak_date": "2026-10-31",
-    "peak_value": 100.0,
-    "baseline": 22.2,
-    "baseline_kind": "rolling",
-    "news_period": [
-     "2026-10-29",
-     "2026-11-06"
-    ]
-   },
-   "explanation": {
-    "status": "unknown",
-    "cause": "기사 검색으로는 2026년 10월 31일 전후 '미세먼지' 검색량 급등의 직접 원인을 확인할 수 없습니다. 기간 내 기사는 11월 5~6일 청주시 등 지자체의 겨울철 미세먼지 선제 대응 보도와 인천시 실내놀이터 조성 소식 위주로, 급등 정점(10월 31일) 이후에 나온 기사들이라 원인으로 보기 어렵습니다.",
-    "citations": [],
-    "searches": [
-     {
-      "query": "미세먼지",
-      "in_period": 155
-     },
-     {
-      "query": "미세먼지 고농도 주의보 10월 31일",
-      "in_period": 1
-     },
-     {
-      "query": "미세먼지 계절관리제 시행 발표",
-      "in_period": 0
-     }
-    ],
-    "model": "claude-haiku-5-5",
-    "cost_usd": 0.00158,
+    "cost_usd": 0.00065,
     "note": ""
    },
    "explain_state": "done"
