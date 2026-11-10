@@ -1,55 +1,132 @@
 {
- "generated_at": "2026-11-09 15:53 KST",
+ "generated_at": "2026-11-10 16:31 KST",
  "watchlist_size": 38,
  "recent_days": 3,
  "model": "claude-haiku-5-5",
- "spent_usd": 0.0032,
+ "spent_usd": 0.0041,
  "items": [
+  {
+   "keyword": "폭설",
+   "spike": {
+    "start": "2026-11-07",
+    "end": "2026-11-09",
+    "peak_date": "2026-11-09",
+    "peak_value": 100.0,
+    "baseline": 19.3,
+    "baseline_kind": "rolling",
+    "news_period": [
+     "2026-11-05",
+     "2026-11-11"
+    ]
+   },
+   "explanation": {
+    "status": "unknown",
+    "cause": "기간 내 기사 대부분이 급등 정점(11-09) 이후인 11월 10일자이며, 급등 기간(11-07~11-09)을 직접 다룬 기사는 확인되지 않았습니다. 같은 기간의 폭설 관련 기사는 행정안전부의 제설제 민간 비축 지정, 고속도로 폭설 대비 훈련, 영화 '폭설'(11월 18일 개봉) 홍보 기사뿐이고, 실제 폭설 발생이나 대설 특보를 다룬 기사는 찾지 못했습니다. 따라서 급등 원인을 기사로 확정할 수 없습니다.",
+    "citations": [],
+    "searches": [
+     {
+      "query": "폭설",
+      "in_period": 204
+     },
+     {
+      "query": "폭설 대설 특보 눈 쏟아져",
+      "in_period": 0
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "cost_usd": 0.00129,
+    "note": ""
+   },
+   "explain_state": "done"
+  },
+  {
+   "keyword": "수능",
+   "spike": {
+    "start": "2026-11-09",
+    "end": "2026-11-09",
+    "peak_date": "2026-11-09",
+    "peak_value": 100.0,
+    "baseline": 23.3,
+    "baseline_kind": "rolling",
+    "news_period": [
+     "2026-11-07",
+     "2026-11-11"
+    ]
+   },
+   "explanation": {
+    "status": "found",
+    "cause": "2027학년도 수능(11월 19일)이 열흘 앞으로 다가온 11월 9일, 교육부가 수능 시험장의 스마트 안경(AI 안경) 반입을 금지하고 실물 신분증 지참과 18일 예비소집 참석을 안내했으며, 내신 시험에서도 AI 안경 부정행위가 적발됐다는 보도가 쏟아졌습니다. 이 수능 D-10 안내와 부정행위 우려 기사가 같은 날 집중적으로 나온 것이 검색 급등과 맞물린 것으로 보입니다.",
+    "citations": [
+     {
+      "n": 1,
+      "title": "수능 열흘 앞…스마트 안경은 두고, 실물 신분증은 챙기세요",
+      "link": "https://n.news.naver.com/mnews/article/028/0002831317?sid=102",
+      "date": "2026-11-09"
+     },
+     {
+      "n": 2,
+      "title": "수능날 'AI 안경' 쓰면 N수생 된다…'모바일 신분증' 안 돼",
+      "link": "https://n.news.naver.com/mnews/article/003/0014310500?sid=102",
+      "date": "2026-11-09"
+     },
+     {
+      "n": 3,
+      "title": "내신에서 ‘AI 안경’ 추가 적발…수능 D-10 ‘비상’",
+      "link": "https://n.news.naver.com/mnews/article/056/0012290109?sid=102",
+      "date": "2026-11-09"
+     }
+    ],
+    "searches": [
+     {
+      "query": "수능",
+      "in_period": 495
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "cost_usd": 0.00075,
+    "note": ""
+   },
+   "explain_state": "done"
+  },
   {
    "keyword": "지진",
    "spike": {
     "start": "2026-11-08",
-    "end": "2026-11-08",
+    "end": "2026-11-09",
     "peak_date": "2026-11-08",
     "peak_value": 35.1,
     "baseline": 7.9,
     "baseline_kind": "rolling",
     "news_period": [
      "2026-11-06",
-     "2026-11-10"
+     "2026-11-11"
     ]
    },
    "explanation": {
     "status": "found",
-    "cause": "2026년 11월 8일 새벽 일본 시즈오카현 서쪽에서 규모 5.7 지진이 발생해 주민 피해와 '난카이 대지진' 불안이 번졌고, 이후 지진 속보를 전한 NHK 나가노방송국 아나운서의 생얼 재난방송이 화제가 되면서 '지진' 검색이 늘어난 것으로 보입니다.",
+    "cause": "2026년 11월 8일 오전 1시 4분쯤 일본 시즈오카현 서부를 진원으로 한 규모 5.7 지진이 발생해 인접한 아이치현에서 진도 5강이 관측됐고, 이를 계기로 국내에서도 지진 관련 기사와 '난카이 대지진' 우려가 확산됐다. 일본 기상청은 1주일간 추가 지진 가능성을 경고했다.",
     "citations": [
      {
       "n": 1,
-      "title": "日 시즈오카현 규모 5.7 지진…107년 만의 강진에 주민들 '혼비백산'",
-      "link": "https://n.news.naver.com/mnews/article/421/0009277555?sid=104",
-      "date": "2026-11-08"
-     },
-     {
-      "n": 2,
       "title": "107년 만의 시즈오카 강진…'난카이 대지진' 불안 확산",
       "link": "https://n.news.naver.com/mnews/article/057/0001977296?sid=104",
       "date": "2026-11-09"
      },
      {
-      "n": 3,
-      "title": "새벽 지진에 \"혹시 난카이?\" '불안 엄습' 日 정부 긴급 브리핑",
-      "link": "https://n.news.naver.com/mnews/article/214/0001534211?sid=104",
-      "date": "2026-11-08"
+      "n": 2,
+      "title": "일본여행 주의보…기상청 \"1주일간 추가 지진 가능성\" [영상]",
+      "link": "https://n.news.naver.com/mnews/article/015/0005351994?sid=104",
+      "date": "2026-11-09"
      }
     ],
     "searches": [
      {
       "query": "지진",
-      "in_period": 180
+      "in_period": 219
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00062,
+    "cost_usd": 0.00068,
     "note": ""
    },
    "explain_state": "done"
@@ -58,143 +135,32 @@
    "keyword": "블랙핑크",
    "spike": {
     "start": "2026-11-08",
-    "end": "2026-11-08",
+    "end": "2026-11-09",
     "peak_date": "2026-11-08",
     "peak_value": 99.4,
     "baseline": 26.6,
     "baseline_kind": "rolling",
     "news_period": [
      "2026-11-06",
-     "2026-11-10"
+     "2026-11-11"
     ]
    },
    "explanation": {
-    "status": "found",
-    "cause": "2026년 11월 8일 블랙핑크 지수가 JTBC '냉장고를 부탁해'에 에이티즈 산·우영과 함께 출연해 방송됐고, 이 방송에서 지수의 맵부심 등 근황과 유튜브 구독자 1억 명 돌파 기념 '레드 다이아' 버튼이 공개됐다.",
-    "citations": [
-     {
-      "n": 1,
-      "title": "블랙핑크 지수, 에이티즈 산·우영 '냉부해' 출격",
-      "link": "https://m.entertain.naver.com/article/437/0000519671",
-      "date": "2026-11-08"
-     },
-     {
-      "n": 2,
-      "title": "'냉장고를 부탁해' 블랙핑크 지수, 맵부심 자랑",
-      "link": "https://enter.etoday.co.kr/news/view/304936",
-      "date": "2026-11-08"
-     },
-     {
-      "n": 3,
-      "title": "블랙핑크 '구독자 1억' 레드 다이아 버튼 … 에이티즈 \"진짜냐\" 눈 휘둥...",
-      "link": "https://www.newdaily.co.kr/site/data/html/2026/11/09/2026110900175.html",
-      "date": "2026-11-09"
-     }
-    ],
+    "status": "unknown",
+    "cause": "정점일(11월 8일)에 블랙핑크의 급등을 설명할 기사를 찾지 못했습니다. 검색된 기사는 대부분 11월 9~10일자로, 지수의 SBS '틈만나면,' 출연 예고, 제니의 빌보드 핫100 차트인 소식, SBS 가요대전 출연 라인업 등이며 모두 정점 이후 기사입니다. 11월 8일자 기사는 걸그룹 브랜드평판 순위(블랙핑크 3위) 정도뿐이라 급등의 직접 원인으로 보기 어렵습니다.",
+    "citations": [],
     "searches": [
      {
       "query": "블랙핑크",
-      "in_period": 97
+      "in_period": 119
+     },
+     {
+      "query": "블랙핑크 11월 8일 발표 컴백",
+      "in_period": 5
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00071,
-    "note": ""
-   },
-   "explain_state": "done"
-  },
-  {
-   "keyword": "폭설",
-   "spike": {
-    "start": "2026-11-07",
-    "end": "2026-11-08",
-    "peak_date": "2026-11-07",
-    "peak_value": 100.0,
-    "baseline": 19.3,
-    "baseline_kind": "rolling",
-    "news_period": [
-     "2026-11-05",
-     "2026-11-10"
-    ]
-   },
-   "explanation": {
-    "status": "found",
-    "cause": "2026년 11월 8일 서울에 예년보다 이른 첫눈이 내리자 서울시가 한파·폭설 대응 겨울철 종합대책을 내놓았고, 자치구들도 폭설과 도로 결빙에 대비한 제설대책을 잇따라 발표했습니다. 같은 시기 영화 '폭설' 홍보 기사도 나왔지만, 검색 급등의 직접 원인으로는 기사에서 확인되지 않았습니다.",
-    "citations": [
-     {
-      "n": 1,
-      "title": "서울 첫눈에 겨울 준비 본격화…서울시, 한파·폭설 대응 강화",
-      "link": "https://www.kizmom.com/news/articleView.html?idxno=113828",
-      "date": "2026-11-08"
-     },
-     {
-      "n": 2,
-      "title": "서울 자치구들 겨울철 제설 비상…도로 열선 늘리고 골목길까지 촘촘히...",
-      "link": "https://n.news.naver.com/mnews/article/016/0002720536?sid=102",
-      "date": "2026-11-09"
-     }
-    ],
-    "searches": [
-     {
-      "query": "폭설",
-      "in_period": 116
-     },
-     {
-      "query": "첫눈 폭설 서울 강설",
-      "in_period": 1
-     }
-    ],
-    "model": "claude-haiku-5-5",
-    "cost_usd": 0.00122,
-    "note": ""
-   },
-   "explain_state": "done"
-  },
-  {
-   "keyword": "뉴진스",
-   "spike": {
-    "start": "2026-11-06",
-    "end": "2026-11-06",
-    "peak_date": "2026-11-06",
-    "peak_value": 100.0,
-    "baseline": 26.7,
-    "baseline_kind": "rolling",
-    "news_period": [
-     "2026-11-04",
-     "2026-11-08"
-    ]
-   },
-   "explanation": {
-    "status": "found",
-    "cause": "미국 뉴욕타임스(NYT)가 5일(현지시간) 뉴진스 멤버 5명이 14~17세 때 소속사 어도어와 맺은 전속계약서를 입수해 보도했고, 성형비 상환·연애 금지 등 가혹한 조항이 알려지면서 불공정 계약 논란이 번졌습니다. 이에 하이브와 어도어가 6일 반박에 나섰습니다.",
-    "citations": [
-     {
-      "n": 1,
-      "title": "NYT, 뉴진스 계약서 공개… “성형비 멤버 부담”",
-      "link": "https://n.news.naver.com/mnews/article/366/0001203038?sid=004",
-      "date": "2026-11-06"
-     },
-     {
-      "n": 2,
-      "title": "‘성형비 갚고 연애 금지’…뉴진스 계약서 파장",
-      "link": "https://n.news.naver.com/mnews/article/449/0000366697?sid=101",
-      "date": "2026-11-06"
-     },
-     {
-      "n": 3,
-      "title": "하이브, 美 NYT 뉴진스 계약 보도 반박 \"민희진이 계약 주체\"",
-      "link": "https://n.news.naver.com/mnews/article/052/0002429124?sid=102",
-      "date": "2026-11-06"
-     }
-    ],
-    "searches": [
-     {
-      "query": "뉴진스",
-      "in_period": 271
-     }
-    ],
-    "model": "claude-haiku-5-5",
-    "cost_usd": 0.00063,
+    "cost_usd": 0.00136,
     "note": ""
    },
    "explain_state": "done"
