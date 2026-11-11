@@ -1,40 +1,55 @@
 {
- "generated_at": "2026-11-10 16:31 KST",
+ "generated_at": "2026-11-11 15:45 KST",
  "watchlist_size": 38,
  "recent_days": 3,
  "model": "claude-haiku-5-5",
- "spent_usd": 0.0041,
+ "spent_usd": 0.0043,
  "items": [
   {
-   "keyword": "폭설",
+   "keyword": "블랙핑크",
    "spike": {
-    "start": "2026-11-07",
-    "end": "2026-11-09",
-    "peak_date": "2026-11-09",
+    "start": "2026-11-08",
+    "end": "2026-11-10",
+    "peak_date": "2026-11-10",
     "peak_value": 100.0,
-    "baseline": 19.3,
+    "baseline": 20.9,
     "baseline_kind": "rolling",
     "news_period": [
-     "2026-11-05",
-     "2026-11-11"
+     "2026-11-06",
+     "2026-11-12"
     ]
    },
    "explanation": {
-    "status": "unknown",
-    "cause": "기간 내 기사 대부분이 급등 정점(11-09) 이후인 11월 10일자이며, 급등 기간(11-07~11-09)을 직접 다룬 기사는 확인되지 않았습니다. 같은 기간의 폭설 관련 기사는 행정안전부의 제설제 민간 비축 지정, 고속도로 폭설 대비 훈련, 영화 '폭설'(11월 18일 개봉) 홍보 기사뿐이고, 실제 폭설 발생이나 대설 특보를 다룬 기사는 찾지 못했습니다. 따라서 급등 원인을 기사로 확정할 수 없습니다.",
-    "citations": [],
-    "searches": [
+    "status": "found",
+    "cause": "블랙핑크 멤버 지수가 2026년 11월 10일 방송된 SBS 예능 '틈만나면,'에 트와이스 나연과 함께 게스트로 출연해 데뷔 전부터 이어온 우정과 연습생 시절 이야기를 전했고, 이 방송이 동시간대 1위를 기록하며 화제가 됐습니다.",
+    "citations": [
      {
-      "query": "폭설",
-      "in_period": 204
+      "n": 1,
+      "title": "블랙핑크 지수·트와이스 나연 \"데뷔 전부터 알았다\"…동갑 찐친 [RE:TV]",
+      "link": "https://m.entertain.naver.com/article/421/0009282116",
+      "date": "2026-11-11"
      },
      {
-      "query": "폭설 대설 특보 눈 쏟아져",
-      "in_period": 0
+      "n": 2,
+      "title": "블랙핑크·트와이스 뭉쳤다..지수·나연 뜬 '틈만나면,' 동시간대 1위[종...",
+      "link": "https://m.entertain.naver.com/article/108/0003486484",
+      "date": "2026-11-11"
+     },
+     {
+      "n": 3,
+      "title": "블랙핑크 지수X트와이스 나연 뭉치니 터졌다…'틈만나면', 13주 연속 시...",
+      "link": "https://m.entertain.naver.com/article/416/0000327975",
+      "date": "2026-11-11"
+     }
+    ],
+    "searches": [
+     {
+      "query": "블랙핑크",
+      "in_period": 152
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00129,
+    "cost_usd": 0.00072,
     "note": ""
    },
    "explain_state": "done"
@@ -43,47 +58,85 @@
    "keyword": "수능",
    "spike": {
     "start": "2026-11-09",
-    "end": "2026-11-09",
-    "peak_date": "2026-11-09",
+    "end": "2026-11-10",
+    "peak_date": "2026-11-10",
     "peak_value": 100.0,
-    "baseline": 23.3,
+    "baseline": 24.9,
     "baseline_kind": "rolling",
     "news_period": [
      "2026-11-07",
-     "2026-11-11"
+     "2026-11-12"
     ]
    },
    "explanation": {
     "status": "found",
-    "cause": "2027학년도 수능(11월 19일)이 열흘 앞으로 다가온 11월 9일, 교육부가 수능 시험장의 스마트 안경(AI 안경) 반입을 금지하고 실물 신분증 지참과 18일 예비소집 참석을 안내했으며, 내신 시험에서도 AI 안경 부정행위가 적발됐다는 보도가 쏟아졌습니다. 이 수능 D-10 안내와 부정행위 우려 기사가 같은 날 집중적으로 나온 것이 검색 급등과 맞물린 것으로 보입니다.",
+    "cause": "교육당국이 수능 시험장에서 AI 스마트안경을 이용한 부정행위를 막기 위해 대응을 강화했고, 11월 9일 보도에서는 중·고교 내신시험에서도 'AI 안경' 부정행위 4건이 적발됐다고 전해졌습니다. 교육당국은 수능 부정행위자의 응시자격 정지 기간을 1년에서 3년으로 늘리고 형사고발하겠다고 발표했습니다.",
     "citations": [
      {
       "n": 1,
-      "title": "수능 열흘 앞…스마트 안경은 두고, 실물 신분증은 챙기세요",
-      "link": "https://n.news.naver.com/mnews/article/028/0002831317?sid=102",
+      "title": "중·고교 내신시험도 ‘AI 안경’에 뚫렸다…교육부 전수조사 4건 적발",
+      "link": "https://n.news.naver.com/mnews/article/022/0004173751?sid=102",
       "date": "2026-11-09"
      },
      {
       "n": 2,
-      "title": "수능날 'AI 안경' 쓰면 N수생 된다…'모바일 신분증' 안 돼",
-      "link": "https://n.news.naver.com/mnews/article/003/0014310500?sid=102",
+      "title": "안경테 톡톡·렌즈서 초록불빛… 내신평가 ‘AI 안경’ 4건 적발",
+      "link": "https://n.news.naver.com/mnews/article/021/0002831385?sid=102",
       "date": "2026-11-09"
      },
      {
       "n": 3,
-      "title": "내신에서 ‘AI 안경’ 추가 적발…수능 D-10 ‘비상’",
-      "link": "https://n.news.naver.com/mnews/article/056/0012290109?sid=102",
+      "title": "‘AI 안경’ 부정행위 비상...수능 시험장 감독 대폭 강화",
+      "link": "https://n.news.naver.com/mnews/article/655/0000033510?sid=102",
       "date": "2026-11-09"
      }
     ],
     "searches": [
      {
       "query": "수능",
-      "in_period": 495
+      "in_period": 500
+     },
+     {
+      "query": "수능 스마트안경 부정행위 교육당국",
+      "in_period": 88
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00075,
+    "cost_usd": 0.00135,
+    "note": ""
+   },
+   "explain_state": "done"
+  },
+  {
+   "keyword": "폭설",
+   "spike": {
+    "start": "2026-11-07",
+    "end": "2026-11-10",
+    "peak_date": "2026-11-09",
+    "peak_value": 100.0,
+    "baseline": 19.3,
+    "baseline_kind": "rolling",
+    "news_period": [
+     "2026-11-05",
+     "2026-11-12"
+    ]
+   },
+   "explanation": {
+    "status": "unknown",
+    "cause": "검색 기간(2026-11-05~11-12) 기사에서 정점일 11-09 전후에 '폭설' 검색을 설명할 만한 사건을 확인하지 못했습니다. 11-10 이후의 기사만 확인되는데, 겨울 대설 대책 기사, 영화 '폭설'(11-18 개봉) 홍보 기사, 엘니뇨 전망 기사가 주로 나왔고 모두 급등 시작일 이후에 나왔습니다. 어느 쪽이 검색을 끌어올렸는지 기사로는 판단할 수 없습니다.",
+    "citations": [],
+    "searches": [
+     {
+      "query": "폭설",
+      "in_period": 290
+     },
+     {
+      "query": "영화 폭설 김윤석 개봉",
+      "in_period": 75
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "cost_usd": 0.0015,
     "note": ""
    },
    "explain_state": "done"
@@ -104,7 +157,7 @@
    },
    "explanation": {
     "status": "found",
-    "cause": "2026년 11월 8일 오전 1시 4분쯤 일본 시즈오카현 서부를 진원으로 한 규모 5.7 지진이 발생해 인접한 아이치현에서 진도 5강이 관측됐고, 이를 계기로 국내에서도 지진 관련 기사와 '난카이 대지진' 우려가 확산됐다. 일본 기상청은 1주일간 추가 지진 가능성을 경고했다.",
+    "cause": "2026년 11월 8일 새벽 1시 4분경 일본 시즈오카현 서부에서 규모 5.7 지진이 발생해 인접한 아이치현에서 진도 5강의 흔들림이 관측됐고, 일본 기상청이 1주일간 추가 지진 가능성을 경고했습니다. 이에 국내 독자들의 관심이 몰리며 검색량이 늘어난 것으로 보입니다.",
     "citations": [
      {
       "n": 1,
@@ -117,50 +170,22 @@
       "title": "일본여행 주의보…기상청 \"1주일간 추가 지진 가능성\" [영상]",
       "link": "https://n.news.naver.com/mnews/article/015/0005351994?sid=104",
       "date": "2026-11-09"
+     },
+     {
+      "n": 3,
+      "title": "지진 10분 만에 '쌩얼'로 달려갔다… 日 아나운서 '긴급 보도' 화제",
+      "link": "https://n.news.naver.com/mnews/article/469/0000964682?sid=104",
+      "date": "2026-11-10"
      }
     ],
     "searches": [
      {
       "query": "지진",
-      "in_period": 219
+      "in_period": 228
      }
     ],
     "model": "claude-haiku-5-5",
     "cost_usd": 0.00068,
-    "note": ""
-   },
-   "explain_state": "done"
-  },
-  {
-   "keyword": "블랙핑크",
-   "spike": {
-    "start": "2026-11-08",
-    "end": "2026-11-09",
-    "peak_date": "2026-11-08",
-    "peak_value": 99.4,
-    "baseline": 26.6,
-    "baseline_kind": "rolling",
-    "news_period": [
-     "2026-11-06",
-     "2026-11-11"
-    ]
-   },
-   "explanation": {
-    "status": "unknown",
-    "cause": "정점일(11월 8일)에 블랙핑크의 급등을 설명할 기사를 찾지 못했습니다. 검색된 기사는 대부분 11월 9~10일자로, 지수의 SBS '틈만나면,' 출연 예고, 제니의 빌보드 핫100 차트인 소식, SBS 가요대전 출연 라인업 등이며 모두 정점 이후 기사입니다. 11월 8일자 기사는 걸그룹 브랜드평판 순위(블랙핑크 3위) 정도뿐이라 급등의 직접 원인으로 보기 어렵습니다.",
-    "citations": [],
-    "searches": [
-     {
-      "query": "블랙핑크",
-      "in_period": 119
-     },
-     {
-      "query": "블랙핑크 11월 8일 발표 컴백",
-      "in_period": 5
-     }
-    ],
-    "model": "claude-haiku-5-5",
-    "cost_usd": 0.00136,
     "note": ""
    },
    "explain_state": "done"
