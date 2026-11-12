@@ -1,55 +1,53 @@
 {
- "generated_at": "2026-11-11 15:45 KST",
+ "generated_at": "2026-11-12 16:25 KST",
  "watchlist_size": 38,
  "recent_days": 3,
  "model": "claude-haiku-5-5",
- "spent_usd": 0.0043,
+ "spent_usd": 0.0038,
  "items": [
   {
-   "keyword": "블랙핑크",
+   "keyword": "폭설",
    "spike": {
-    "start": "2026-11-08",
-    "end": "2026-11-10",
-    "peak_date": "2026-11-10",
+    "start": "2026-11-07",
+    "end": "2026-11-11",
+    "peak_date": "2026-11-11",
     "peak_value": 100.0,
-    "baseline": 20.9,
+    "baseline": 20.1,
     "baseline_kind": "rolling",
     "news_period": [
-     "2026-11-06",
-     "2026-11-12"
+     "2026-11-05",
+     "2026-11-13"
     ]
    },
    "explanation": {
     "status": "found",
-    "cause": "블랙핑크 멤버 지수가 2026년 11월 10일 방송된 SBS 예능 '틈만나면,'에 트와이스 나연과 함께 게스트로 출연해 데뷔 전부터 이어온 우정과 연습생 시절 이야기를 전했고, 이 방송이 동시간대 1위를 기록하며 화제가 됐습니다.",
+    "cause": "영화 '폭설'(김윤석·구교환 주연, 배급 쇼박스)의 메인 예고편이 공개되고 개봉 12일 전 실시간 예매 순위 6위에 오르는 등 개봉 홍보가 집중되던 시기였습니다. 영화 개봉일은 11월 18일이며, 언론시사회는 11월 12일에 열렸습니다.",
     "citations": [
      {
       "n": 1,
-      "title": "블랙핑크 지수·트와이스 나연 \"데뷔 전부터 알았다\"…동갑 찐친 [RE:TV]",
-      "link": "https://m.entertain.naver.com/article/421/0009282116",
-      "date": "2026-11-11"
+      "title": "김윤석·구교환 '폭설', 개봉 12일 전 예매 6위…의문의 시신 둘러싼 미...",
+      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16269573",
+      "date": "2026-11-06"
      },
      {
       "n": 2,
-      "title": "블랙핑크·트와이스 뭉쳤다..지수·나연 뜬 '틈만나면,' 동시간대 1위[종...",
-      "link": "https://m.entertain.naver.com/article/108/0003486484",
-      "date": "2026-11-11"
-     },
-     {
-      "n": 3,
-      "title": "블랙핑크 지수X트와이스 나연 뭉치니 터졌다…'틈만나면', 13주 연속 시...",
-      "link": "https://m.entertain.naver.com/article/416/0000327975",
-      "date": "2026-11-11"
+      "title": "주연부터 '특출'까지…'부활남'→'실낙원'→'폭설' 연말 극장가 달구는...",
+      "link": "https://m.entertain.naver.com/article/445/0000488507",
+      "date": "2026-11-08"
      }
     ],
     "searches": [
      {
-      "query": "블랙핑크",
-      "in_period": 152
+      "query": "폭설",
+      "in_period": 418
+     },
+     {
+      "query": "영화 폭설 김윤석 구교환 예고편 공개",
+      "in_period": 2
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00072,
+    "cost_usd": 0.00119,
     "note": ""
    },
    "explain_state": "done"
@@ -58,36 +56,36 @@
    "keyword": "수능",
    "spike": {
     "start": "2026-11-09",
-    "end": "2026-11-10",
-    "peak_date": "2026-11-10",
+    "end": "2026-11-11",
+    "peak_date": "2026-11-11",
     "peak_value": 100.0,
-    "baseline": 24.9,
+    "baseline": 21.4,
     "baseline_kind": "rolling",
     "news_period": [
      "2026-11-07",
-     "2026-11-12"
+     "2026-11-13"
     ]
    },
    "explanation": {
     "status": "found",
-    "cause": "교육당국이 수능 시험장에서 AI 스마트안경을 이용한 부정행위를 막기 위해 대응을 강화했고, 11월 9일 보도에서는 중·고교 내신시험에서도 'AI 안경' 부정행위 4건이 적발됐다고 전해졌습니다. 교육당국은 수능 부정행위자의 응시자격 정지 기간을 1년에서 3년으로 늘리고 형사고발하겠다고 발표했습니다.",
+    "cause": "2027학년도 수능(19일)을 앞두고 AI 스마트안경을 이용한 부정행위를 막기 위해 교육부와 각 교육청이 전국 1312개 시험장에 판별 전담요원을 배치하고 감독관 특별 연수에 나선다는 보도가 9~11일에 집중됐습니다. 같은 기간 중고교 AI 안경 부정행위 4건 적발 소식도 함께 나왔습니다.",
     "citations": [
      {
       "n": 1,
-      "title": "중·고교 내신시험도 ‘AI 안경’에 뚫렸다…교육부 전수조사 4건 적발",
-      "link": "https://n.news.naver.com/mnews/article/022/0004173751?sid=102",
+      "title": "AI 스마트안경 부정행위 막으려... 전국 수능 시험장 1312곳에 전담요원...",
+      "link": "https://www.insight.co.kr/news/581151",
       "date": "2026-11-09"
      },
      {
       "n": 2,
-      "title": "안경테 톡톡·렌즈서 초록불빛… 내신평가 ‘AI 안경’ 4건 적발",
-      "link": "https://n.news.naver.com/mnews/article/021/0002831385?sid=102",
+      "title": "수능 D-10, AI 안경 부정행위 차단… 시험장마다 전담요원 배치",
+      "link": "https://www.newscj.com/news/articleView.html?idxno=3446999",
       "date": "2026-11-09"
      },
      {
       "n": 3,
-      "title": "‘AI 안경’ 부정행위 비상...수능 시험장 감독 대폭 강화",
-      "link": "https://n.news.naver.com/mnews/article/655/0000033510?sid=102",
+      "title": "시험 중 안경테 만지작…중고교 AI 안경 부정행위 4건 적발",
+      "link": "https://n.news.naver.com/mnews/article/003/0014310489?sid=102",
       "date": "2026-11-09"
      }
     ],
@@ -97,46 +95,61 @@
       "in_period": 500
      },
      {
-      "query": "수능 스마트안경 부정행위 교육당국",
-      "in_period": 88
+      "query": "수능 AI 안경 부정행위 방지 시험장",
+      "in_period": 26
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00135,
+    "cost_usd": 0.00134,
     "note": ""
    },
    "explain_state": "done"
   },
   {
-   "keyword": "폭설",
+   "keyword": "블랙핑크",
    "spike": {
-    "start": "2026-11-07",
-    "end": "2026-11-10",
-    "peak_date": "2026-11-09",
+    "start": "2026-11-08",
+    "end": "2026-11-11",
+    "peak_date": "2026-11-10",
     "peak_value": 100.0,
-    "baseline": 19.3,
+    "baseline": 20.9,
     "baseline_kind": "rolling",
     "news_period": [
-     "2026-11-05",
-     "2026-11-12"
+     "2026-11-06",
+     "2026-11-13"
     ]
    },
    "explanation": {
-    "status": "unknown",
-    "cause": "검색 기간(2026-11-05~11-12) 기사에서 정점일 11-09 전후에 '폭설' 검색을 설명할 만한 사건을 확인하지 못했습니다. 11-10 이후의 기사만 확인되는데, 겨울 대설 대책 기사, 영화 '폭설'(11-18 개봉) 홍보 기사, 엘니뇨 전망 기사가 주로 나왔고 모두 급등 시작일 이후에 나왔습니다. 어느 쪽이 검색을 끌어올렸는지 기사로는 판단할 수 없습니다.",
-    "citations": [],
-    "searches": [
+    "status": "found",
+    "cause": "2027년 코첼라 라인업 공개로 블랙핑크 지수의 코첼라 솔로 무대 출연이 알려졌다. 지수는 내년 4월 코첼라 무대에 오르며, 그룹 NCT·베이비몬스터도 함께 라인업에 올랐다.",
+    "citations": [
      {
-      "query": "폭설",
-      "in_period": 290
+      "n": 1,
+      "title": "[공식] 블랙핑크 지수→NCT·베이비몬스터 출격..2027 코첼라 라인업 공...",
+      "link": "https://m.entertain.naver.com/article/108/0003486619",
+      "date": "2026-11-11"
      },
      {
-      "query": "영화 폭설 김윤석 개봉",
-      "in_period": 75
+      "n": 2,
+      "title": "블랙핑크 지수·NCT·베이비몬스터, 내년 코첼라 간다",
+      "link": "https://m.entertain.naver.com/article/003/0014316306",
+      "date": "2026-11-11"
+     },
+     {
+      "n": 3,
+      "title": "블랙핑크 지수, '코첼라' 솔로 출격",
+      "link": "https://n.news.naver.com/mnews/article/055/0001402432?sid=103",
+      "date": "2026-11-12"
+     }
+    ],
+    "searches": [
+     {
+      "query": "블랙핑크",
+      "in_period": 248
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.0015,
+    "cost_usd": 0.00063,
     "note": ""
    },
    "explain_state": "done"
@@ -157,35 +170,29 @@
    },
    "explanation": {
     "status": "found",
-    "cause": "2026년 11월 8일 새벽 1시 4분경 일본 시즈오카현 서부에서 규모 5.7 지진이 발생해 인접한 아이치현에서 진도 5강의 흔들림이 관측됐고, 일본 기상청이 1주일간 추가 지진 가능성을 경고했습니다. 이에 국내 독자들의 관심이 몰리며 검색량이 늘어난 것으로 보입니다.",
+    "cause": "2026년 11월 8일 오전 1시 4분경 일본 시즈오카현 서부를 진원으로 한 규모 5.7 지진이 발생해 인접한 아이치현에서 진도 5강의 흔들림이 관측됐고, 일본 기상청은 1주일간 비슷한 수준의 추가 지진 가능성을 경고했습니다.",
     "citations": [
      {
       "n": 1,
-      "title": "107년 만의 시즈오카 강진…'난카이 대지진' 불안 확산",
-      "link": "https://n.news.naver.com/mnews/article/057/0001977296?sid=104",
-      "date": "2026-11-09"
+      "title": "日 시즈오카현 서부서 규모 5.7 지진…\"2∼3일간 큰 지진 주의\"(종합)",
+      "link": "https://n.news.naver.com/mnews/article/001/0016428577?sid=104",
+      "date": "2026-11-08"
      },
      {
       "n": 2,
       "title": "일본여행 주의보…기상청 \"1주일간 추가 지진 가능성\" [영상]",
       "link": "https://n.news.naver.com/mnews/article/015/0005351994?sid=104",
       "date": "2026-11-09"
-     },
-     {
-      "n": 3,
-      "title": "지진 10분 만에 '쌩얼'로 달려갔다… 日 아나운서 '긴급 보도' 화제",
-      "link": "https://n.news.naver.com/mnews/article/469/0000964682?sid=104",
-      "date": "2026-11-10"
      }
     ],
     "searches": [
      {
       "query": "지진",
-      "in_period": 228
+      "in_period": 225
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00068,
+    "cost_usd": 0.00064,
     "note": ""
    },
    "explain_state": "done"
