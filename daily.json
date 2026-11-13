@@ -1,53 +1,157 @@
 {
- "generated_at": "2026-11-12 16:25 KST",
+ "generated_at": "2026-11-13 15:57 KST",
  "watchlist_size": 38,
  "recent_days": 3,
  "model": "claude-haiku-5-5",
- "spent_usd": 0.0038,
+ "spent_usd": 0.0056,
  "items": [
   {
-   "keyword": "폭설",
+   "keyword": "정전",
    "spike": {
-    "start": "2026-11-07",
-    "end": "2026-11-11",
-    "peak_date": "2026-11-11",
-    "peak_value": 100.0,
-    "baseline": 20.1,
+    "start": "2026-11-12",
+    "end": "2026-11-12",
+    "peak_date": "2026-11-12",
+    "peak_value": 82.8,
+    "baseline": 26.4,
     "baseline_kind": "rolling",
     "news_period": [
-     "2026-11-05",
-     "2026-11-13"
+     "2026-11-10",
+     "2026-11-14"
     ]
    },
    "explanation": {
     "status": "found",
-    "cause": "영화 '폭설'(김윤석·구교환 주연, 배급 쇼박스)의 메인 예고편이 공개되고 개봉 12일 전 실시간 예매 순위 6위에 오르는 등 개봉 홍보가 집중되던 시기였습니다. 영화 개봉일은 11월 18일이며, 언론시사회는 11월 12일에 열렸습니다.",
+    "cause": "2026년 11월 12일 밤 9시쯤 서울 서대문구 홍제동 일대에서 도로 정비 공사 중 지하 전선이 손상되어 주택 108세대와 아파트 3개 단지 등 1,100여 세대가 정전되었고, 한국전력이 약 3시간 만에 복구했습니다.",
     "citations": [
      {
       "n": 1,
-      "title": "김윤석·구교환 '폭설', 개봉 12일 전 예매 6위…의문의 시신 둘러싼 미...",
-      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16269573",
-      "date": "2026-11-06"
+      "title": "서울 홍제동서 1,100여 세대 정전…\"도로공사 중 케이블 고장\"",
+      "link": "https://n.news.naver.com/mnews/article/055/0001402680?sid=102",
+      "date": "2026-11-12"
      },
      {
       "n": 2,
-      "title": "주연부터 '특출'까지…'부활남'→'실낙원'→'폭설' 연말 극장가 달구는...",
-      "link": "https://m.entertain.naver.com/article/445/0000488507",
-      "date": "2026-11-08"
+      "title": "서울 홍제동 1,100세대 정전...\"승강기 고립 등 주민불편\"",
+      "link": "https://n.news.naver.com/mnews/article/052/0002432152?sid=102",
+      "date": "2026-11-13"
+     },
+     {
+      "n": 3,
+      "title": "서울 홍제동 일대 주택가 108세대·아파트 3개 단지 정전",
+      "link": "https://n.news.naver.com/mnews/article/214/0001535280?sid=102",
+      "date": "2026-11-13"
+     }
+    ],
+    "searches": [
+     {
+      "query": "정전",
+      "in_period": 74
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "cost_usd": 0.00064,
+    "note": ""
+   },
+   "explain_state": "done"
+  },
+  {
+   "keyword": "미세먼지",
+   "spike": {
+    "start": "2026-11-12",
+    "end": "2026-11-12",
+    "peak_date": "2026-11-12",
+    "peak_value": 100.0,
+    "baseline": 17.1,
+    "baseline_kind": "rolling",
+    "news_period": [
+     "2026-11-10",
+     "2026-11-14"
+    ]
+   },
+   "explanation": {
+    "status": "found",
+    "cause": "2026년 11월 12일 올가을 첫 스모그가 유입되면서 서울과 경기 등 수도권의 초미세먼지 농도가 '나쁨' 수준으로 올랐고, 북서풍을 타고 국외에서 미세먼지가 들어온 뒤 대기가 정체된 것이 원인으로 보도됐다.",
+    "citations": [
+     {
+      "n": 1,
+      "title": "[날씨] 첫 스모그에 초미세먼지 한때 '나쁨'...밤사이 또 악화",
+      "link": "https://n.news.naver.com/mnews/article/052/0002431815?sid=103",
+      "date": "2026-11-12"
+     },
+     {
+      "n": 2,
+      "title": "콜록콜록 미세먼지의 계절 온다…12일 중부 곳곳 '나쁨'",
+      "link": "https://n.news.naver.com/mnews/article/015/0005352674?sid=103",
+      "date": "2026-11-11"
+     },
+     {
+      "n": 3,
+      "title": "전국 대부분 아침 5도 이하 추위…수도권 미세먼지 '나쁨'",
+      "link": "https://n.news.naver.com/mnews/article/003/0014317110?sid=102",
+      "date": "2026-11-12"
+     }
+    ],
+    "searches": [
+     {
+      "query": "미세먼지",
+      "in_period": 306
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "cost_usd": 0.00064,
+    "note": ""
+   },
+   "explain_state": "done"
+  },
+  {
+   "keyword": "폭설",
+   "spike": {
+    "start": "2026-11-07",
+    "end": "2026-11-12",
+    "peak_date": "2026-11-12",
+    "peak_value": 100.0,
+    "baseline": 13.6,
+    "baseline_kind": "rolling",
+    "news_period": [
+     "2026-11-05",
+     "2026-11-14"
+    ]
+   },
+   "explanation": {
+    "status": "found",
+    "cause": "영화 '폭설'(감독 홍의정, 주연 김윤석·구교환)의 언론시사회와 기자간담회가 2026년 11월 12일 서울 용산 CGV에서 열렸고, 같은 날 관련 기사가 대거 쏟아졌습니다. 개봉은 11월 18일로 예정되어 있어, 영화 제목 '폭설' 검색이 늘어난 것으로 보입니다. 같은 기간 대설 대비 정부·지자체 발표도 있었지만 실제 폭설 피해 기사는 확인되지 않았습니다.",
+    "citations": [
+     {
+      "n": 1,
+      "title": "[사진]영화 '폭설' 주역들",
+      "link": "https://m.entertain.naver.com/article/109/0005639503",
+      "date": "2026-11-12"
+     },
+     {
+      "n": 2,
+      "title": "‘폭설’ 구교환 “김윤석, 큰 응원단장이자 큰 어른”",
+      "link": "https://m.entertain.naver.com/article/009/0005762817",
+      "date": "2026-11-12"
+     },
+     {
+      "n": 3,
+      "title": "'폭설' 녹인 김윤석X구교환 뜨거운 우정…\"브로맨스 1등\" [스타 더하기]",
+      "link": "https://n.news.naver.com/mnews/article/008/0005440558?sid=103",
+      "date": "2026-11-12"
      }
     ],
     "searches": [
      {
       "query": "폭설",
-      "in_period": 418
+      "in_period": 497
      },
      {
-      "query": "영화 폭설 김윤석 구교환 예고편 공개",
-      "in_period": 2
+      "query": "대설 특보 폭설 피해 11월",
+      "in_period": 24
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00119,
+    "cost_usd": 0.00135,
     "note": ""
    },
    "explain_state": "done"
@@ -56,51 +160,32 @@
    "keyword": "수능",
    "spike": {
     "start": "2026-11-09",
-    "end": "2026-11-11",
-    "peak_date": "2026-11-11",
+    "end": "2026-11-12",
+    "peak_date": "2026-11-12",
     "peak_value": 100.0,
-    "baseline": 21.4,
+    "baseline": 17.1,
     "baseline_kind": "rolling",
     "news_period": [
      "2026-11-07",
-     "2026-11-13"
+     "2026-11-14"
     ]
    },
    "explanation": {
-    "status": "found",
-    "cause": "2027학년도 수능(19일)을 앞두고 AI 스마트안경을 이용한 부정행위를 막기 위해 교육부와 각 교육청이 전국 1312개 시험장에 판별 전담요원을 배치하고 감독관 특별 연수에 나선다는 보도가 9~11일에 집중됐습니다. 같은 기간 중고교 AI 안경 부정행위 4건 적발 소식도 함께 나왔습니다.",
-    "citations": [
-     {
-      "n": 1,
-      "title": "AI 스마트안경 부정행위 막으려... 전국 수능 시험장 1312곳에 전담요원...",
-      "link": "https://www.insight.co.kr/news/581151",
-      "date": "2026-11-09"
-     },
-     {
-      "n": 2,
-      "title": "수능 D-10, AI 안경 부정행위 차단… 시험장마다 전담요원 배치",
-      "link": "https://www.newscj.com/news/articleView.html?idxno=3446999",
-      "date": "2026-11-09"
-     },
-     {
-      "n": 3,
-      "title": "시험 중 안경테 만지작…중고교 AI 안경 부정행위 4건 적발",
-      "link": "https://n.news.naver.com/mnews/article/003/0014310489?sid=102",
-      "date": "2026-11-09"
-     }
-    ],
+    "status": "unknown",
+    "cause": "검색된 기사 중 수능과 직접 연결되는 것은 세무사 시험 수석 합격자의 'AI 안경' 부정행위 의혹이 LEET 만점자에게 번져, 그가 2027학년도 수능 국어를 생중계로 풀겠다고 밝힌 내용이지만, 이 기사들은 모두 2026-11-13자로 급등 기간(11-09~11-12) 이후에 나와 급등의 원인이라고 확인할 수 없습니다.",
+    "citations": [],
     "searches": [
      {
-      "query": "수능",
-      "in_period": 500
+      "query": "수능 2026학년도 대학수학능력시험",
+      "in_period": 69
      },
      {
-      "query": "수능 AI 안경 부정행위 방지 시험장",
-      "in_period": 26
+      "query": "AI 안경 수능 부정행위 의혹 세무사",
+      "in_period": 107
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00134,
+    "cost_usd": 0.00148,
     "note": ""
    },
    "explain_state": "done"
@@ -121,78 +206,39 @@
    },
    "explanation": {
     "status": "found",
-    "cause": "2027년 코첼라 라인업 공개로 블랙핑크 지수의 코첼라 솔로 무대 출연이 알려졌다. 지수는 내년 4월 코첼라 무대에 오르며, 그룹 NCT·베이비몬스터도 함께 라인업에 올랐다.",
+    "cause": "블랙핑크 지수가 신곡 'ADDICTED(어딕티드)'로 7일 '쇼! 음악중심', 8일 SBS '인기가요'에 출연해 약 1년 9개월 만에 국내 음악방송 무대를 선보였고, 이 무대에서 '라우더(Louder)'를 영어 발음으로 외친 장면이 '라우럴' 밈으로 퍼지며 넷플릭스 코리아까지 동참하는 화제가 됐습니다.",
     "citations": [
      {
       "n": 1,
-      "title": "[공식] 블랙핑크 지수→NCT·베이비몬스터 출격..2027 코첼라 라인업 공...",
-      "link": "https://m.entertain.naver.com/article/108/0003486619",
-      "date": "2026-11-11"
+      "title": "블랙핑크 지수,, '라우럴'이 뭐길래…넷플릭스까지 발칵[SC이슈]",
+      "link": "https://m.entertain.naver.com/article/076/0004466418",
+      "date": "2026-11-13"
      },
      {
       "n": 2,
-      "title": "블랙핑크 지수·NCT·베이비몬스터, 내년 코첼라 간다",
-      "link": "https://m.entertain.naver.com/article/003/0014316306",
-      "date": "2026-11-11"
+      "title": "“라우럴”이 뭐길래…넷플릭스도 빠진 블핑 지수 밈 [셀럽이슈]",
+      "link": "http://www.celuvmedia.com/article.php?aid=1794545239530834007",
+      "date": "2026-11-13"
      },
      {
       "n": 3,
-      "title": "블랙핑크 지수, '코첼라' 솔로 출격",
-      "link": "https://n.news.naver.com/mnews/article/055/0001402432?sid=103",
-      "date": "2026-11-12"
-     }
-    ],
-    "searches": [
-     {
-      "query": "블랙핑크",
-      "in_period": 248
-     }
-    ],
-    "model": "claude-haiku-5-5",
-    "cost_usd": 0.00063,
-    "note": ""
-   },
-   "explain_state": "done"
-  },
-  {
-   "keyword": "지진",
-   "spike": {
-    "start": "2026-11-08",
-    "end": "2026-11-09",
-    "peak_date": "2026-11-08",
-    "peak_value": 35.1,
-    "baseline": 7.9,
-    "baseline_kind": "rolling",
-    "news_period": [
-     "2026-11-06",
-     "2026-11-11"
-    ]
-   },
-   "explanation": {
-    "status": "found",
-    "cause": "2026년 11월 8일 오전 1시 4분경 일본 시즈오카현 서부를 진원으로 한 규모 5.7 지진이 발생해 인접한 아이치현에서 진도 5강의 흔들림이 관측됐고, 일본 기상청은 1주일간 비슷한 수준의 추가 지진 가능성을 경고했습니다.",
-    "citations": [
-     {
-      "n": 1,
-      "title": "日 시즈오카현 서부서 규모 5.7 지진…\"2∼3일간 큰 지진 주의\"(종합)",
-      "link": "https://n.news.naver.com/mnews/article/001/0016428577?sid=104",
-      "date": "2026-11-08"
-     },
-     {
-      "n": 2,
-      "title": "일본여행 주의보…기상청 \"1주일간 추가 지진 가능성\" [영상]",
-      "link": "https://n.news.naver.com/mnews/article/015/0005351994?sid=104",
+      "title": "블랙핑크 지수, 국내 팬들 기다림에 응답했다…음방부터 예능까지 '열일...",
+      "link": "https://m.entertain.naver.com/article/477/0000638285",
       "date": "2026-11-09"
      }
     ],
     "searches": [
      {
-      "query": "지진",
-      "in_period": 225
+      "query": "블랙핑크",
+      "in_period": 270
+     },
+     {
+      "query": "지수 어딕티드 인기가요 무대",
+      "in_period": 10
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00064,
+    "cost_usd": 0.00149,
     "note": ""
    },
    "explain_state": "done"
