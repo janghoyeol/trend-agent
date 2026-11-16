@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-15 15:49 KST",
+ "generated_at": "2026-11-16 15:47 KST",
  "watchlist_size": 38,
  "recent_days": 3,
  "model": "claude-haiku-5-5",
- "spent_usd": 0.0051,
+ "spent_usd": 0.0035,
  "items": [
   {
    "keyword": "축구",
@@ -21,39 +21,43 @@
    },
    "explanation": {
     "status": "found",
-    "cause": "2026-11-13(한국시간) 카타르 도하에서 열린 한국 남자 축구대표팀과 사우디아라비아의 평가전에서 한국이 2-3으로 져 21년 만의 사우디전 패배, 42년 만의 3실점 패배를 기록했고, 선수단 내분 이후 치른 경기라 화제가 됐습니다. 검색 급등 시점과 맞물리는 주요 축구 이슈로 보이나, 기사에 검색량 상승의 직접적인 이유가 명시된 것은 아닙니다.",
+    "cause": "11월 12일 손흥민·김민재 등 대표팀 5인이 '92·96라인' 불화설과 집단 은퇴설에 대해 공동 입장문을 냈고, 13일 밤 한국 축구대표팀이 카타르 도하에서 사우디아라비아와 A매치 평가전을 치러 2-3으로 졌다. 내분 논란과 경기 결과가 겹치며 '축구' 검색이 늘어난 것으로 보인다.",
     "citations": [
      {
       "n": 1,
-      "title": "모레노호, 반목 뒤로하고 나선 사우디전서 42년 만의 3실점 패배(종합)",
-      "link": "https://m.sports.naver.com/kfootball/article/001/0016441429",
-      "date": "2026-11-14"
+      "title": "[전문] 손흥민·이재성·김민재·황인범·황희찬, 공동명의 입장문 발표",
+      "link": "https://m.sports.naver.com/kfootball/article/410/0001147036",
+      "date": "2026-11-12"
      },
      {
       "n": 2,
-      "title": "손흥민 \"선수들에게 많이 미안\"…21년 만에 사우디에 '패배'",
-      "link": "https://n.news.naver.com/mnews/article/015/0005353785?sid=102",
+      "title": "'원팀'으로 뭉치나 했더니…논란에 휘청한 대표팀, 사우디에도 발목 잡...",
+      "link": "https://sports.hankooki.com/news/articleView.html?idxno=6943533",
       "date": "2026-11-14"
      },
      {
       "n": 3,
-      "title": "내분 풀고 경기는 못 푼 모레노호…사우디에 42년만에 3실점 패배",
-      "link": "https://m.sports.naver.com/kfootball/article/081/0003699352",
-      "date": "2026-11-14"
+      "title": "축구 국가대표 평가전, 13일 오후 11시 일정",
+      "link": "https://www.bntnews.co.kr/article/view/bnt202611130006",
+      "date": "2026-11-13"
      }
     ],
     "searches": [
      {
       "query": "축구",
-      "in_period": 485
+      "in_period": 99
      },
      {
-      "query": "한국 축구 사우디 평가전 패배",
-      "in_period": 175
+      "query": "축구 대표팀 평가전 11월 14일",
+      "in_period": 85
+     },
+     {
+      "query": "축구 논란 11월 13일",
+      "in_period": 197
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00136,
+    "cost_usd": 0.00146,
     "note": ""
    },
    "explain_state": "done"
@@ -74,12 +78,12 @@
    },
    "explanation": {
     "status": "found",
-    "cause": "2026년 11월 12일 서울·경기와 중부 곳곳의 초미세먼지 농도가 '나쁨' 수준으로 예보됐다. 기사들은 북서풍을 타고 국외에서 미세먼지가 유입되고 대기가 정체된 것이 원인이라고 전했고, 같은 시기 기온이 떨어지며 아침 추위와 짙은 안개도 함께 나타났다.",
+    "cause": "11일 오후부터 국외에서 미세먼지가 유입되고 짙은 안개가 겹치면서, 12일 서울·경기(수도권)의 초미세먼지 농도가 '나쁨' 수준으로 짙어진다는 기상 예보와 관련 보도가 쏟아졌다. 같은 날 인천·대전·세종·충남도 '나쁨'이 예보되며 미세먼지 상황이 주요 뉴스로 다뤄졌다.",
     "citations": [
      {
       "n": 1,
-      "title": "콜록콜록 미세먼지의 계절 온다…12일 중부 곳곳 '나쁨'",
-      "link": "https://n.news.naver.com/mnews/article/015/0005352674?sid=103",
+      "title": "목요일 출근길 짙은 안개…수도권 미세먼지 '나쁨'",
+      "link": "https://n.news.naver.com/mnews/article/001/0016436697?sid=102",
       "date": "2026-11-11"
      },
      {
@@ -98,11 +102,11 @@
     "searches": [
      {
       "query": "미세먼지",
-      "in_period": 324
+      "in_period": 328
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00068,
+    "cost_usd": 0.00077,
     "note": ""
    },
    "explain_state": "done"
@@ -111,147 +115,32 @@
    "keyword": "폭설",
    "spike": {
     "start": "2026-11-07",
-    "end": "2026-11-14",
+    "end": "2026-11-15",
     "peak_date": "2026-11-13",
     "peak_value": 100.0,
     "baseline": 9.7,
     "baseline_kind": "rolling",
     "news_period": [
      "2026-11-05",
-     "2026-11-16"
+     "2026-11-17"
     ]
    },
    "explanation": {
-    "status": "found",
-    "cause": "11월 12일 영화 '폭설'(감독 홍의정, 김윤석·구교환 주연)의 VIP 시사회와 언론시사회가 열렸고, 이후 13일을 전후해 관련 기사가 쏟아졌습니다. 같은 기간 제설 대비 기사도 있었지만, 실제 대설이 보도된 기사는 확인되지 않아 검색 급등의 주된 원인은 영화 개봉 홍보로 보입니다.",
-    "citations": [
-     {
-      "n": 1,
-      "title": "[사진]영화 '폭설' 주역들",
-      "link": "https://m.entertain.naver.com/article/109/0005639503",
-      "date": "2026-11-12"
-     },
-     {
-      "n": 2,
-      "title": "휘몰아치는 '폭설', 김윤석·구교환이 드러낸 인간의 본성(종합)",
-      "link": "https://m.entertain.naver.com/article/437/0000520624",
-      "date": "2026-11-13"
-     },
-     {
-      "n": 3,
-      "title": "김윤석·구교환 '폭설', 직접 밝힌 기대 포인트 \"집중해서 보게될 것\"",
-      "link": "https://m.entertain.naver.com/article/421/0009289917",
-      "date": "2026-11-15"
-     }
-    ],
+    "status": "unknown",
+    "cause": "기간 내 기사에서 급등을 설명할 실제 폭설 사건은 확인되지 않았습니다. 같은 기간에는 영화 '폭설' 개봉 관련 기사(11-16, 대부분 기간 말미)와 정부·지자체의 겨울철 제설·대설 대책 기사(11-10~11-16)가 나왔지만, 급등 정점(11-13) 전후에 해당 주제가 검색을 끌어올렸다는 근거는 찾지 못했습니다.",
+    "citations": [],
     "searches": [
      {
       "query": "폭설",
-      "in_period": 493
+      "in_period": 497
+     },
+     {
+      "query": "폭설 대설 특보 눈 쌓여 11월",
+      "in_period": 4
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00076,
-    "note": ""
-   },
-   "explain_state": "done"
-  },
-  {
-   "keyword": "정전",
-   "spike": {
-    "start": "2026-11-12",
-    "end": "2026-11-12",
-    "peak_date": "2026-11-12",
-    "peak_value": 82.8,
-    "baseline": 26.4,
-    "baseline_kind": "rolling",
-    "news_period": [
-     "2026-11-10",
-     "2026-11-14"
-    ]
-   },
-   "explanation": {
-    "status": "found",
-    "cause": "2026년 11월 12일 밤 9시 15분쯤 서울 서대문구 홍제동 일대에서 도로공사 중 지하에 매설된 전선(케이블)이 고장 나 주택과 아파트 1,100여 세대가 정전됐고, 약 3시간 만에 복구됐습니다.",
-    "citations": [
-     {
-      "n": 1,
-      "title": "서울 홍제동서 1,100여 세대 정전…\"도로공사 중 케이블 고장\"",
-      "link": "https://n.news.naver.com/mnews/article/055/0001402680?sid=102",
-      "date": "2026-11-12"
-     },
-     {
-      "n": 2,
-      "title": "한밤중 서울 홍제동 1100여 세대 정전…3시간 만에 복구",
-      "link": "https://n.news.naver.com/mnews/article/448/0000650813?sid=102",
-      "date": "2026-11-13"
-     }
-    ],
-    "searches": [
-     {
-      "query": "정전",
-      "in_period": 81
-     }
-    ],
-    "model": "claude-haiku-5-5",
-    "cost_usd": 0.00066,
-    "note": ""
-   },
-   "explain_state": "done"
-  },
-  {
-   "keyword": "수능",
-   "spike": {
-    "start": "2026-11-09",
-    "end": "2026-11-12",
-    "peak_date": "2026-11-12",
-    "peak_value": 100.0,
-    "baseline": 17.1,
-    "baseline_kind": "rolling",
-    "news_period": [
-     "2026-11-07",
-     "2026-11-14"
-    ]
-   },
-   "explanation": {
-    "status": "found",
-    "cause": "수능 3주 전 건강을 이유로 강의를 중단했던 이투스 강사 이도가 11월 5일 넷플릭스 예능 '데블스 플랜: 데드 어게인' 제작발표회에 참석해 수험생과 학부모의 비판을 받았고, 이투스가 11월 9일 공식 사과하며 이도의 강좌를 정리하고 그가 출연한 예능 방송도 화제가 되면서 '수능' 관련 논란이 확산됐습니다. 다만 기사들은 수능 자체보다 강사 논란을 다루고 있어, 검색 급등과의 연결은 기사로 완전히 입증되지는 않습니다.",
-    "citations": [
-     {
-      "n": 1,
-      "title": "이도, 수능 3주 전 강의 중단 결국 사과…“2년 연속 무책임했다”",
-      "link": "https://m.entertain.naver.com/article/382/0001304017",
-      "date": "2026-11-10"
-     },
-     {
-      "n": 2,
-      "title": "수능 앞두고 예능 출연하더니…‘모태솔로’ 이도, 결국 퇴출 수순",
-      "link": "https://m.entertain.naver.com/article/609/0001185987",
-      "date": "2026-11-10"
-     },
-     {
-      "n": 3,
-      "title": "‘강의 중단 논란’ 이도, 수능 점수 어필해 ‘데블스 플랜3’ 나가더니...",
-      "link": "https://m.entertain.naver.com/article/609/0001186300",
-      "date": "2026-11-11"
-     }
-    ],
-    "searches": [
-     {
-      "query": "수능",
-      "in_period": 220
-     },
-     {
-      "query": "2027학년도 수능 11월 10일",
-      "in_period": 50
-     },
-     {
-      "query": "수능 논란 11월 9일",
-      "in_period": 14
-     }
-    ],
-    "model": "claude-haiku-5-5",
-    "cost_usd": 0.00164,
+    "cost_usd": 0.00128,
     "note": ""
    },
    "explain_state": "done"
