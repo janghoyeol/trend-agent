@@ -1,10 +1,138 @@
 {
- "generated_at": "2026-11-16 15:47 KST",
+ "generated_at": "2026-11-17 17:08 KST",
  "watchlist_size": 38,
  "recent_days": 3,
  "model": "claude-haiku-5-5",
- "spent_usd": 0.0035,
+ "spent_usd": 0.005,
  "items": [
+  {
+   "keyword": "미세먼지",
+   "spike": {
+    "start": "2026-11-16",
+    "end": "2026-11-16",
+    "peak_date": "2026-11-16",
+    "peak_value": 61.5,
+    "baseline": 15.7,
+    "baseline_kind": "rolling",
+    "news_period": [
+     "2026-11-14",
+     "2026-11-18"
+    ]
+   },
+   "explanation": {
+    "status": "found",
+    "cause": "2026년 11월 16일 수도권에 미세먼지 '나쁨' 수준이 예보되었고(수능 전날부터 기온이 떨어지는 날씨 기사와 함께 보도), 같은 날 낙동강유역환경청과 청주시 등이 12월 1일부터 시행하는 '제8차 미세먼지 계절관리제'를 발표하면서 미세먼지 관련 보도가 한꺼번에 늘었습니다.",
+    "citations": [
+     {
+      "n": 1,
+      "title": "수도권 미세먼지 ‘나쁨’…수능 전날부터 기온 뚝, 추위 주말까지",
+      "link": "https://n.news.naver.com/mnews/article/025/0003565443?sid=102",
+      "date": "2026-11-16"
+     },
+     {
+      "n": 2,
+      "title": "낙동강환경청, 미세먼지 핵심 배출원 집중 관리 추진",
+      "link": "https://www.todayenergy.kr/news/articleView.html?idxno=305639",
+      "date": "2026-11-16"
+     },
+     {
+      "n": 3,
+      "title": "청주시, 내달부터 미세먼지 관리",
+      "link": "https://www.ccdn.co.kr/news/articleView.html?idxno=1111454",
+      "date": "2026-11-16"
+     }
+    ],
+    "searches": [
+     {
+      "query": "미세먼지",
+      "in_period": 60
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "cost_usd": 0.00073,
+    "note": ""
+   },
+   "explain_state": "done"
+  },
+  {
+   "keyword": "블랙핑크",
+   "spike": {
+    "start": "2026-11-16",
+    "end": "2026-11-16",
+    "peak_date": "2026-11-16",
+    "peak_value": 78.3,
+    "baseline": 21.5,
+    "baseline_kind": "rolling",
+    "news_period": [
+     "2026-11-14",
+     "2026-11-18"
+    ]
+   },
+   "explanation": {
+    "status": "found",
+    "cause": "2026년 11월 16일 YG엔터테인먼트가 금융감독원에 공시한 3분기 분기보고서의 전속계약 아티스트 명단에서 블랙핑크가 빠졌고, YG는 이에 대해 그룹 활동을 멤버들과 논의 중이라고 밝혔다.",
+    "citations": [
+     {
+      "n": 1,
+      "title": "블랙핑크, YG 전속계약 명단서 빠졌다…“그룹 활동 논의 중”",
+      "link": "https://n.news.naver.com/mnews/article/009/0005764489?sid=103",
+      "date": "2026-11-16"
+     },
+     {
+      "n": 2,
+      "title": "블랙핑크, YG 전속계약 명단서 빠져…\"그룹 활동에 대해 논의중\"",
+      "link": "https://n.news.naver.com/mnews/article/001/0016444903?sid=103",
+      "date": "2026-11-16"
+     },
+     {
+      "n": 3,
+      "title": "YG, 블랙핑크 전속계약 명단 제외에 \"그룹 활동 논의 중\"",
+      "link": "https://m.entertain.naver.com/article/437/0000520954",
+      "date": "2026-11-16"
+     }
+    ],
+    "searches": [
+     {
+      "query": "블랙핑크",
+      "in_period": 138
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "cost_usd": 0.00063,
+    "note": ""
+   },
+   "explain_state": "done"
+  },
+  {
+   "keyword": "수능",
+   "spike": {
+    "start": "2026-11-16",
+    "end": "2026-11-16",
+    "peak_date": "2026-11-16",
+    "peak_value": 100.0,
+    "baseline": 14.3,
+    "baseline_kind": "rolling",
+    "news_period": [
+     "2026-11-14",
+     "2026-11-18"
+    ]
+   },
+   "explanation": {
+    "status": "unknown",
+    "cause": "기사 검색 결과(2026-11-14~18)에는 2026-11-16 급등일의 원인을 설명하는 기사가 없습니다. 검색된 수능 관련 기사는 모두 11-17에 나온 것으로, 한성숙 총리가 2027학년도 수능 부정행위 대응 대책(전자기기 반입 금지, 안경 전수검사, 응시제한 10년, 감독관 8400명 추가 배치)을 발표한 내용입니다. 이 발표는 급등일 다음 날이어서 급등 원인으로 확정할 수 없습니다.",
+    "citations": [],
+    "searches": [
+     {
+      "query": "수능",
+      "in_period": 500
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "cost_usd": 0.00087,
+    "note": ""
+   },
+   "explain_state": "done"
+  },
   {
    "keyword": "축구",
    "spike": {
@@ -21,92 +149,33 @@
    },
    "explanation": {
     "status": "found",
-    "cause": "11월 12일 손흥민·김민재 등 대표팀 5인이 '92·96라인' 불화설과 집단 은퇴설에 대해 공동 입장문을 냈고, 13일 밤 한국 축구대표팀이 카타르 도하에서 사우디아라비아와 A매치 평가전을 치러 2-3으로 졌다. 내분 논란과 경기 결과가 겹치며 '축구' 검색이 늘어난 것으로 보인다.",
+    "cause": "2026년 11월 13일 밤 11시 30분(한국시간) 한국 축구대표팀이 카타르 도하에서 사우디아라비아와 원정 평가전을 치렀고, 로베르트 모레노 임시 감독 체제의 첫 경기로 손흥민의 통산 60호 골 도전이 주목받았다. 경기는 2-3 패배로 끝났다.",
     "citations": [
      {
       "n": 1,
-      "title": "[전문] 손흥민·이재성·김민재·황인범·황희찬, 공동명의 입장문 발표",
-      "link": "https://m.sports.naver.com/kfootball/article/410/0001147036",
-      "date": "2026-11-12"
+      "title": "'A매치 최다 골' 손흥민, 오늘 사우디 상대로 통산 60호 골 도전",
+      "link": "https://www.kidshankook.kr/news/articleView.html?idxno=18783",
+      "date": "2026-11-13"
      },
      {
       "n": 2,
-      "title": "'원팀'으로 뭉치나 했더니…논란에 휘청한 대표팀, 사우디에도 발목 잡...",
-      "link": "https://sports.hankooki.com/news/articleView.html?idxno=6943533",
-      "date": "2026-11-14"
-     },
-     {
-      "n": 3,
-      "title": "축구 국가대표 평가전, 13일 오후 11시 일정",
-      "link": "https://www.bntnews.co.kr/article/view/bnt202611130006",
-      "date": "2026-11-13"
+      "title": "'21년 만의 사우디전 충격패' 모레노호, 카타르전서 명예회복 노린다",
+      "link": "https://www.hidomin.com/news/articleView.html?idxno=729356",
+      "date": "2026-11-15"
      }
     ],
     "searches": [
      {
       "query": "축구",
-      "in_period": 99
+      "in_period": 293
      },
      {
-      "query": "축구 대표팀 평가전 11월 14일",
-      "in_period": 85
-     },
-     {
-      "query": "축구 논란 11월 13일",
-      "in_period": 197
+      "query": "축구 대표팀 카타르 평가전 2026년 11월 13일",
+      "in_period": 36
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00146,
-    "note": ""
-   },
-   "explain_state": "done"
-  },
-  {
-   "keyword": "미세먼지",
-   "spike": {
-    "start": "2026-11-12",
-    "end": "2026-11-13",
-    "peak_date": "2026-11-13",
-    "peak_value": 100.0,
-    "baseline": 15.1,
-    "baseline_kind": "rolling",
-    "news_period": [
-     "2026-11-10",
-     "2026-11-15"
-    ]
-   },
-   "explanation": {
-    "status": "found",
-    "cause": "11일 오후부터 국외에서 미세먼지가 유입되고 짙은 안개가 겹치면서, 12일 서울·경기(수도권)의 초미세먼지 농도가 '나쁨' 수준으로 짙어진다는 기상 예보와 관련 보도가 쏟아졌다. 같은 날 인천·대전·세종·충남도 '나쁨'이 예보되며 미세먼지 상황이 주요 뉴스로 다뤄졌다.",
-    "citations": [
-     {
-      "n": 1,
-      "title": "목요일 출근길 짙은 안개…수도권 미세먼지 '나쁨'",
-      "link": "https://n.news.naver.com/mnews/article/001/0016436697?sid=102",
-      "date": "2026-11-11"
-     },
-     {
-      "n": 2,
-      "title": "오늘 서울·경기 미세먼지 '나쁨'…낮 최고 21도 '포근'",
-      "link": "https://n.news.naver.com/mnews/article/001/0016437268?sid=102",
-      "date": "2026-11-12"
-     },
-     {
-      "n": 3,
-      "title": "전국 대부분 아침 5도 이하 추위…수도권 미세먼지 '나쁨'",
-      "link": "https://n.news.naver.com/mnews/article/003/0014317110?sid=102",
-      "date": "2026-11-12"
-     }
-    ],
-    "searches": [
-     {
-      "query": "미세먼지",
-      "in_period": 328
-     }
-    ],
-    "model": "claude-haiku-5-5",
-    "cost_usd": 0.00077,
+    "cost_usd": 0.00126,
     "note": ""
    },
    "explain_state": "done"
@@ -115,32 +184,51 @@
    "keyword": "폭설",
    "spike": {
     "start": "2026-11-07",
-    "end": "2026-11-15",
+    "end": "2026-11-16",
     "peak_date": "2026-11-13",
     "peak_value": 100.0,
     "baseline": 9.7,
     "baseline_kind": "rolling",
     "news_period": [
      "2026-11-05",
-     "2026-11-17"
+     "2026-11-18"
     ]
    },
    "explanation": {
-    "status": "unknown",
-    "cause": "기간 내 기사에서 급등을 설명할 실제 폭설 사건은 확인되지 않았습니다. 같은 기간에는 영화 '폭설' 개봉 관련 기사(11-16, 대부분 기간 말미)와 정부·지자체의 겨울철 제설·대설 대책 기사(11-10~11-16)가 나왔지만, 급등 정점(11-13) 전후에 해당 주제가 검색을 끌어올렸다는 근거는 찾지 못했습니다.",
-    "citations": [],
+    "status": "found",
+    "cause": "11월 10~11일 무렵 정부와 지자체가 올겨울 폭설 대비책을 잇달아 발표했습니다. 행정안전부는 대설 재난문자 발송 대상을 전국 227개 시·군·구로 확대한다고 밝혔고, 춘천시·안성시·인천 계양구 등도 폭설 대응 종합대책을 가동했습니다. 다만 실제 폭설 피해를 다룬 기사는 찾지 못해, 이 대비책 보도가 검색 급등의 원인이라고 단정할 수는 없습니다.",
+    "citations": [
+     {
+      "n": 1,
+      "title": "폭설엔 제설, 한파엔 돌봄...범정부 총력전",
+      "link": "http://www.00news.co.kr/news/articleView.html?idxno=107919",
+      "date": "2026-11-11"
+     },
+     {
+      "n": 2,
+      "title": "올겨울 '대설 재난문자' 전국 확대…취약계층 난방비 최대 51.4만원",
+      "link": "https://n.news.naver.com/mnews/article/003/0014314794?sid=102",
+      "date": "2026-11-11"
+     },
+     {
+      "n": 3,
+      "title": "김보라 안성시장, 폭설 대비부터 위기가구 보호까지…겨울철 안전망 강...",
+      "link": "http://www.fieldnews.kr/news/articleView.html?idxno=32970",
+      "date": "2026-11-10"
+     }
+    ],
     "searches": [
      {
       "query": "폭설",
-      "in_period": 497
+      "in_period": 498
      },
      {
-      "query": "폭설 대설 특보 눈 쌓여 11월",
-      "in_period": 4
+      "query": "대설 특보 눈 폭설 피해 11월",
+      "in_period": 18
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00128,
+    "cost_usd": 0.00154,
     "note": ""
    },
    "explain_state": "done"
