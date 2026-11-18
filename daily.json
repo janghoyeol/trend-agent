@@ -1,10 +1,165 @@
 {
- "generated_at": "2026-11-17 17:08 KST",
+ "generated_at": "2026-11-18 16:46 KST",
  "watchlist_size": 38,
  "recent_days": 3,
  "model": "claude-haiku-5-5",
- "spent_usd": 0.005,
+ "spent_usd": 0.0054,
  "items": [
+  {
+   "keyword": "지진",
+   "spike": {
+    "start": "2026-11-17",
+    "end": "2026-11-17",
+    "peak_date": "2026-11-17",
+    "peak_value": 100.0,
+    "baseline": 1.7,
+    "baseline_kind": "rolling",
+    "news_period": [
+     "2026-11-15",
+     "2026-11-19"
+    ]
+   },
+   "explanation": {
+    "status": "found",
+    "cause": "2026년 11월 17일 밤 11시 10분쯤 경북 상주시 북서쪽 22km 지역에서 규모 3.6의 지진이 발생해 전국 곳곳에서 흔들림이 감지됐고, 올해 한반도에서 발생한 지진 가운데 가장 큰 규모라는 점이 보도되며 관심이 몰렸다.",
+    "citations": [
+     {
+      "n": 1,
+      "title": "경북 상주서 규모 3.6 지진 발생…올들어 가장 강해(종합)",
+      "link": "https://n.news.naver.com/mnews/article/001/0016447555?sid=102",
+      "date": "2026-11-17"
+     },
+     {
+      "n": 2,
+      "title": "수능 앞두고 상주서 올해 최대 규모 지진…유감신고 37건",
+      "link": "https://n.news.naver.com/mnews/article/015/0005355180?sid=103",
+      "date": "2026-11-18"
+     },
+     {
+      "n": 3,
+      "title": "\"잠들었다가 누가 흔드는 줄\" 상주 3.6 지진에 '유감 신고' 39건",
+      "link": "https://n.news.naver.com/mnews/article/421/0009295176?sid=102",
+      "date": "2026-11-18"
+     }
+    ],
+    "searches": [
+     {
+      "query": "지진",
+      "in_period": 318
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "cost_usd": 0.00054,
+    "note": ""
+   },
+   "explain_state": "done"
+  },
+  {
+   "keyword": "폭설",
+   "spike": {
+    "start": "2026-11-07",
+    "end": "2026-11-17",
+    "peak_date": "2026-11-17",
+    "peak_value": 100.0,
+    "baseline": 13.5,
+    "baseline_kind": "rolling",
+    "news_period": [
+     "2026-11-05",
+     "2026-11-19"
+    ]
+   },
+   "explanation": {
+    "status": "found",
+    "cause": "영화 '폭설'(홍의정 감독, 김윤석·구교환 주연)의 개봉(11월 18일) 직전 홍보가 집중된 기간과 겹칩니다. 11월 10일부터 주연 배우들의 기대 포인트 공개, 제작보고회 성격의 현장 행사, 예매율 3위 기록 등 기사가 쏟아졌고, 이 흐름이 '폭설' 검색 증가와 맞물렸을 가능성이 높습니다. 다만 기사가 검색량 증가의 직접 원인을 명시하지는 않습니다.",
+    "citations": [
+     {
+      "n": 1,
+      "title": "김윤석·구교환 '폭설', 직접 밝힌 기대 포인트 \"집중해서 보게될 것\"",
+      "link": "https://m.entertain.naver.com/article/421/0009289917",
+      "date": "2026-11-15"
+     },
+     {
+      "n": 2,
+      "title": "\"짜릿한 전율\"..'폭설' 김윤석X구교환 연기합 제대로 터졌다 [종합]",
+      "link": "https://m.entertain.naver.com/article/108/0003486986",
+      "date": "2026-11-12"
+     },
+     {
+      "n": 3,
+      "title": "올해만 벌써 4번째 스크린 출격…개봉 전 '예매율 3위' 기록하며 겨울 ...",
+      "link": "https://m.entertain.naver.com/article/213/0001408360",
+      "date": "2026-11-15"
+     }
+    ],
+    "searches": [
+     {
+      "query": "폭설",
+      "in_period": 500
+     },
+     {
+      "query": "영화 폭설 김윤석 구교환 개봉 예고",
+      "in_period": 33
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "cost_usd": 0.00146,
+    "note": ""
+   },
+   "explain_state": "done"
+  },
+  {
+   "keyword": "수능",
+   "spike": {
+    "start": "2026-11-16",
+    "end": "2026-11-17",
+    "peak_date": "2026-11-17",
+    "peak_value": 100.0,
+    "baseline": 15.8,
+    "baseline_kind": "rolling",
+    "news_period": [
+     "2026-11-14",
+     "2026-11-19"
+    ]
+   },
+   "explanation": {
+    "status": "found",
+    "cause": "법학적성시험(LEET) 만점자 이진우(32)씨가 2026학년도 수능에서도 생성형 AI를 활용해 부정행위를 했다는 의혹이 제기된 것이 원인으로 보입니다. 이 의혹은 16일 고려대 온라인 커뮤니티 글에서 시작됐고, 변호사들이 경찰에 고발하며 수능 부정행위 수사 요구가 함께 확산됐습니다.",
+    "citations": [
+     {
+      "n": 1,
+      "title": "\"수능 성적도 수상해\"…LEET 만점자, 결국 고발당했다",
+      "link": "https://n.news.naver.com/mnews/article/015/0005355236?sid=102",
+      "date": "2026-11-18"
+     },
+     {
+      "n": 2,
+      "title": "변호사, ‘AI 의혹’ LEET 만점자 고발 예고…“수능도 조사해야”",
+      "link": "https://n.news.naver.com/mnews/article/009/0005765446?sid=102",
+      "date": "2026-11-18"
+     },
+     {
+      "n": 3,
+      "title": "[속보]리트 만점자, 서울청 광수단이 직접 수사…“사안 중대”",
+      "link": "https://n.news.naver.com/mnews/article/020/0003763422?sid=102",
+      "date": "2026-11-18"
+     }
+    ],
+    "searches": [
+     {
+      "query": "수능 2026학년도 수능",
+      "in_period": 414
+     },
+     {
+      "query": "LEET 만점자 AI 의혹 고려대 커뮤니티",
+      "in_period": 117
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "cost_usd": 0.00138,
+    "note": ""
+   },
+   "explain_state": "done"
+  },
   {
    "keyword": "미세먼지",
    "spike": {
@@ -20,36 +175,21 @@
     ]
    },
    "explanation": {
-    "status": "found",
-    "cause": "2026년 11월 16일 수도권에 미세먼지 '나쁨' 수준이 예보되었고(수능 전날부터 기온이 떨어지는 날씨 기사와 함께 보도), 같은 날 낙동강유역환경청과 청주시 등이 12월 1일부터 시행하는 '제8차 미세먼지 계절관리제'를 발표하면서 미세먼지 관련 보도가 한꺼번에 늘었습니다.",
-    "citations": [
-     {
-      "n": 1,
-      "title": "수도권 미세먼지 ‘나쁨’…수능 전날부터 기온 뚝, 추위 주말까지",
-      "link": "https://n.news.naver.com/mnews/article/025/0003565443?sid=102",
-      "date": "2026-11-16"
-     },
-     {
-      "n": 2,
-      "title": "낙동강환경청, 미세먼지 핵심 배출원 집중 관리 추진",
-      "link": "https://www.todayenergy.kr/news/articleView.html?idxno=305639",
-      "date": "2026-11-16"
-     },
-     {
-      "n": 3,
-      "title": "청주시, 내달부터 미세먼지 관리",
-      "link": "https://www.ccdn.co.kr/news/articleView.html?idxno=1111454",
-      "date": "2026-11-16"
-     }
-    ],
+    "status": "unknown",
+    "cause": "2026-11-16 전후 기사는 대부분 겨울철 미세먼지 계절관리제에 맞춘 제주도 24시간 집중 감시와 인천시 걷기 챌린지 같은 정례 대응 발표였고, 급등 원인이 될 만한 특정 사건이나 고농도 발생 소식은 확인되지 않았습니다. 따라서 검색량 급등의 원인은 기사로 확인할 수 없습니다.",
+    "citations": [],
     "searches": [
      {
       "query": "미세먼지",
-      "in_period": 60
+      "in_period": 74
+     },
+     {
+      "query": "미세먼지 고농도 주의보 발령",
+      "in_period": 8
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00073,
+    "cost_usd": 0.00141,
     "note": ""
    },
    "explain_state": "done"
@@ -70,7 +210,7 @@
    },
    "explanation": {
     "status": "found",
-    "cause": "2026년 11월 16일 YG엔터테인먼트가 금융감독원에 공시한 3분기 분기보고서의 전속계약 아티스트 명단에서 블랙핑크가 빠졌고, YG는 이에 대해 그룹 활동을 멤버들과 논의 중이라고 밝혔다.",
+    "cause": "2026년 11월 16일 YG엔터테인먼트가 공시한 3분기 분기보고서의 전속계약 현황에서 그룹 블랙핑크가 빠졌고, 이에 YG 측은 그룹 활동에 대해 멤버들과 논의를 이어가고 있다고 밝혔습니다.",
     "citations": [
      {
       "n": 1,
@@ -94,141 +234,11 @@
     "searches": [
      {
       "query": "블랙핑크",
-      "in_period": 138
+      "in_period": 162
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00063,
-    "note": ""
-   },
-   "explain_state": "done"
-  },
-  {
-   "keyword": "수능",
-   "spike": {
-    "start": "2026-11-16",
-    "end": "2026-11-16",
-    "peak_date": "2026-11-16",
-    "peak_value": 100.0,
-    "baseline": 14.3,
-    "baseline_kind": "rolling",
-    "news_period": [
-     "2026-11-14",
-     "2026-11-18"
-    ]
-   },
-   "explanation": {
-    "status": "unknown",
-    "cause": "기사 검색 결과(2026-11-14~18)에는 2026-11-16 급등일의 원인을 설명하는 기사가 없습니다. 검색된 수능 관련 기사는 모두 11-17에 나온 것으로, 한성숙 총리가 2027학년도 수능 부정행위 대응 대책(전자기기 반입 금지, 안경 전수검사, 응시제한 10년, 감독관 8400명 추가 배치)을 발표한 내용입니다. 이 발표는 급등일 다음 날이어서 급등 원인으로 확정할 수 없습니다.",
-    "citations": [],
-    "searches": [
-     {
-      "query": "수능",
-      "in_period": 500
-     }
-    ],
-    "model": "claude-haiku-5-5",
-    "cost_usd": 0.00087,
-    "note": ""
-   },
-   "explain_state": "done"
-  },
-  {
-   "keyword": "축구",
-   "spike": {
-    "start": "2026-11-13",
-    "end": "2026-11-14",
-    "peak_date": "2026-11-14",
-    "peak_value": 35.2,
-    "baseline": 0.8,
-    "baseline_kind": "rolling",
-    "news_period": [
-     "2026-11-11",
-     "2026-11-16"
-    ]
-   },
-   "explanation": {
-    "status": "found",
-    "cause": "2026년 11월 13일 밤 11시 30분(한국시간) 한국 축구대표팀이 카타르 도하에서 사우디아라비아와 원정 평가전을 치렀고, 로베르트 모레노 임시 감독 체제의 첫 경기로 손흥민의 통산 60호 골 도전이 주목받았다. 경기는 2-3 패배로 끝났다.",
-    "citations": [
-     {
-      "n": 1,
-      "title": "'A매치 최다 골' 손흥민, 오늘 사우디 상대로 통산 60호 골 도전",
-      "link": "https://www.kidshankook.kr/news/articleView.html?idxno=18783",
-      "date": "2026-11-13"
-     },
-     {
-      "n": 2,
-      "title": "'21년 만의 사우디전 충격패' 모레노호, 카타르전서 명예회복 노린다",
-      "link": "https://www.hidomin.com/news/articleView.html?idxno=729356",
-      "date": "2026-11-15"
-     }
-    ],
-    "searches": [
-     {
-      "query": "축구",
-      "in_period": 293
-     },
-     {
-      "query": "축구 대표팀 카타르 평가전 2026년 11월 13일",
-      "in_period": 36
-     }
-    ],
-    "model": "claude-haiku-5-5",
-    "cost_usd": 0.00126,
-    "note": ""
-   },
-   "explain_state": "done"
-  },
-  {
-   "keyword": "폭설",
-   "spike": {
-    "start": "2026-11-07",
-    "end": "2026-11-16",
-    "peak_date": "2026-11-13",
-    "peak_value": 100.0,
-    "baseline": 9.7,
-    "baseline_kind": "rolling",
-    "news_period": [
-     "2026-11-05",
-     "2026-11-18"
-    ]
-   },
-   "explanation": {
-    "status": "found",
-    "cause": "11월 10~11일 무렵 정부와 지자체가 올겨울 폭설 대비책을 잇달아 발표했습니다. 행정안전부는 대설 재난문자 발송 대상을 전국 227개 시·군·구로 확대한다고 밝혔고, 춘천시·안성시·인천 계양구 등도 폭설 대응 종합대책을 가동했습니다. 다만 실제 폭설 피해를 다룬 기사는 찾지 못해, 이 대비책 보도가 검색 급등의 원인이라고 단정할 수는 없습니다.",
-    "citations": [
-     {
-      "n": 1,
-      "title": "폭설엔 제설, 한파엔 돌봄...범정부 총력전",
-      "link": "http://www.00news.co.kr/news/articleView.html?idxno=107919",
-      "date": "2026-11-11"
-     },
-     {
-      "n": 2,
-      "title": "올겨울 '대설 재난문자' 전국 확대…취약계층 난방비 최대 51.4만원",
-      "link": "https://n.news.naver.com/mnews/article/003/0014314794?sid=102",
-      "date": "2026-11-11"
-     },
-     {
-      "n": 3,
-      "title": "김보라 안성시장, 폭설 대비부터 위기가구 보호까지…겨울철 안전망 강...",
-      "link": "http://www.fieldnews.kr/news/articleView.html?idxno=32970",
-      "date": "2026-11-10"
-     }
-    ],
-    "searches": [
-     {
-      "query": "폭설",
-      "in_period": 498
-     },
-     {
-      "query": "대설 특보 눈 폭설 피해 11월",
-      "in_period": 18
-     }
-    ],
-    "model": "claude-haiku-5-5",
-    "cost_usd": 0.00154,
+    "cost_usd": 0.00059,
     "note": ""
    },
    "explain_state": "done"
