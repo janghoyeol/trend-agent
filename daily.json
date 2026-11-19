@@ -1,108 +1,59 @@
 {
- "generated_at": "2026-11-18 16:46 KST",
+ "generated_at": "2026-11-19 16:40 KST",
  "watchlist_size": 38,
  "recent_days": 3,
  "model": "claude-haiku-5-5",
- "spent_usd": 0.0054,
+ "spent_usd": 0.0059,
  "items": [
-  {
-   "keyword": "지진",
-   "spike": {
-    "start": "2026-11-17",
-    "end": "2026-11-17",
-    "peak_date": "2026-11-17",
-    "peak_value": 100.0,
-    "baseline": 1.7,
-    "baseline_kind": "rolling",
-    "news_period": [
-     "2026-11-15",
-     "2026-11-19"
-    ]
-   },
-   "explanation": {
-    "status": "found",
-    "cause": "2026년 11월 17일 밤 11시 10분쯤 경북 상주시 북서쪽 22km 지역에서 규모 3.6의 지진이 발생해 전국 곳곳에서 흔들림이 감지됐고, 올해 한반도에서 발생한 지진 가운데 가장 큰 규모라는 점이 보도되며 관심이 몰렸다.",
-    "citations": [
-     {
-      "n": 1,
-      "title": "경북 상주서 규모 3.6 지진 발생…올들어 가장 강해(종합)",
-      "link": "https://n.news.naver.com/mnews/article/001/0016447555?sid=102",
-      "date": "2026-11-17"
-     },
-     {
-      "n": 2,
-      "title": "수능 앞두고 상주서 올해 최대 규모 지진…유감신고 37건",
-      "link": "https://n.news.naver.com/mnews/article/015/0005355180?sid=103",
-      "date": "2026-11-18"
-     },
-     {
-      "n": 3,
-      "title": "\"잠들었다가 누가 흔드는 줄\" 상주 3.6 지진에 '유감 신고' 39건",
-      "link": "https://n.news.naver.com/mnews/article/421/0009295176?sid=102",
-      "date": "2026-11-18"
-     }
-    ],
-    "searches": [
-     {
-      "query": "지진",
-      "in_period": 318
-     }
-    ],
-    "model": "claude-haiku-5-5",
-    "cost_usd": 0.00054,
-    "note": ""
-   },
-   "explain_state": "done"
-  },
   {
    "keyword": "폭설",
    "spike": {
-    "start": "2026-11-07",
-    "end": "2026-11-17",
-    "peak_date": "2026-11-17",
+    "start": "2026-11-12",
+    "end": "2026-11-18",
+    "peak_date": "2026-11-18",
     "peak_value": 100.0,
-    "baseline": 13.5,
+    "baseline": 6.1,
     "baseline_kind": "rolling",
     "news_period": [
-     "2026-11-05",
-     "2026-11-19"
+     "2026-11-10",
+     "2026-11-20"
     ]
    },
    "explanation": {
     "status": "found",
-    "cause": "영화 '폭설'(홍의정 감독, 김윤석·구교환 주연)의 개봉(11월 18일) 직전 홍보가 집중된 기간과 겹칩니다. 11월 10일부터 주연 배우들의 기대 포인트 공개, 제작보고회 성격의 현장 행사, 예매율 3위 기록 등 기사가 쏟아졌고, 이 흐름이 '폭설' 검색 증가와 맞물렸을 가능성이 높습니다. 다만 기사가 검색량 증가의 직접 원인을 명시하지는 않습니다.",
+    "cause": "영화 '폭설'(김윤석·구교환 주연, 홍의정·박선우 감독)이 2026년 11월 18일 개봉해 하루 5만 8천여 명을 동원하며 첫날 박스오피스 1위에 올랐고, 검색량 정점(11-18)과 개봉일이 겹칩니다. 다만 급등이 11월 12일부터 시작된 점은 기사로 설명되지 않으며, 같은 기간 실제 폭설 피해 기사는 확인되지 않았습니다(11월 10~16일 기사는 대설 대비 정책 위주).",
     "citations": [
      {
       "n": 1,
-      "title": "김윤석·구교환 '폭설', 직접 밝힌 기대 포인트 \"집중해서 보게될 것\"",
-      "link": "https://m.entertain.naver.com/article/421/0009289917",
-      "date": "2026-11-15"
+      "title": "'폭설', 개봉 첫날 박스오피스 1위…5만8000명 동원",
+      "link": "https://www.etoday.co.kr/news/view/2650332",
+      "date": "2026-11-19"
      },
      {
       "n": 2,
-      "title": "\"짜릿한 전율\"..'폭설' 김윤석X구교환 연기합 제대로 터졌다 [종합]",
-      "link": "https://m.entertain.naver.com/article/108/0003486986",
-      "date": "2026-11-12"
+      "title": "[박스오피스] 영화 '폭설' 개봉 첫날 1위",
+      "link": "https://www.maxmovie.com/news/articleView.html?idxno=503048",
+      "date": "2026-11-19"
      },
      {
       "n": 3,
-      "title": "올해만 벌써 4번째 스크린 출격…개봉 전 '예매율 3위' 기록하며 겨울 ...",
-      "link": "https://m.entertain.naver.com/article/213/0001408360",
-      "date": "2026-11-15"
+      "title": "김윤석X구교환 '폭설', 5만↑ 동원하며 개봉과 동시에 1위 [Nbox]",
+      "link": "https://m.entertain.naver.com/article/421/0009297633",
+      "date": "2026-11-19"
      }
     ],
     "searches": [
      {
       "query": "폭설",
-      "in_period": 500
+      "in_period": 499
      },
      {
-      "query": "영화 폭설 김윤석 구교환 개봉 예고",
-      "in_period": 33
+      "query": "폭설 대설 특보 눈 피해 11월",
+      "in_period": 18
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00146,
+    "cost_usd": 0.00161,
     "note": ""
    },
    "explain_state": "done"
@@ -111,51 +62,75 @@
    "keyword": "수능",
    "spike": {
     "start": "2026-11-16",
-    "end": "2026-11-17",
-    "peak_date": "2026-11-17",
+    "end": "2026-11-18",
+    "peak_date": "2026-11-18",
     "peak_value": 100.0,
-    "baseline": 15.8,
+    "baseline": 8.0,
     "baseline_kind": "rolling",
     "news_period": [
      "2026-11-14",
-     "2026-11-19"
+     "2026-11-20"
+    ]
+   },
+   "explanation": {
+    "status": "unknown",
+    "cause": "급등 기간(11-16~11-18)에 해당하는 기사는 찾지 못했습니다. 검색된 기사는 모두 11-19자이며, 법학적성시험(리트) 만점자 이진우씨의 AI 부정행위 의혹, 수능 당일 실시간 풀이 예고, 정부의 지난해 수능 시험지 보관 지시 등을 다루고 있어 급등 시점 이후의 관련 사건입니다. 이 기사들만으로는 16~18일 검색량 급등의 원인을 확인할 수 없습니다.",
+    "citations": [],
+    "searches": [
+     {
+      "query": "수능 2026학년도 수능",
+      "in_period": 500
+     },
+     {
+      "query": "이진우 리트 만점 수능 부정행위 의혹",
+      "in_period": 500
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "cost_usd": 0.00185,
+    "note": ""
+   },
+   "explain_state": "done"
+  },
+  {
+   "keyword": "지진",
+   "spike": {
+    "start": "2026-11-17",
+    "end": "2026-11-18",
+    "peak_date": "2026-11-17",
+    "peak_value": 100.0,
+    "baseline": 1.7,
+    "baseline_kind": "rolling",
+    "news_period": [
+     "2026-11-15",
+     "2026-11-20"
     ]
    },
    "explanation": {
     "status": "found",
-    "cause": "법학적성시험(LEET) 만점자 이진우(32)씨가 2026학년도 수능에서도 생성형 AI를 활용해 부정행위를 했다는 의혹이 제기된 것이 원인으로 보입니다. 이 의혹은 16일 고려대 온라인 커뮤니티 글에서 시작됐고, 변호사들이 경찰에 고발하며 수능 부정행위 수사 요구가 함께 확산됐습니다.",
+    "cause": "2026년 11월 17일 오후 11시 10분쯤 경북 상주시 북서쪽 22km 지점에서 규모 3.6 지진이 발생해 경북과 충북 일대가 흔들렸고, 올해 국내에서 발생한 지진 가운데 가장 강한 지진이었다는 보도가 나오면서 지진 관련 관심이 높아진 것으로 보인다. 같은 시기 수능을 이틀 앞두고 시험장 점검 소식도 함께 보도됐다.",
     "citations": [
      {
       "n": 1,
-      "title": "\"수능 성적도 수상해\"…LEET 만점자, 결국 고발당했다",
-      "link": "https://n.news.naver.com/mnews/article/015/0005355236?sid=102",
+      "title": "경북 상주 규모 3.6 지진…경북·충북 곳곳 흔들림",
+      "link": "https://n.news.naver.com/mnews/article/056/0012296019?sid=102",
       "date": "2026-11-18"
      },
      {
       "n": 2,
-      "title": "변호사, ‘AI 의혹’ LEET 만점자 고발 예고…“수능도 조사해야”",
-      "link": "https://n.news.naver.com/mnews/article/009/0005765446?sid=102",
-      "date": "2026-11-18"
-     },
-     {
-      "n": 3,
-      "title": "[속보]리트 만점자, 서울청 광수단이 직접 수사…“사안 중대”",
-      "link": "https://n.news.naver.com/mnews/article/020/0003763422?sid=102",
+      "title": "경북 상주서 3.6 지진… 수능 시험장 ‘이상 무’",
+      "link": "https://n.news.naver.com/mnews/article/022/0004176121?sid=102",
       "date": "2026-11-18"
      }
     ],
     "searches": [
      {
-      "query": "수능 2026학년도 수능",
-      "in_period": 414
-     },
-     {
-      "query": "LEET 만점자 AI 의혹 고려대 커뮤니티",
-      "in_period": 117
+      "query": "지진",
+      "in_period": 361
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00138,
+    "cost_usd": 0.0007,
     "note": ""
    },
    "explain_state": "done"
@@ -176,7 +151,7 @@
    },
    "explanation": {
     "status": "unknown",
-    "cause": "2026-11-16 전후 기사는 대부분 겨울철 미세먼지 계절관리제에 맞춘 제주도 24시간 집중 감시와 인천시 걷기 챌린지 같은 정례 대응 발표였고, 급등 원인이 될 만한 특정 사건이나 고농도 발생 소식은 확인되지 않았습니다. 따라서 검색량 급등의 원인은 기사로 확인할 수 없습니다.",
+    "cause": "검색 기간(2026-11-14~11-18) 내 기사에서는 11월 16일 급등을 설명할 특정 사건이나 발표를 찾지 못했습니다. 확인된 기사는 대부분 겨울철 미세먼지 대비 캠페인(인천시 걷기 챌린지)과 제주도의 겨울철 집중 감시 계획 등 예방 관련 보도였고, 이는 급등의 직접 원인으로 보기 어렵습니다.",
     "citations": [],
     "searches": [
      {
@@ -184,12 +159,12 @@
       "in_period": 74
      },
      {
-      "query": "미세먼지 고농도 주의보 발령",
-      "in_period": 8
+      "query": "미세먼지 고농도 경보 발령 11월 16일",
+      "in_period": 0
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00141,
+    "cost_usd": 0.00111,
     "note": ""
    },
    "explain_state": "done"
@@ -210,7 +185,7 @@
    },
    "explanation": {
     "status": "found",
-    "cause": "2026년 11월 16일 YG엔터테인먼트가 공시한 3분기 분기보고서의 전속계약 현황에서 그룹 블랙핑크가 빠졌고, 이에 YG 측은 그룹 활동에 대해 멤버들과 논의를 이어가고 있다고 밝혔습니다.",
+    "cause": "2026년 11월 16일 YG엔터테인먼트가 공시한 3분기 분기보고서의 전속계약 현황에서 블랙핑크가 제외됐고, YG는 그룹 활동에 대해 멤버들과 논의 중이라고 밝혔습니다. 이 소식이 확산되며 그룹의 활동 여부와 해체 가능성에 대한 관심이 쏠렸습니다.",
     "citations": [
      {
       "n": 1,
@@ -226,19 +201,19 @@
      },
      {
       "n": 3,
-      "title": "YG, 블랙핑크 전속계약 명단 제외에 \"그룹 활동 논의 중\"",
-      "link": "https://m.entertain.naver.com/article/437/0000520954",
-      "date": "2026-11-16"
+      "title": "블랙핑크 해체? 완전체 컴백?…YG 전속계약 제외 후 시나리오[SC이슈]",
+      "link": "https://m.entertain.naver.com/article/076/0004467230",
+      "date": "2026-11-17"
      }
     ],
     "searches": [
      {
       "query": "블랙핑크",
-      "in_period": 162
+      "in_period": 177
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00059,
+    "cost_usd": 0.00063,
     "note": ""
    },
    "explain_state": "done"
