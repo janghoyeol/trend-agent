@@ -1,10 +1,59 @@
 {
- "generated_at": "2026-11-20 16:30 KST",
+ "generated_at": "2026-11-21 16:25 KST",
  "watchlist_size": 38,
  "recent_days": 3,
  "model": "claude-haiku-5-5",
- "spent_usd": 0.004,
+ "spent_usd": 0.0032,
  "items": [
+  {
+   "keyword": "폭설",
+   "spike": {
+    "start": "2026-11-18",
+    "end": "2026-11-20",
+    "peak_date": "2026-11-20",
+    "peak_value": 100.0,
+    "baseline": 3.6,
+    "baseline_kind": "rolling",
+    "news_period": [
+     "2026-11-16",
+     "2026-11-22"
+    ]
+   },
+   "explanation": {
+    "status": "found",
+    "cause": "김윤석·구교환 주연 영화 '폭설'(감독 홍의정)이 2026년 11월 18일 개봉해 이틀 연속 박스오피스 1위에 올랐고, 주말 극장가 흥행 기사가 잇따라 나오면서 검색이 늘어난 것으로 보입니다. 다만 기사들이 검색량 증가를 직접 언급하지는 않아 시기적 일치에 근거한 해석입니다.",
+    "citations": [
+     {
+      "n": 1,
+      "title": "주말 극장가 주인공은?…'폭설'·'치이카와'",
+      "link": "https://m.entertain.naver.com/article/422/0000928427",
+      "date": "2026-11-21"
+     },
+     {
+      "n": 2,
+      "title": "'폭설', 박스오피스 1위…2위는 '헝거게임 50번째 추첨의 날'",
+      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16282229",
+      "date": "2026-11-21"
+     },
+     {
+      "n": 3,
+      "title": "[주말극장가] 김윤석·구교환 '폭설' 박스오피스·예매율 모두 1위",
+      "link": "https://n.news.naver.com/mnews/article/001/0016453588?sid=103",
+      "date": "2026-11-20"
+     }
+    ],
+    "searches": [
+     {
+      "query": "폭설",
+      "in_period": 400
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "cost_usd": 0.00067,
+    "note": ""
+   },
+   "explain_state": "done"
+  },
   {
    "keyword": "한파",
    "spike": {
@@ -21,88 +70,35 @@
    },
    "explanation": {
     "status": "found",
-    "cause": "2026년 11월 19일 수능일에 6년 만의 '수능 한파'가 찾아와 전국 아침 기온이 전날보다 5~10도 떨어지고 서울 일부 지역이 영하권으로 내려갔으며, 강원 산지와 경북 내륙에는 한파특보가 내려졌다.",
+    "cause": "2026년 11월 19일 대학수학능력시험일 아침 전국 대부분 지역의 기온이 전날보다 5~10도 떨어지면서 '수능 한파'가 찾아왔고, 강원 산지와 일부 경상권에 한파특보가 내려졌습니다. 이 날씨 소식이 '한파' 검색 급등의 원인으로 보입니다.",
     "citations": [
      {
       "n": 1,
-      "title": "시험장 가는 길, 영하 5도까지…6년 만의 수능 한파",
-      "link": "https://n.news.naver.com/mnews/article/028/0002832923?sid=102",
-      "date": "2026-11-19"
-     },
-     {
-      "n": 2,
       "title": "수능일 아침 영하권 ‘한파’···곳곳에 눈·비",
       "link": "https://n.news.naver.com/mnews/article/032/0003483642?sid=103",
       "date": "2026-11-19"
      },
      {
+      "n": 2,
+      "title": "시험장 가는 길, 영하 5도까지…6년 만의 수능 한파",
+      "link": "https://n.news.naver.com/mnews/article/028/0002832923?sid=102",
+      "date": "2026-11-19"
+     },
+     {
       "n": 3,
-      "title": "6년 만에 전국에 '수능 한파'…아침 기온 5~10도 '뚝'",
-      "link": "https://n.news.naver.com/mnews/article/654/0000212168?sid=103",
+      "title": "[오늘의 날씨] 6년 만에 '수능 한파'…강풍에 눈·비까지",
+      "link": "https://n.news.naver.com/mnews/article/629/0000553399?sid=103",
       "date": "2026-11-19"
      }
     ],
     "searches": [
      {
       "query": "한파",
-      "in_period": 488
+      "in_period": 468
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00056,
-    "note": ""
-   },
-   "explain_state": "done"
-  },
-  {
-   "keyword": "폭설",
-   "spike": {
-    "start": "2026-11-13",
-    "end": "2026-11-19",
-    "peak_date": "2026-11-19",
-    "peak_value": 100.0,
-    "baseline": 5.1,
-    "baseline_kind": "rolling",
-    "news_period": [
-     "2026-11-11",
-     "2026-11-21"
-    ]
-   },
-   "explanation": {
-    "status": "found",
-    "cause": "김윤석·구교환 주연 영화 '폭설'(감독 홍의정)이 11월 18일 개봉해 첫날 5만8038명을 동원하며 박스오피스 1위에 올랐고, 19일에도 이틀 연속 1위를 지키며 영화 제목 검색이 몰린 것으로 보입니다. 다만 검색 급등이 시작된 11월 13일은 개봉 전이라 이 기사들만으로는 설명되지 않습니다.",
-    "citations": [
-     {
-      "n": 1,
-      "title": "김윤석·구교환 '폭설', 개봉 첫날 박스오피스 1위",
-      "link": "https://www.newdaily.co.kr/site/data/html/2026/11/19/2026111950182.html",
-      "date": "2026-11-19"
-     },
-     {
-      "n": 2,
-      "title": "'폭설', 개봉 첫날 박스오피스 1위…5만8000명 동원",
-      "link": "https://www.etoday.co.kr/news/view/2650332",
-      "date": "2026-11-19"
-     },
-     {
-      "n": 3,
-      "title": "김윤석·구교환 '폭설', 이틀 연속 정상…11만 관객 돌파 [Nbox]",
-      "link": "https://m.entertain.naver.com/article/421/0009300486",
-      "date": "2026-11-20"
-     }
-    ],
-    "searches": [
-     {
-      "query": "폭설",
-      "in_period": 499
-     },
-     {
-      "query": "영화 폭설 김윤석 구교환 개봉",
-      "in_period": 439
-     }
-    ],
-    "model": "claude-haiku-5-5",
-    "cost_usd": 0.0014,
+    "cost_usd": 0.00061,
     "note": ""
    },
    "explain_state": "done"
@@ -123,35 +119,29 @@
    },
    "explanation": {
     "status": "found",
-    "cause": "2026년 11월 19일 치러진 2027학년도 수능에서 스마트기기 등 전자기기 부정행위가 111건 적발됐다고 교육부가 20일 발표했고, 이를 계기로 AI 부정행위 의혹과 수능 공정성 논란이 커졌다. 한성숙 국무총리는 '수능 부정행위 대응 TF'를 출범시켜 와이파이·블루투스 신호 분석 등으로 의심 사례를 수사하겠다고 밝혔다.",
+    "cause": "법학적성시험(LEET) 만점자 이진우 씨의 부정행위 의혹이 2024·2026학년도 수능으로 번지면서, 경찰이 이 씨가 응시한 2026학년도 수능 시험지의 증거보전을 요청했고 한성숙 국무총리가 수능 시험지를 폐기하지 말고 보관하라고 긴급 지시했다.",
     "citations": [
      {
       "n": 1,
-      "title": "교육부 “수능 전자기기 부정행위 총 111건 적발”",
-      "link": "https://n.news.naver.com/mnews/article/020/0003763924?sid=102",
-      "date": "2026-11-20"
+      "title": "경찰, '리트 만점자' 2026학년도 수능 시험지 증거보전 요청",
+      "link": "https://n.news.naver.com/mnews/article/057/0001978918?sid=102",
+      "date": "2026-11-19"
      },
      {
       "n": 2,
-      "title": "韓총리 \"수능 와이파이·블루투스 신호 분석해 의심사례 수사\"",
-      "link": "https://n.news.naver.com/mnews/article/001/0016454879?sid=100",
-      "date": "2026-11-20"
-     },
-     {
-      "n": 3,
-      "title": "'수능 부정행위 대응 TF' 출범…10년 응시 제한 등 추진",
-      "link": "https://n.news.naver.com/mnews/article/079/0004212162?sid=100",
-      "date": "2026-11-20"
+      "title": "한성숙 총리 “2026 수능 시험지 보관 유지” 긴급 지시",
+      "link": "https://n.news.naver.com/mnews/article/666/0000132870?sid=100",
+      "date": "2026-11-19"
      }
     ],
     "searches": [
      {
-      "query": "수능",
-      "in_period": 500
+      "query": "수능 2026학년도 대학수학능력시험",
+      "in_period": 484
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00064,
+    "cost_usd": 0.00068,
     "note": ""
    },
    "explain_state": "done"
@@ -172,43 +162,39 @@
    },
    "explanation": {
     "status": "found",
-    "cause": "2026년 11월 17일 오후 11시 10분께 경북 상주시 북서쪽 22㎞에서 올해 국내 최대인 규모 3.6 지진이 발생해 경북·충북 등 전국에서 흔들림이 감지되었고, 수능을 이틀 앞둔 시점이라 관심이 몰렸습니다.",
+    "cause": "2026년 11월 17일 밤 11시 10분쯤 경북 상주시 북서쪽 22km 지점에서 규모 3.6의 지진이 발생해 경북·충북 등 전국 곳곳에서 흔들림이 감지됐고, 올해 한반도에서 발생한 지진 가운데 가장 강한 지진으로 보도되며 지진 관련 관심이 몰렸습니다.",
     "citations": [
      {
       "n": 1,
-      "title": "수능 이틀 전 경북 상주서 규모 3.6 지진…올들어 가장 강해(종합2보)",
-      "link": "https://n.news.naver.com/mnews/article/001/0016447587?sid=102",
+      "title": "경북 상주서 규모 3.6 지진",
+      "link": "https://n.news.naver.com/mnews/article/079/0004210886?sid=102",
       "date": "2026-11-17"
      },
      {
       "n": 2,
-      "title": "\"잠들었다가 누가 흔드는 줄\" 상주 3.6 지진에 '유감 신고' 39건",
-      "link": "https://n.news.naver.com/mnews/article/421/0009295176?sid=102",
-      "date": "2026-11-18"
+      "title": "경북 상주서 규모 3.6 지진…올해 한반도 발생 지진 중 최대",
+      "link": "https://n.news.naver.com/mnews/article/028/0002832706?sid=102",
+      "date": "2026-11-17"
      },
      {
       "n": 3,
-      "title": "경북 상주서 규모 3.6 지진… “흔들림 느꼈다” 신고 13건",
-      "link": "https://n.news.naver.com/mnews/article/366/0001205488?sid=102",
-      "date": "2026-11-17"
+      "title": "\"잠들었다가 누가 흔드는 줄\" 상주 3.6 지진에 '유감 신고' 39건",
+      "link": "https://n.news.naver.com/mnews/article/421/0009295176?sid=102",
+      "date": "2026-11-18"
      }
     ],
     "searches": [
      {
       "query": "지진",
-      "in_period": 348
+      "in_period": 332
      },
      {
-      "query": "지진 발생 17일 흔들림 신고",
-      "in_period": 48
-     },
-     {
-      "query": "지진 16일 규모 기상청 진앙",
-      "in_period": 16
+      "query": "경북 상주 지진 규모 3.6 흔들림",
+      "in_period": 110
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00145,
+    "cost_usd": 0.00122,
     "note": ""
    },
    "explain_state": "done"
