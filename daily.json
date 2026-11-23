@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-22 16:05 KST",
+ "generated_at": "2026-11-23 16:53 KST",
  "watchlist_size": 38,
  "recent_days": 3,
  "model": "claude-haiku-5-5",
- "spent_usd": 0.0033,
+ "spent_usd": 0.0015,
  "items": [
   {
    "keyword": "비트코인",
@@ -21,7 +21,7 @@
    },
    "explanation": {
     "status": "found",
-    "cause": "비트코인이 4개월 만에 6만 달러 아래로 급락했습니다. 미국 현물 ETF에서 대규모 자금이 빠져나갔고, 인공지능 기업 앤트로픽의 IPO 등이 겹치면서 장중 5만8천 달러대까지 추락했습니다.",
+    "cause": "비트코인이 4개월 만에 6만 달러 아래로 떨어지며 장중 5만8천 달러대까지 추락했고, 기사들은 미국 비트코인 현물 ETF의 자금 순유출과 앤트로픽 IPO 등이 하락에 영향을 준 것으로 전했습니다.",
     "citations": [
      {
       "n": 1,
@@ -31,25 +31,19 @@
      },
      {
       "n": 2,
-      "title": "비트코인, 4개월 만에 6만 달러 붕괴…ETF 자금 이탈에 '휘청'",
-      "link": "https://n.news.naver.com/mnews/article/421/0009302465?sid=101",
-      "date": "2026-11-21"
-     },
-     {
-      "n": 3,
-      "title": "비트코인 넉 달 만에 6만 달러 아래로…고점 대비 '반토막'",
-      "link": "https://n.news.naver.com/mnews/article/057/0001979237?sid=101",
-      "date": "2026-11-21"
+      "title": "비트코인 주말 급락 후 반등…6만1000달러선 회복에도 ‘불안’",
+      "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261123010008908",
+      "date": "2026-11-23"
      }
     ],
     "searches": [
      {
       "query": "비트코인",
-      "in_period": 397
+      "in_period": 426
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00063,
+    "cost_usd": 0.00076,
     "note": ""
    },
    "explain_state": "done"
@@ -58,137 +52,47 @@
    "keyword": "폭설",
    "spike": {
     "start": "2026-11-18",
-    "end": "2026-11-21",
+    "end": "2026-11-22",
     "peak_date": "2026-11-20",
     "peak_value": 100.0,
     "baseline": 3.6,
     "baseline_kind": "rolling",
     "news_period": [
      "2026-11-16",
-     "2026-11-23"
+     "2026-11-24"
     ]
    },
    "explanation": {
     "status": "found",
-    "cause": "2026년 11월 18일 개봉한 김윤석·구교환 주연 영화 '폭설'(감독 홍의정)이 개봉 첫 주부터 박스오피스 1위를 연이어 차지하며 화제가 됐습니다. 급등 기간과 겹치는 검색어 '폭설'은 기상 현상보다 이 영화를 가리킬 가능성이 큽니다.",
+    "cause": "김윤석·구교환 주연의 영화 '폭설'(감독 홍의정, 박선우)이 11월 셋째 주 주말 개봉해 첫 주말(20~22일) 31만여 명을 동원하며 박스오피스 1위에 올랐고, 이후 5일 연속 1위를 지켰다. 검색 급등 시기와 겹치므로 자연재해 폭설이 아니라 이 영화 관련 검색이 급증한 것으로 보인다.",
     "citations": [
      {
       "n": 1,
-      "title": "눈으로 만든 밀실, 김윤석·구교환의 연기 대결…영화 ‘폭설’",
-      "link": "https://n.news.naver.com/mnews/article/032/0003484172?sid=103",
-      "date": "2026-11-22"
+      "title": "[박스오피스] 김윤석·구교환 '폭설', 개봉 첫 주말 1위",
+      "link": "https://n.news.naver.com/mnews/article/001/0016457348?sid=103",
+      "date": "2026-11-23"
      },
      {
       "n": 2,
-      "title": "김윤석·구교환 '폭설', 이틀 연속 박스오피스 1위",
-      "link": "https://m.entertain.naver.com/article/629/0000553982",
-      "date": "2026-11-20"
+      "title": "김윤석X구교환 '폭설', 42만 돌파..개봉 첫 주 박스오피스 1위",
+      "link": "https://m.entertain.naver.com/article/108/0003489477",
+      "date": "2026-11-23"
      },
      {
       "n": 3,
-      "title": "'폭설' 4일 연속 박스오피스 1위…31만 관객 돌파[영화랭킹]",
-      "link": "http://www.celuvmedia.com/article.php?aid=1795305631531346011",
-      "date": "2026-11-22"
+      "title": "김윤석·구교환 '폭설', 11만↑ 동원하며 5일 연속 1위",
+      "link": "https://m.entertain.naver.com/article/421/0009303835",
+      "date": "2026-11-23"
      }
     ],
     "searches": [
      {
       "query": "폭설",
-      "in_period": 403
+      "in_period": 445
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00069,
-    "note": ""
-   },
-   "explain_state": "done"
-  },
-  {
-   "keyword": "한파",
-   "spike": {
-    "start": "2026-11-19",
-    "end": "2026-11-19",
-    "peak_date": "2026-11-19",
-    "peak_value": 24.7,
-    "baseline": 5.1,
-    "baseline_kind": "rolling",
-    "news_period": [
-     "2026-11-17",
-     "2026-11-21"
-    ]
-   },
-   "explanation": {
-    "status": "found",
-    "cause": "2026년 11월 19일 수능 시험일에 맞춰 영하 5도까지 떨어지는 '수능 한파'가 닥쳤고, 강원 산지와 일부 경상권에 한파특보가 내려지면서 '한파' 관련 검색이 늘어난 것으로 보입니다.",
-    "citations": [
-     {
-      "n": 1,
-      "title": "시험장 가는 길, 영하 5도까지…6년 만의 수능 한파",
-      "link": "https://n.news.naver.com/mnews/article/028/0002832923?sid=102",
-      "date": "2026-11-19"
-     }
-    ],
-    "searches": [
-     {
-      "query": "한파",
-      "in_period": 414
-     }
-    ],
-    "model": "claude-haiku-5-5",
-    "cost_usd": 0.00066,
-    "note": ""
-   },
-   "explain_state": "done"
-  },
-  {
-   "keyword": "수능",
-   "spike": {
-    "start": "2026-11-18",
-    "end": "2026-11-19",
-    "peak_date": "2026-11-19",
-    "peak_value": 100.0,
-    "baseline": 2.7,
-    "baseline_kind": "rolling",
-    "news_period": [
-     "2026-11-16",
-     "2026-11-21"
-    ]
-   },
-   "explanation": {
-    "status": "found",
-    "cause": "AI를 활용한 부정행위 의혹을 받던 법학적성시험(LEET·리트) 만점자 이진우(32)씨가 2026년 11월 19일 숨진 채 발견되면서, 그의 2024학년도 및 2026학년도 수능 성적을 둘러싼 의혹까지 함께 확산되어 수능에 대한 관심이 급증했습니다.",
-    "citations": [
-     {
-      "n": 1,
-      "title": "\"출소 반년 만에 수능 1등급?\"...이진우, '찢어진 유품' 의미는",
-      "link": "https://n.news.naver.com/mnews/article/018/0006413503?sid=102",
-      "date": "2026-11-21"
-     },
-     {
-      "n": 2,
-      "title": "출소 반년 만에 수능 1등급?…이진우 3년 전 성적 '미스터리'",
-      "link": "https://n.news.naver.com/mnews/article/015/0005356589?sid=102",
-      "date": "2026-11-21"
-     },
-     {
-      "n": 3,
-      "title": "'AI 부정행위' 의혹 리트 만점자 유서에…\"이 글도 조롱하겠지\"",
-      "link": "https://n.news.naver.com/mnews/article/003/0014337283?sid=102",
-      "date": "2026-11-21"
-     }
-    ],
-    "searches": [
-     {
-      "query": "수능 2026 11월 19일",
-      "in_period": 366
-     },
-     {
-      "query": "리트 만점자 이진우 수능 부정행위 의혹",
-      "in_period": 481
-     }
-    ],
-    "model": "claude-haiku-5-5",
-    "cost_usd": 0.00134,
+    "cost_usd": 0.0007,
     "note": ""
    },
    "explain_state": "done"
