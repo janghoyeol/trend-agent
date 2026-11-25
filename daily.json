@@ -1,10 +1,102 @@
 {
- "generated_at": "2026-11-24 19:05 KST",
+ "generated_at": "2026-11-25 17:53 KST",
  "watchlist_size": 38,
  "recent_days": 3,
  "model": "claude-haiku-5-5",
- "spent_usd": 0.0023,
+ "spent_usd": 0.0035,
  "items": [
+  {
+   "keyword": "파업",
+   "spike": {
+    "start": "2026-11-24",
+    "end": "2026-11-24",
+    "peak_date": "2026-11-24",
+    "peak_value": 100.0,
+    "baseline": 3.5,
+    "baseline_kind": "rolling",
+    "news_period": [
+     "2026-11-22",
+     "2026-11-26"
+    ]
+   },
+   "explanation": {
+    "status": "found",
+    "cause": "서울교통공사 임금·단체협약 협상이 인력 충원 문제 등에서 결렬 위기에 놓이면서, 서울 지하철 1~3노조가 11월 25일 첫차부터 총파업을 예고했고 이에 따라 '파업' 관련 보도와 검색이 급증했습니다. 이후 25일 새벽 노사가 극적으로 타결돼 파업은 철회됐습니다.",
+    "citations": [
+     {
+      "n": 1,
+      "title": "서울 지하철 노사 최종교섭 난항…첫차부터 총파업 예고",
+      "link": "https://n.news.naver.com/mnews/article/003/0014343118?sid=102",
+      "date": "2026-11-24"
+     },
+     {
+      "n": 2,
+      "title": "서울지하철 임단협 타결로 파업 철회…'출근길 대란' 피했다(종합3보)",
+      "link": "https://n.news.naver.com/mnews/article/001/0016461581?sid=102",
+      "date": "2026-11-25"
+     }
+    ],
+    "searches": [
+     {
+      "query": "파업",
+      "in_period": 496
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "cost_usd": 0.00063,
+    "note": ""
+   },
+   "explain_state": "done"
+  },
+  {
+   "keyword": "관세",
+   "spike": {
+    "start": "2026-11-24",
+    "end": "2026-11-24",
+    "peak_date": "2026-11-24",
+    "peak_value": 100.0,
+    "baseline": 21.0,
+    "baseline_kind": "rolling",
+    "news_period": [
+     "2026-11-22",
+     "2026-11-26"
+    ]
+   },
+   "explanation": {
+    "status": "found",
+    "cause": "미국 무역대표부(USTR)가 한국을 포함한 16개 경제주체에 대한 '과잉생산 관세' 조사 결과를 이르면 24일(현지시각) 저녁 발표할 것이라는 외신 보도가 나와 관세 이슈가 커졌고, 한국은 기존 12.5%에서 15% 수준이 유지될 것으로 전망됐습니다. 디지털 규제 관련 보복 관세가 새 변수로 거론됐습니다.",
+    "citations": [
+     {
+      "n": 1,
+      "title": "美 '과잉생산 관세' 이르면 오늘 발표…외신 \"韓 15% 유지 예상\"(종합2보...",
+      "link": "https://n.news.naver.com/mnews/article/001/0016461612?sid=104",
+      "date": "2026-11-25"
+     },
+     {
+      "n": 2,
+      "title": "트럼프, 한·중·일 등 16곳에 ‘과잉생산 관세’ 추진… “한국은 15% 이...",
+      "link": "https://n.news.naver.com/mnews/article/023/0004011590?sid=101",
+      "date": "2026-11-25"
+     },
+     {
+      "n": 3,
+      "title": "韓 과잉생산 관세 ‘일단 안심’… ‘디지털규제’ 보복은 새 뇌관",
+      "link": "https://n.news.naver.com/mnews/article/021/0002835433?sid=104",
+      "date": "2026-11-25"
+     }
+    ],
+    "searches": [
+     {
+      "query": "관세",
+      "in_period": 457
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "cost_usd": 0.00067,
+    "note": ""
+   },
+   "explain_state": "done"
+  },
   {
    "keyword": "정전",
    "spike": {
@@ -21,78 +113,29 @@
    },
    "explanation": {
     "status": "found",
-    "cause": "2026년 11월 22일 서울 양천구 목동6단지 아파트 전체가 정전돼 승강기에 갇힌 주민이 구조됐고, 11월 23일에는 서울 노원구 일대 977세대가 고압선 이물 문제로 1시간가량 정전됐습니다. 같은 기간 쿠바 아바나에서도 전력난으로 대규모 정전이 이어졌다는 보도가 나왔습니다. 다만 기사는 이 사건들이 '정전' 검색량 급등을 직접 일으켰다고 밝히지는 않아, 급등과의 인과관계는 기사만으로 확정하기 어렵습니다.",
+    "cause": "급등 직전인 22일 서울 양천구 목동6단지 아파트 전체가 약 16~20분간 정전돼 승강기에 갇힌 주민이 구조됐고, 23일에는 전력거래소가 중앙전력관제센터에서 유관기관과 '정전복구 합동 모의훈련'을 실시한 사실이 기사로 보도됐습니다. 다만 기사는 시기가 맞는 사건을 보여줄 뿐 검색 급등과의 인과관계를 직접 확인하지는 못했습니다.",
     "citations": [
      {
       "n": 1,
-      "title": "서울 노원구 일대 정전‥1시간 만에 복구",
-      "link": "https://n.news.naver.com/mnews/article/214/0001537344?sid=102",
-      "date": "2026-11-23"
-     },
-     {
-      "n": 2,
       "title": "[단독] 서울 목동 6단지 전체 정전…승강기 갇힌 주민 구조",
       "link": "https://n.news.naver.com/mnews/article/079/0004212490?sid=102",
       "date": "2026-11-22"
      },
      {
-      "n": 3,
-      "title": "정전으로 어두워진 거리 건너는 아바나 주민",
-      "link": "https://n.news.naver.com/mnews/article/003/0014340582?sid=104",
-      "date": "2026-11-23"
+      "n": 2,
+      "title": "전력거래소, 대규모 정전 대비 합동훈련",
+      "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2496688",
+      "date": "2026-11-24"
      }
     ],
     "searches": [
      {
       "query": "정전",
-      "in_period": 51
+      "in_period": 57
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00091,
-    "note": ""
-   },
-   "explain_state": "done"
-  },
-  {
-   "keyword": "비트코인",
-   "spike": {
-    "start": "2026-11-21",
-    "end": "2026-11-21",
-    "peak_date": "2026-11-21",
-    "peak_value": 100.0,
-    "baseline": 32.5,
-    "baseline_kind": "rolling",
-    "news_period": [
-     "2026-11-19",
-     "2026-11-23"
-    ]
-   },
-   "explanation": {
-    "status": "found",
-    "cause": "비트코인이 2026년 11월 20일(현지시간) 주말 사이 넉 달 만에 6만 달러 아래로 급락해 고점 대비 반토막이 났고, 과도한 레버리지 포지션의 대규모 강제 청산이 이어지면서 하락폭이 커졌다. 이 급락이 21일 관련 보도와 검색 관심을 키운 것으로 보인다.",
-    "citations": [
-     {
-      "n": 1,
-      "title": "비트코인 넉 달 만에 6만 달러 아래로…고점 대비 '반토막'",
-      "link": "https://n.news.naver.com/mnews/article/057/0001979237?sid=101",
-      "date": "2026-11-21"
-     },
-     {
-      "n": 2,
-      "title": "\"열어보면 한숨 납니다\"…재작년으로 돌아간 비트코인, 반등은 언제",
-      "link": "https://n.news.naver.com/mnews/article/003/0014337635?sid=101",
-      "date": "2026-11-22"
-     }
-    ],
-    "searches": [
-     {
-      "query": "비트코인",
-      "in_period": 320
-     }
-    ],
-    "model": "claude-haiku-5-5",
-    "cost_usd": 0.00069,
+    "cost_usd": 0.00089,
     "note": ""
    },
    "explain_state": "done"
@@ -101,28 +144,34 @@
    "keyword": "폭설",
    "spike": {
     "start": "2026-11-18",
-    "end": "2026-11-23",
+    "end": "2026-11-24",
     "peak_date": "2026-11-20",
     "peak_value": 100.0,
     "baseline": 3.6,
     "baseline_kind": "rolling",
     "news_period": [
      "2026-11-16",
-     "2026-11-25"
+     "2026-11-26"
     ]
    },
    "explanation": {
     "status": "found",
-    "cause": "김윤석·구교환 주연의 영화 '폭설'이 개봉해 개봉 첫 주말(11월 20~22일) 31만여 명을 동원하며 박스오피스 1위에 올랐고, 이후에도 6일 연속 정상을 지키는 등 영화 관련 보도가 쏟아졌습니다. 급등 기간의 '폭설' 검색은 기상 현상이 아니라 이 영화 제목에 대한 관심으로 보입니다.",
+    "cause": "2026년 11월 18일 개봉한 김윤석·구교환 주연 영화 '폭설'이 개봉 첫 주말부터 박스오피스 1위를 차지하고 7일 연속 정상을 지키며 흥행한 것이 기간 내 화제의 중심이었습니다. 다만 기사들은 검색량 증가를 직접 언급하지 않아, 급등의 주된 원인으로 영화 개봉과 흥행을 보는 것은 기사에서 간접적으로 추론한 것입니다.",
     "citations": [
      {
       "n": 1,
-      "title": "[박스오피스] 김윤석·구교환 '폭설', 개봉 첫 주말 1위",
-      "link": "https://n.news.naver.com/mnews/article/001/0016457348?sid=103",
-      "date": "2026-11-23"
+      "title": "'폭설' 7일 연속 박스오피스 1위… 누적 관객 49만 돌파",
+      "link": "https://www.bntnews.co.kr/article/view/bnt202611250201",
+      "date": "2026-11-25"
      },
      {
       "n": 2,
+      "title": "김윤석·구교환 ‘폭설’, 첫 주말 박스오피스 1위…42만 관객 돌파",
+      "link": "https://m.entertain.naver.com/article/382/0001306171",
+      "date": "2026-11-23"
+     },
+     {
+      "n": 3,
       "title": "김윤석·구교환 ‘폭설’, 6일째 정상… 50만 돌파 눈앞",
       "link": "https://m.entertain.naver.com/article/018/0006414903",
       "date": "2026-11-24"
@@ -131,11 +180,15 @@
     "searches": [
      {
       "query": "폭설",
-      "in_period": 452
+      "in_period": 461
+     },
+     {
+      "query": "영화 폭설 개봉 김윤석 구교환 흥행",
+      "in_period": 139
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00067,
+    "cost_usd": 0.00134,
     "note": ""
    },
    "explain_state": "done"
