@@ -1,98 +1,108 @@
 {
- "generated_at": "2026-11-25 17:53 KST",
+ "generated_at": "2026-11-26 17:37 KST",
  "watchlist_size": 38,
  "recent_days": 3,
  "model": "claude-haiku-5-5",
- "spent_usd": 0.0035,
+ "spent_usd": 0.0046,
  "items": [
+  {
+   "keyword": "관세",
+   "spike": {
+    "start": "2026-11-24",
+    "end": "2026-11-25",
+    "peak_date": "2026-11-25",
+    "peak_value": 100.0,
+    "baseline": 8.0,
+    "baseline_kind": "rolling",
+    "news_period": [
+     "2026-11-22",
+     "2026-11-27"
+    ]
+   },
+   "explanation": {
+    "status": "found",
+    "cause": "미국 무역대표부(USTR)가 2026년 11월 25일(현지시간) 무역법 301조를 근거로 한국을 포함한 14개국에 '과잉생산 관세'를 제안했고, 한국에는 기존 한미 합의대로 15% 상한을 유지하되 25%까지 높일 수 있다고 압박했다는 소식이 이어지며 관세 관련 검색이 늘어난 것으로 보입니다.",
+    "citations": [
+     {
+      "n": 1,
+      "title": "美, 14개국에 과잉생산 관세…\"한국 15% 상한 유지\"(종합)",
+      "link": "https://n.news.naver.com/mnews/article/003/0014345596?sid=104",
+      "date": "2026-11-25"
+     },
+     {
+      "n": 2,
+      "title": "美, 韓 관세 15% 일단 유지…日보다 높은 25% 엄포도",
+      "link": "https://n.news.naver.com/mnews/article/011/0004686417?sid=104",
+      "date": "2026-11-26"
+     },
+     {
+      "n": 3,
+      "title": "美, 한국 관세 ‘15% 상한’ 일단 유지… “25%까지 높일수도” 압박",
+      "link": "https://n.news.naver.com/mnews/article/020/0003765317?sid=104",
+      "date": "2026-11-26"
+     }
+    ],
+    "searches": [
+     {
+      "query": "관세",
+      "in_period": 500
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "cost_usd": 0.00061,
+    "note": ""
+   },
+   "explain_state": "done"
+  },
   {
    "keyword": "파업",
    "spike": {
     "start": "2026-11-24",
-    "end": "2026-11-24",
+    "end": "2026-11-25",
     "peak_date": "2026-11-24",
     "peak_value": 100.0,
     "baseline": 3.5,
     "baseline_kind": "rolling",
     "news_period": [
      "2026-11-22",
-     "2026-11-26"
+     "2026-11-27"
     ]
    },
    "explanation": {
     "status": "found",
-    "cause": "서울교통공사 임금·단체협약 협상이 인력 충원 문제 등에서 결렬 위기에 놓이면서, 서울 지하철 1~3노조가 11월 25일 첫차부터 총파업을 예고했고 이에 따라 '파업' 관련 보도와 검색이 급증했습니다. 이후 25일 새벽 노사가 극적으로 타결돼 파업은 철회됐습니다.",
+    "cause": "전국학교비정규직연대회의 소속 학교 비정규직 노동자 약 4만 명이 11월 27일 총파업을 예고했고, 이에 교육부와 시도교육청이 급식·돌봄 차질에 대비한 상황실을 가동했습니다. 다만 인용한 기사 대부분이 11월 26일자라 정점(11월 24일)과의 시간 차이는 확실하지 않습니다.",
     "citations": [
      {
       "n": 1,
-      "title": "서울 지하철 노사 최종교섭 난항…첫차부터 총파업 예고",
-      "link": "https://n.news.naver.com/mnews/article/003/0014343118?sid=102",
-      "date": "2026-11-24"
+      "title": "\"내일 급식은 빵이에요?\"…학교비정규직 4만명 총파업 예고",
+      "link": "https://n.news.naver.com/mnews/article/015/0005358412?sid=102",
+      "date": "2026-11-26"
      },
      {
       "n": 2,
-      "title": "서울지하철 임단협 타결로 파업 철회…'출근길 대란' 피했다(종합3보)",
-      "link": "https://n.news.naver.com/mnews/article/001/0016461581?sid=102",
+      "title": "학교비정규직 4만명 내일 총파업…교육당국, 급식·돌봄 비상대응",
+      "link": "https://n.news.naver.com/mnews/article/001/0016464350?sid=102",
+      "date": "2026-11-26"
+     },
+     {
+      "n": 3,
+      "title": "[경북 브리핑 모음(11월 25일)] 경북도, 베트남 달랏서 K-푸드·뷰티 수...",
+      "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611250720209210469",
       "date": "2026-11-25"
      }
     ],
     "searches": [
      {
       "query": "파업",
-      "in_period": 496
+      "in_period": 500
+     },
+     {
+      "query": "학교비정규직 총파업 예고 11월 24일",
+      "in_period": 1
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00063,
-    "note": ""
-   },
-   "explain_state": "done"
-  },
-  {
-   "keyword": "관세",
-   "spike": {
-    "start": "2026-11-24",
-    "end": "2026-11-24",
-    "peak_date": "2026-11-24",
-    "peak_value": 100.0,
-    "baseline": 21.0,
-    "baseline_kind": "rolling",
-    "news_period": [
-     "2026-11-22",
-     "2026-11-26"
-    ]
-   },
-   "explanation": {
-    "status": "found",
-    "cause": "미국 무역대표부(USTR)가 한국을 포함한 16개 경제주체에 대한 '과잉생산 관세' 조사 결과를 이르면 24일(현지시각) 저녁 발표할 것이라는 외신 보도가 나와 관세 이슈가 커졌고, 한국은 기존 12.5%에서 15% 수준이 유지될 것으로 전망됐습니다. 디지털 규제 관련 보복 관세가 새 변수로 거론됐습니다.",
-    "citations": [
-     {
-      "n": 1,
-      "title": "美 '과잉생산 관세' 이르면 오늘 발표…외신 \"韓 15% 유지 예상\"(종합2보...",
-      "link": "https://n.news.naver.com/mnews/article/001/0016461612?sid=104",
-      "date": "2026-11-25"
-     },
-     {
-      "n": 2,
-      "title": "트럼프, 한·중·일 등 16곳에 ‘과잉생산 관세’ 추진… “한국은 15% 이...",
-      "link": "https://n.news.naver.com/mnews/article/023/0004011590?sid=101",
-      "date": "2026-11-25"
-     },
-     {
-      "n": 3,
-      "title": "韓 과잉생산 관세 ‘일단 안심’… ‘디지털규제’ 보복은 새 뇌관",
-      "link": "https://n.news.naver.com/mnews/article/021/0002835433?sid=104",
-      "date": "2026-11-25"
-     }
-    ],
-    "searches": [
-     {
-      "query": "관세",
-      "in_period": 457
-     }
-    ],
-    "model": "claude-haiku-5-5",
-    "cost_usd": 0.00067,
+    "cost_usd": 0.00122,
     "note": ""
    },
    "explain_state": "done"
@@ -112,30 +122,21 @@
     ]
    },
    "explanation": {
-    "status": "found",
-    "cause": "급등 직전인 22일 서울 양천구 목동6단지 아파트 전체가 약 16~20분간 정전돼 승강기에 갇힌 주민이 구조됐고, 23일에는 전력거래소가 중앙전력관제센터에서 유관기관과 '정전복구 합동 모의훈련'을 실시한 사실이 기사로 보도됐습니다. 다만 기사는 시기가 맞는 사건을 보여줄 뿐 검색 급등과의 인과관계를 직접 확인하지는 못했습니다.",
-    "citations": [
-     {
-      "n": 1,
-      "title": "[단독] 서울 목동 6단지 전체 정전…승강기 갇힌 주민 구조",
-      "link": "https://n.news.naver.com/mnews/article/079/0004212490?sid=102",
-      "date": "2026-11-22"
-     },
-     {
-      "n": 2,
-      "title": "전력거래소, 대규모 정전 대비 합동훈련",
-      "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2496688",
-      "date": "2026-11-24"
-     }
-    ],
+    "status": "unknown",
+    "cause": "급등 당일(11월 23일)을 설명하는 기사는 확인되지 않았습니다. 같은 날 전력거래소가 나주에서 대규모 정전 대비 합동 모의훈련을 했다는 기사는 있지만 실제 정전이 아니고, 실제 정전으로 보이는 목동6단지 사례는 하루 전인 22일 일이라 급등 원인으로 단정할 수 없습니다.",
+    "citations": [],
     "searches": [
      {
       "query": "정전",
-      "in_period": 57
+      "in_period": 62
+     },
+     {
+      "query": "정전 23일 대규모 정전 발생",
+      "in_period": 29
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00089,
+    "cost_usd": 0.00136,
     "note": ""
    },
    "explain_state": "done"
@@ -144,51 +145,45 @@
    "keyword": "폭설",
    "spike": {
     "start": "2026-11-18",
-    "end": "2026-11-24",
+    "end": "2026-11-25",
     "peak_date": "2026-11-20",
     "peak_value": 100.0,
     "baseline": 3.6,
     "baseline_kind": "rolling",
     "news_period": [
      "2026-11-16",
-     "2026-11-26"
+     "2026-11-27"
     ]
    },
    "explanation": {
     "status": "found",
-    "cause": "2026년 11월 18일 개봉한 김윤석·구교환 주연 영화 '폭설'이 개봉 첫 주말부터 박스오피스 1위를 차지하고 7일 연속 정상을 지키며 흥행한 것이 기간 내 화제의 중심이었습니다. 다만 기사들은 검색량 증가를 직접 언급하지 않아, 급등의 주된 원인으로 영화 개봉과 흥행을 보는 것은 기사에서 간접적으로 추론한 것입니다.",
+    "cause": "김윤석·구교환 주연의 영화 '폭설'이 2026년 11월 18일 개봉해 검색 급등 시작 시점과 맞물렸고, 이후 8일 연속 박스오피스 1위를 기록하며 누적 54만 명을 넘었습니다. 다만 기사는 영화 흥행을 보도할 뿐 검색량 증가와의 직접 연결은 말하지 않으므로, 급등 원인은 날씨 폭설이 아니라 동명 영화의 개봉과 흥행으로 보는 것이 기사에 근거한 해석입니다.",
     "citations": [
      {
       "n": 1,
-      "title": "'폭설' 7일 연속 박스오피스 1위… 누적 관객 49만 돌파",
-      "link": "https://www.bntnews.co.kr/article/view/bnt202611250201",
-      "date": "2026-11-25"
+      "title": "김윤석·구교환 ‘폭설’ 신작 공세에도 1위…‘슬픈 열대’ 2위 출발 [...",
+      "link": "https://m.entertain.naver.com/article/241/0003543651",
+      "date": "2026-11-26"
      },
      {
       "n": 2,
-      "title": "김윤석·구교환 ‘폭설’, 첫 주말 박스오피스 1위…42만 관객 돌파",
-      "link": "https://m.entertain.naver.com/article/382/0001306171",
-      "date": "2026-11-23"
-     },
-     {
-      "n": 3,
-      "title": "김윤석·구교환 ‘폭설’, 6일째 정상… 50만 돌파 눈앞",
-      "link": "https://m.entertain.naver.com/article/018/0006414903",
-      "date": "2026-11-24"
+      "title": "김윤석·구교환 '폭설', 7일 연속 1위…입소문 탈까 [박스오피스]",
+      "link": "https://m.entertain.naver.com/article/440/0000054041",
+      "date": "2026-11-25"
      }
     ],
     "searches": [
      {
       "query": "폭설",
-      "in_period": 461
+      "in_period": 468
      },
      {
-      "query": "영화 폭설 개봉 김윤석 구교환 흥행",
-      "in_period": 139
+      "query": "영화 폭설 개봉 김윤석 구교환",
+      "in_period": 322
      }
     ],
     "model": "claude-haiku-5-5",
-    "cost_usd": 0.00134,
+    "cost_usd": 0.00138,
     "note": ""
    },
    "explain_state": "done"
